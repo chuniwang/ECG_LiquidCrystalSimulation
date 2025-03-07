@@ -1,0 +1,2892 @@
+Path of feature file: /home/ciwang/Electronic_Coupling/ML_Dataset/700K/Feature_Coupling_CG_Improve_25_Inter_Training_COM.npy
+
+Whole training dataset:
+shape of x: torch.Size([128000, 225])
+shape of y: torch.Size([128000])
+Number of data for training: 125000 
+Number of posive/negative sign in training dataset: 63673/61327
+
+Testing dataset:
+shape of x: torch.Size([10240, 225])
+shape of y: (10240,)
+Number of posive/negative sign in validation dataset: 5093/5147
+
+Learning rate: 0.1
+Batch size: 500
+Number of batch: 250
+
+Training......
+epoch 1	train_loss : 0.69277	 val_accuracy : 0.497
+epoch 2	train_loss : 0.69135	 val_accuracy : 0.497
+epoch 3	train_loss : 0.70428	 val_accuracy : 0.503
+epoch 4	train_loss : 0.69513	 val_accuracy : 0.497
+epoch 5	train_loss : 0.69567	 val_accuracy : 0.503
+epoch 6	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 7	train_loss : 0.69337	 val_accuracy : 0.503
+epoch 8	train_loss : 0.69321	 val_accuracy : 0.503
+epoch 9	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 10	train_loss : 0.69404	 val_accuracy : 0.503
+epoch 11	train_loss : 0.70136	 val_accuracy : 0.503
+epoch 12	train_loss : 0.69357	 val_accuracy : 0.497
+epoch 13	train_loss : 0.69229	 val_accuracy : 0.497
+epoch 14	train_loss : 0.69340	 val_accuracy : 0.503
+epoch 15	train_loss : 0.69261	 val_accuracy : 0.497
+epoch 16	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 17	train_loss : 0.69360	 val_accuracy : 0.503
+epoch 18	train_loss : 0.69244	 val_accuracy : 0.503
+epoch 19	train_loss : 0.69330	 val_accuracy : 0.503
+epoch 20	train_loss : 0.69078	 val_accuracy : 0.503
+epoch 21	train_loss : 0.69285	 val_accuracy : 0.503
+epoch 22	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 23	train_loss : 0.69508	 val_accuracy : 0.497
+epoch 24	train_loss : 0.69402	 val_accuracy : 0.503
+epoch 25	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 26	train_loss : 0.69350	 val_accuracy : 0.497
+epoch 27	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 28	train_loss : 0.69816	 val_accuracy : 0.503
+epoch 29	train_loss : 0.69389	 val_accuracy : 0.497
+epoch 30	train_loss : 0.69125	 val_accuracy : 0.497
+epoch 31	train_loss : 0.69366	 val_accuracy : 0.497
+epoch 32	train_loss : 0.69411	 val_accuracy : 0.497
+epoch 33	train_loss : 0.69290	 val_accuracy : 0.503
+epoch 34	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 35	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 36	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 37	train_loss : 0.69460	 val_accuracy : 0.497
+epoch 38	train_loss : 0.69399	 val_accuracy : 0.503
+epoch 39	train_loss : 0.69586	 val_accuracy : 0.497
+epoch 40	train_loss : 0.69586	 val_accuracy : 0.497
+epoch 41	train_loss : 0.69527	 val_accuracy : 0.497
+epoch 42	train_loss : 0.69350	 val_accuracy : 0.497
+epoch 43	train_loss : 0.69355	 val_accuracy : 0.497
+epoch 44	train_loss : 0.69206	 val_accuracy : 0.497
+epoch 45	train_loss : 0.69287	 val_accuracy : 0.497
+epoch 46	train_loss : 0.69784	 val_accuracy : 0.497
+epoch 47	train_loss : 0.69324	 val_accuracy : 0.503
+epoch 48	train_loss : 0.69154	 val_accuracy : 0.503
+epoch 49	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 50	train_loss : 0.69390	 val_accuracy : 0.497
+epoch 51	train_loss : 0.69778	 val_accuracy : 0.503
+epoch 52	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 53	train_loss : 0.69118	 val_accuracy : 0.503
+epoch 54	train_loss : 0.69334	 val_accuracy : 0.497
+epoch 55	train_loss : 0.69498	 val_accuracy : 0.497
+epoch 56	train_loss : 0.69221	 val_accuracy : 0.503
+epoch 57	train_loss : 0.69235	 val_accuracy : 0.503
+epoch 58	train_loss : 0.69256	 val_accuracy : 0.497
+epoch 59	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 60	train_loss : 0.69377	 val_accuracy : 0.497
+epoch 61	train_loss : 0.69342	 val_accuracy : 0.497
+epoch 62	train_loss : 0.69020	 val_accuracy : 0.503
+epoch 63	train_loss : 0.69328	 val_accuracy : 0.497
+epoch 64	train_loss : 0.69566	 val_accuracy : 0.497
+epoch 65	train_loss : 0.69404	 val_accuracy : 0.497
+epoch 66	train_loss : 0.69495	 val_accuracy : 0.497
+epoch 67	train_loss : 0.69332	 val_accuracy : 0.497
+epoch 68	train_loss : 0.69720	 val_accuracy : 0.497
+epoch 69	train_loss : 0.69228	 val_accuracy : 0.497
+epoch 70	train_loss : 0.69650	 val_accuracy : 0.503
+epoch 71	train_loss : 0.69329	 val_accuracy : 0.503
+epoch 72	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 73	train_loss : 0.69387	 val_accuracy : 0.497
+epoch 74	train_loss : 0.69680	 val_accuracy : 0.503
+epoch 75	train_loss : 0.69363	 val_accuracy : 0.503
+epoch 76	train_loss : 0.69432	 val_accuracy : 0.503
+epoch 77	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 78	train_loss : 0.69566	 val_accuracy : 0.503
+epoch 79	train_loss : 0.69402	 val_accuracy : 0.503
+epoch 80	train_loss : 0.69368	 val_accuracy : 0.497
+epoch 81	train_loss : 0.69330	 val_accuracy : 0.503
+epoch 82	train_loss : 0.69361	 val_accuracy : 0.503
+epoch 83	train_loss : 0.69294	 val_accuracy : 0.503
+epoch 84	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 85	train_loss : 0.69351	 val_accuracy : 0.503
+epoch 86	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 87	train_loss : 0.69411	 val_accuracy : 0.497
+epoch 88	train_loss : 0.69345	 val_accuracy : 0.503
+epoch 89	train_loss : 0.69560	 val_accuracy : 0.503
+epoch 90	train_loss : 0.69185	 val_accuracy : 0.497
+epoch 91	train_loss : 0.69085	 val_accuracy : 0.497
+epoch 92	train_loss : 0.69414	 val_accuracy : 0.503
+epoch 93	train_loss : 0.69782	 val_accuracy : 0.503
+epoch 94	train_loss : 0.69270	 val_accuracy : 0.497
+epoch 95	train_loss : 0.69049	 val_accuracy : 0.497
+epoch 96	train_loss : 0.69501	 val_accuracy : 0.503
+epoch 97	train_loss : 0.69560	 val_accuracy : 0.503
+epoch 98	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 99	train_loss : 0.69544	 val_accuracy : 0.503
+epoch 100	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 101	train_loss : 0.69341	 val_accuracy : 0.497
+epoch 102	train_loss : 0.69317	 val_accuracy : 0.497
+epoch 103	train_loss : 0.69229	 val_accuracy : 0.503
+epoch 104	train_loss : 0.69424	 val_accuracy : 0.503
+epoch 105	train_loss : 0.69507	 val_accuracy : 0.503
+epoch 106	train_loss : 0.69362	 val_accuracy : 0.497
+epoch 107	train_loss : 0.69301	 val_accuracy : 0.497
+epoch 108	train_loss : 0.69286	 val_accuracy : 0.503
+epoch 109	train_loss : 0.69440	 val_accuracy : 0.497
+epoch 110	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 111	train_loss : 0.69435	 val_accuracy : 0.497
+epoch 112	train_loss : 0.69405	 val_accuracy : 0.503
+epoch 113	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 114	train_loss : 0.69356	 val_accuracy : 0.503
+epoch 115	train_loss : 0.69045	 val_accuracy : 0.497
+epoch 116	train_loss : 0.69326	 val_accuracy : 0.503
+epoch 117	train_loss : 0.69390	 val_accuracy : 0.503
+epoch 118	train_loss : 0.69393	 val_accuracy : 0.503
+epoch 119	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 120	train_loss : 0.69329	 val_accuracy : 0.503
+epoch 121	train_loss : 0.69268	 val_accuracy : 0.503
+epoch 122	train_loss : 0.69387	 val_accuracy : 0.503
+epoch 123	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 124	train_loss : 0.69410	 val_accuracy : 0.497
+epoch 125	train_loss : 0.69078	 val_accuracy : 0.503
+epoch 126	train_loss : 0.69332	 val_accuracy : 0.503
+epoch 127	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 128	train_loss : 0.69323	 val_accuracy : 0.497
+epoch 129	train_loss : 0.69266	 val_accuracy : 0.503
+epoch 130	train_loss : 0.69423	 val_accuracy : 0.503
+epoch 131	train_loss : 0.69468	 val_accuracy : 0.503
+epoch 132	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 133	train_loss : 0.69393	 val_accuracy : 0.497
+epoch 134	train_loss : 0.69558	 val_accuracy : 0.497
+epoch 135	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 136	train_loss : 0.69483	 val_accuracy : 0.503
+epoch 137	train_loss : 0.69225	 val_accuracy : 0.503
+epoch 138	train_loss : 0.69200	 val_accuracy : 0.503
+epoch 139	train_loss : 0.69234	 val_accuracy : 0.497
+epoch 140	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 141	train_loss : 0.69675	 val_accuracy : 0.503
+epoch 142	train_loss : 0.69235	 val_accuracy : 0.503
+epoch 143	train_loss : 0.69422	 val_accuracy : 0.503
+epoch 144	train_loss : 0.69348	 val_accuracy : 0.503
+epoch 145	train_loss : 0.69285	 val_accuracy : 0.497
+epoch 146	train_loss : 0.69822	 val_accuracy : 0.503
+epoch 147	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 148	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 149	train_loss : 0.69336	 val_accuracy : 0.497
+epoch 150	train_loss : 0.69361	 val_accuracy : 0.503
+epoch 151	train_loss : 0.69320	 val_accuracy : 0.497
+epoch 152	train_loss : 0.69319	 val_accuracy : 0.503
+epoch 153	train_loss : 0.69466	 val_accuracy : 0.497
+epoch 154	train_loss : 0.69138	 val_accuracy : 0.497
+epoch 155	train_loss : 0.69262	 val_accuracy : 0.497
+epoch 156	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 157	train_loss : 0.69447	 val_accuracy : 0.503
+epoch 158	train_loss : 0.69324	 val_accuracy : 0.503
+epoch 159	train_loss : 0.69246	 val_accuracy : 0.503
+epoch 160	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 161	train_loss : 0.69458	 val_accuracy : 0.497
+epoch 162	train_loss : 0.69038	 val_accuracy : 0.497
+epoch 163	train_loss : 0.69655	 val_accuracy : 0.503
+epoch 164	train_loss : 0.69535	 val_accuracy : 0.503
+epoch 165	train_loss : 0.69440	 val_accuracy : 0.497
+epoch 166	train_loss : 0.69321	 val_accuracy : 0.503
+epoch 167	train_loss : 0.69378	 val_accuracy : 0.503
+epoch 168	train_loss : 0.69286	 val_accuracy : 0.503
+epoch 169	train_loss : 0.69329	 val_accuracy : 0.497
+epoch 170	train_loss : 0.69295	 val_accuracy : 0.497
+epoch 171	train_loss : 0.69360	 val_accuracy : 0.497
+epoch 172	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 173	train_loss : 0.69371	 val_accuracy : 0.503
+epoch 174	train_loss : 0.68818	 val_accuracy : 0.503
+epoch 175	train_loss : 0.69235	 val_accuracy : 0.497
+epoch 176	train_loss : 0.69302	 val_accuracy : 0.497
+epoch 177	train_loss : 0.69284	 val_accuracy : 0.497
+epoch 178	train_loss : 0.69237	 val_accuracy : 0.497
+epoch 179	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 180	train_loss : 0.69519	 val_accuracy : 0.503
+epoch 181	train_loss : 0.69223	 val_accuracy : 0.503
+epoch 182	train_loss : 0.69301	 val_accuracy : 0.497
+epoch 183	train_loss : 0.69613	 val_accuracy : 0.497
+epoch 184	train_loss : 0.69334	 val_accuracy : 0.503
+epoch 185	train_loss : 0.69394	 val_accuracy : 0.503
+epoch 186	train_loss : 0.69278	 val_accuracy : 0.497
+epoch 187	train_loss : 0.69399	 val_accuracy : 0.497
+epoch 188	train_loss : 0.69358	 val_accuracy : 0.503
+epoch 189	train_loss : 0.69500	 val_accuracy : 0.497
+epoch 190	train_loss : 0.69307	 val_accuracy : 0.497
+epoch 191	train_loss : 0.69275	 val_accuracy : 0.503
+epoch 192	train_loss : 0.69241	 val_accuracy : 0.503
+epoch 193	train_loss : 0.69516	 val_accuracy : 0.497
+epoch 194	train_loss : 0.69400	 val_accuracy : 0.503
+epoch 195	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 196	train_loss : 0.69362	 val_accuracy : 0.497
+epoch 197	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 198	train_loss : 0.69462	 val_accuracy : 0.497
+epoch 199	train_loss : 0.69504	 val_accuracy : 0.497
+epoch 200	train_loss : 0.69344	 val_accuracy : 0.503
+epoch 201	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 202	train_loss : 0.69304	 val_accuracy : 0.503
+epoch 203	train_loss : 0.69341	 val_accuracy : 0.503
+epoch 204	train_loss : 0.69996	 val_accuracy : 0.503
+epoch 205	train_loss : 0.69173	 val_accuracy : 0.503
+epoch 206	train_loss : 0.69400	 val_accuracy : 0.503
+epoch 207	train_loss : 0.69305	 val_accuracy : 0.497
+epoch 208	train_loss : 0.69322	 val_accuracy : 0.497
+epoch 209	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 210	train_loss : 0.69349	 val_accuracy : 0.497
+epoch 211	train_loss : 0.69340	 val_accuracy : 0.503
+epoch 212	train_loss : 0.69264	 val_accuracy : 0.503
+epoch 213	train_loss : 0.69207	 val_accuracy : 0.497
+epoch 214	train_loss : 0.69408	 val_accuracy : 0.503
+epoch 215	train_loss : 0.69425	 val_accuracy : 0.497
+epoch 216	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 217	train_loss : 0.69345	 val_accuracy : 0.497
+epoch 218	train_loss : 0.69331	 val_accuracy : 0.503
+epoch 219	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 220	train_loss : 0.69170	 val_accuracy : 0.503
+epoch 221	train_loss : 0.69736	 val_accuracy : 0.503
+epoch 222	train_loss : 0.70027	 val_accuracy : 0.503
+epoch 223	train_loss : 0.69368	 val_accuracy : 0.497
+epoch 224	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 225	train_loss : 0.69532	 val_accuracy : 0.503
+epoch 226	train_loss : 0.69396	 val_accuracy : 0.497
+epoch 227	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 228	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 229	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 230	train_loss : 0.69251	 val_accuracy : 0.497
+epoch 231	train_loss : 0.69342	 val_accuracy : 0.497
+epoch 232	train_loss : 0.69385	 val_accuracy : 0.497
+epoch 233	train_loss : 0.69249	 val_accuracy : 0.503
+epoch 234	train_loss : 0.69093	 val_accuracy : 0.503
+epoch 235	train_loss : 0.69279	 val_accuracy : 0.503
+epoch 236	train_loss : 0.69307	 val_accuracy : 0.503
+epoch 237	train_loss : 0.69454	 val_accuracy : 0.497
+epoch 238	train_loss : 0.69443	 val_accuracy : 0.497
+epoch 239	train_loss : 0.69487	 val_accuracy : 0.497
+epoch 240	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 241	train_loss : 0.69216	 val_accuracy : 0.497
+epoch 242	train_loss : 0.69229	 val_accuracy : 0.503
+epoch 243	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 244	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 245	train_loss : 0.69310	 val_accuracy : 0.503
+epoch 246	train_loss : 0.69159	 val_accuracy : 0.503
+epoch 247	train_loss : 0.69291	 val_accuracy : 0.503
+epoch 248	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 249	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 250	train_loss : 0.69368	 val_accuracy : 0.497
+epoch 251	train_loss : 0.69220	 val_accuracy : 0.503
+epoch 252	train_loss : 0.69430	 val_accuracy : 0.503
+epoch 253	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 254	train_loss : 0.69249	 val_accuracy : 0.497
+epoch 255	train_loss : 0.69670	 val_accuracy : 0.503
+epoch 256	train_loss : 0.69360	 val_accuracy : 0.503
+epoch 257	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 258	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 259	train_loss : 0.69312	 val_accuracy : 0.497
+epoch 260	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 261	train_loss : 0.69265	 val_accuracy : 0.497
+epoch 262	train_loss : 0.69355	 val_accuracy : 0.503
+epoch 263	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 264	train_loss : 0.69332	 val_accuracy : 0.497
+epoch 265	train_loss : 0.69336	 val_accuracy : 0.497
+epoch 266	train_loss : 0.69522	 val_accuracy : 0.503
+epoch 267	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 268	train_loss : 0.69260	 val_accuracy : 0.503
+epoch 269	train_loss : 0.69837	 val_accuracy : 0.503
+epoch 270	train_loss : 0.69446	 val_accuracy : 0.503
+epoch 271	train_loss : 0.69337	 val_accuracy : 0.503
+epoch 272	train_loss : 0.69297	 val_accuracy : 0.503
+epoch 273	train_loss : 0.69572	 val_accuracy : 0.497
+epoch 274	train_loss : 0.69561	 val_accuracy : 0.497
+epoch 275	train_loss : 0.69281	 val_accuracy : 0.503
+epoch 276	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 277	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 278	train_loss : 0.69368	 val_accuracy : 0.503
+epoch 279	train_loss : 0.69274	 val_accuracy : 0.497
+epoch 280	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 281	train_loss : 0.69280	 val_accuracy : 0.503
+epoch 282	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 283	train_loss : 0.69168	 val_accuracy : 0.503
+epoch 284	train_loss : 0.69313	 val_accuracy : 0.497
+epoch 285	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 286	train_loss : 0.69777	 val_accuracy : 0.503
+epoch 287	train_loss : 0.69377	 val_accuracy : 0.497
+epoch 288	train_loss : 0.69539	 val_accuracy : 0.503
+epoch 289	train_loss : 0.69520	 val_accuracy : 0.497
+epoch 290	train_loss : 0.69395	 val_accuracy : 0.503
+epoch 291	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 292	train_loss : 0.69333	 val_accuracy : 0.503
+epoch 293	train_loss : 0.69396	 val_accuracy : 0.497
+epoch 294	train_loss : 0.69141	 val_accuracy : 0.497
+epoch 295	train_loss : 0.69496	 val_accuracy : 0.503
+epoch 296	train_loss : 0.68867	 val_accuracy : 0.503
+epoch 297	train_loss : 0.69418	 val_accuracy : 0.503
+epoch 298	train_loss : 0.69569	 val_accuracy : 0.497
+epoch 299	train_loss : 0.69297	 val_accuracy : 0.503
+epoch 300	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 301	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 302	train_loss : 0.69113	 val_accuracy : 0.503
+epoch 303	train_loss : 0.69771	 val_accuracy : 0.503
+epoch 304	train_loss : 0.69298	 val_accuracy : 0.503
+epoch 305	train_loss : 0.69587	 val_accuracy : 0.503
+epoch 306	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 307	train_loss : 0.69286	 val_accuracy : 0.503
+epoch 308	train_loss : 0.69397	 val_accuracy : 0.503
+epoch 309	train_loss : 0.69368	 val_accuracy : 0.503
+epoch 310	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 311	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 312	train_loss : 0.69437	 val_accuracy : 0.497
+epoch 313	train_loss : 0.69282	 val_accuracy : 0.497
+epoch 314	train_loss : 0.69240	 val_accuracy : 0.503
+epoch 315	train_loss : 0.69085	 val_accuracy : 0.503
+epoch 316	train_loss : 0.69338	 val_accuracy : 0.497
+epoch 317	train_loss : 0.69190	 val_accuracy : 0.497
+epoch 318	train_loss : 0.69425	 val_accuracy : 0.503
+epoch 319	train_loss : 0.69421	 val_accuracy : 0.503
+epoch 320	train_loss : 0.69363	 val_accuracy : 0.503
+epoch 321	train_loss : 0.69525	 val_accuracy : 0.497
+epoch 322	train_loss : 0.69440	 val_accuracy : 0.503
+epoch 323	train_loss : 0.69074	 val_accuracy : 0.497
+epoch 324	train_loss : 0.69429	 val_accuracy : 0.497
+epoch 325	train_loss : 0.69177	 val_accuracy : 0.497
+epoch 326	train_loss : 0.69288	 val_accuracy : 0.503
+epoch 327	train_loss : 0.69469	 val_accuracy : 0.497
+epoch 328	train_loss : 0.69289	 val_accuracy : 0.497
+epoch 329	train_loss : 0.69319	 val_accuracy : 0.503
+epoch 330	train_loss : 0.69386	 val_accuracy : 0.497
+epoch 331	train_loss : 0.69320	 val_accuracy : 0.497
+epoch 332	train_loss : 0.69187	 val_accuracy : 0.503
+epoch 333	train_loss : 0.69580	 val_accuracy : 0.503
+epoch 334	train_loss : 0.69300	 val_accuracy : 0.503
+epoch 335	train_loss : 0.69335	 val_accuracy : 0.503
+epoch 336	train_loss : 0.69461	 val_accuracy : 0.503
+epoch 337	train_loss : 0.69302	 val_accuracy : 0.497
+epoch 338	train_loss : 0.69880	 val_accuracy : 0.503
+epoch 339	train_loss : 0.69564	 val_accuracy : 0.503
+epoch 340	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 341	train_loss : 0.69455	 val_accuracy : 0.503
+epoch 342	train_loss : 0.69161	 val_accuracy : 0.497
+epoch 343	train_loss : 0.69319	 val_accuracy : 0.503
+epoch 344	train_loss : 0.69478	 val_accuracy : 0.503
+epoch 345	train_loss : 0.69451	 val_accuracy : 0.497
+epoch 346	train_loss : 0.69415	 val_accuracy : 0.503
+epoch 347	train_loss : 0.69141	 val_accuracy : 0.497
+epoch 348	train_loss : 0.69125	 val_accuracy : 0.503
+epoch 349	train_loss : 0.69351	 val_accuracy : 0.503
+epoch 350	train_loss : 0.69108	 val_accuracy : 0.503
+epoch 351	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 352	train_loss : 0.69560	 val_accuracy : 0.503
+epoch 353	train_loss : 0.69468	 val_accuracy : 0.497
+epoch 354	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 355	train_loss : 0.69487	 val_accuracy : 0.503
+epoch 356	train_loss : 0.69202	 val_accuracy : 0.503
+epoch 357	train_loss : 0.69468	 val_accuracy : 0.497
+epoch 358	train_loss : 0.69334	 val_accuracy : 0.497
+epoch 359	train_loss : 0.69444	 val_accuracy : 0.503
+epoch 360	train_loss : 0.69623	 val_accuracy : 0.503
+epoch 361	train_loss : 0.69224	 val_accuracy : 0.497
+epoch 362	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 363	train_loss : 0.69327	 val_accuracy : 0.503
+epoch 364	train_loss : 0.69541	 val_accuracy : 0.497
+epoch 365	train_loss : 0.69717	 val_accuracy : 0.503
+epoch 366	train_loss : 0.69448	 val_accuracy : 0.497
+epoch 367	train_loss : 0.69406	 val_accuracy : 0.503
+epoch 368	train_loss : 0.69524	 val_accuracy : 0.497
+epoch 369	train_loss : 0.69279	 val_accuracy : 0.503
+epoch 370	train_loss : 0.69265	 val_accuracy : 0.497
+epoch 371	train_loss : 0.69097	 val_accuracy : 0.497
+epoch 372	train_loss : 0.69330	 val_accuracy : 0.497
+epoch 373	train_loss : 0.69209	 val_accuracy : 0.503
+epoch 374	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 375	train_loss : 0.69534	 val_accuracy : 0.503
+epoch 376	train_loss : 0.69332	 val_accuracy : 0.503
+epoch 377	train_loss : 0.69345	 val_accuracy : 0.503
+epoch 378	train_loss : 0.70200	 val_accuracy : 0.503
+epoch 379	train_loss : 0.69330	 val_accuracy : 0.503
+epoch 380	train_loss : 0.69330	 val_accuracy : 0.497
+epoch 381	train_loss : 0.69038	 val_accuracy : 0.503
+epoch 382	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 383	train_loss : 0.69211	 val_accuracy : 0.503
+epoch 384	train_loss : 0.69361	 val_accuracy : 0.503
+epoch 385	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 386	train_loss : 0.69188	 val_accuracy : 0.503
+epoch 387	train_loss : 0.69209	 val_accuracy : 0.503
+epoch 388	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 389	train_loss : 0.69379	 val_accuracy : 0.497
+epoch 390	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 391	train_loss : 0.69246	 val_accuracy : 0.497
+epoch 392	train_loss : 0.69169	 val_accuracy : 0.497
+epoch 393	train_loss : 0.68985	 val_accuracy : 0.503
+epoch 394	train_loss : 0.69384	 val_accuracy : 0.497
+epoch 395	train_loss : 0.69718	 val_accuracy : 0.497
+epoch 396	train_loss : 0.69361	 val_accuracy : 0.503
+epoch 397	train_loss : 0.69299	 val_accuracy : 0.503
+epoch 398	train_loss : 0.69430	 val_accuracy : 0.497
+epoch 399	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 400	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 401	train_loss : 0.69274	 val_accuracy : 0.497
+epoch 402	train_loss : 0.69333	 val_accuracy : 0.497
+epoch 403	train_loss : 0.69345	 val_accuracy : 0.497
+epoch 404	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 405	train_loss : 0.69293	 val_accuracy : 0.503
+epoch 406	train_loss : 0.69255	 val_accuracy : 0.503
+epoch 407	train_loss : 0.69313	 val_accuracy : 0.497
+epoch 408	train_loss : 0.69636	 val_accuracy : 0.503
+epoch 409	train_loss : 0.69225	 val_accuracy : 0.503
+epoch 410	train_loss : 0.69269	 val_accuracy : 0.497
+epoch 411	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 412	train_loss : 0.69281	 val_accuracy : 0.497
+epoch 413	train_loss : 0.70097	 val_accuracy : 0.503
+epoch 414	train_loss : 0.69173	 val_accuracy : 0.503
+epoch 415	train_loss : 0.69297	 val_accuracy : 0.497
+epoch 416	train_loss : 0.69352	 val_accuracy : 0.503
+epoch 417	train_loss : 0.69582	 val_accuracy : 0.503
+epoch 418	train_loss : 0.69343	 val_accuracy : 0.503
+epoch 419	train_loss : 0.69168	 val_accuracy : 0.497
+epoch 420	train_loss : 0.69336	 val_accuracy : 0.503
+epoch 421	train_loss : 0.69186	 val_accuracy : 0.503
+epoch 422	train_loss : 0.69556	 val_accuracy : 0.503
+epoch 423	train_loss : 0.69432	 val_accuracy : 0.503
+epoch 424	train_loss : 0.69324	 val_accuracy : 0.497
+epoch 425	train_loss : 0.69337	 val_accuracy : 0.503
+epoch 426	train_loss : 0.69218	 val_accuracy : 0.503
+epoch 427	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 428	train_loss : 0.69327	 val_accuracy : 0.497
+epoch 429	train_loss : 0.69275	 val_accuracy : 0.503
+epoch 430	train_loss : 0.69101	 val_accuracy : 0.503
+epoch 431	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 432	train_loss : 0.69447	 val_accuracy : 0.503
+epoch 433	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 434	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 435	train_loss : 0.69342	 val_accuracy : 0.503
+epoch 436	train_loss : 0.69660	 val_accuracy : 0.503
+epoch 437	train_loss : 0.69434	 val_accuracy : 0.497
+epoch 438	train_loss : 0.69271	 val_accuracy : 0.503
+epoch 439	train_loss : 0.69464	 val_accuracy : 0.497
+epoch 440	train_loss : 0.69349	 val_accuracy : 0.503
+epoch 441	train_loss : 0.69398	 val_accuracy : 0.497
+epoch 442	train_loss : 0.69208	 val_accuracy : 0.503
+epoch 443	train_loss : 0.69277	 val_accuracy : 0.503
+epoch 444	train_loss : 0.69115	 val_accuracy : 0.503
+epoch 445	train_loss : 0.69330	 val_accuracy : 0.503
+epoch 446	train_loss : 0.69378	 val_accuracy : 0.503
+epoch 447	train_loss : 0.69414	 val_accuracy : 0.497
+epoch 448	train_loss : 0.69299	 val_accuracy : 0.503
+epoch 449	train_loss : 0.69267	 val_accuracy : 0.503
+epoch 450	train_loss : 0.69292	 val_accuracy : 0.497
+epoch 451	train_loss : 0.69263	 val_accuracy : 0.497
+epoch 452	train_loss : 0.69154	 val_accuracy : 0.503
+epoch 453	train_loss : 0.69303	 val_accuracy : 0.503
+epoch 454	train_loss : 0.69324	 val_accuracy : 0.497
+epoch 455	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 456	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 457	train_loss : 0.69328	 val_accuracy : 0.503
+epoch 458	train_loss : 0.69406	 val_accuracy : 0.503
+epoch 459	train_loss : 0.69265	 val_accuracy : 0.503
+epoch 460	train_loss : 0.69317	 val_accuracy : 0.497
+epoch 461	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 462	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 463	train_loss : 0.69335	 val_accuracy : 0.503
+epoch 464	train_loss : 0.69329	 val_accuracy : 0.503
+epoch 465	train_loss : 0.69264	 val_accuracy : 0.497
+epoch 466	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 467	train_loss : 0.69393	 val_accuracy : 0.497
+epoch 468	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 469	train_loss : 0.69236	 val_accuracy : 0.503
+epoch 470	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 471	train_loss : 0.69328	 val_accuracy : 0.503
+epoch 472	train_loss : 0.69212	 val_accuracy : 0.503
+epoch 473	train_loss : 0.69407	 val_accuracy : 0.497
+epoch 474	train_loss : 0.69512	 val_accuracy : 0.497
+epoch 475	train_loss : 0.69209	 val_accuracy : 0.503
+epoch 476	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 477	train_loss : 0.69324	 val_accuracy : 0.503
+epoch 478	train_loss : 0.69349	 val_accuracy : 0.503
+epoch 479	train_loss : 0.69432	 val_accuracy : 0.497
+epoch 480	train_loss : 0.69418	 val_accuracy : 0.497
+epoch 481	train_loss : 0.69313	 val_accuracy : 0.497
+epoch 482	train_loss : 0.69380	 val_accuracy : 0.497
+epoch 483	train_loss : 0.69474	 val_accuracy : 0.503
+epoch 484	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 485	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 486	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 487	train_loss : 0.69119	 val_accuracy : 0.503
+epoch 488	train_loss : 0.69391	 val_accuracy : 0.503
+epoch 489	train_loss : 0.69215	 val_accuracy : 0.497
+epoch 490	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 491	train_loss : 0.69279	 val_accuracy : 0.497
+epoch 492	train_loss : 0.69254	 val_accuracy : 0.497
+epoch 493	train_loss : 0.69207	 val_accuracy : 0.503
+epoch 494	train_loss : 0.69265	 val_accuracy : 0.503
+epoch 495	train_loss : 0.69289	 val_accuracy : 0.503
+epoch 496	train_loss : 0.69232	 val_accuracy : 0.503
+epoch 497	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 498	train_loss : 0.69570	 val_accuracy : 0.497
+epoch 499	train_loss : 0.69429	 val_accuracy : 0.503
+epoch 500	train_loss : 0.69512	 val_accuracy : 0.503
+Total training time is 44.868601 min
+There is no model with accuracy of the validation dataset higher than 0.7 .
+
+ ----------------------------------------------------------- 
+
+Learning rate: 0.05
+Batch size: 500
+Number of batch: 250
+
+Training......
+epoch 1	train_loss : 0.69337	 val_accuracy : 0.503
+epoch 2	train_loss : 0.69321	 val_accuracy : 0.497
+epoch 3	train_loss : 0.69230	 val_accuracy : 0.503
+epoch 4	train_loss : 0.69333	 val_accuracy : 0.503
+epoch 5	train_loss : 0.69295	 val_accuracy : 0.497
+epoch 6	train_loss : 0.69299	 val_accuracy : 0.503
+epoch 7	train_loss : 0.69251	 val_accuracy : 0.503
+epoch 8	train_loss : 0.69435	 val_accuracy : 0.497
+epoch 9	train_loss : 0.69202	 val_accuracy : 0.497
+epoch 10	train_loss : 0.69525	 val_accuracy : 0.503
+epoch 11	train_loss : 0.69215	 val_accuracy : 0.497
+epoch 12	train_loss : 0.69098	 val_accuracy : 0.503
+epoch 13	train_loss : 0.69319	 val_accuracy : 0.503
+epoch 14	train_loss : 0.69280	 val_accuracy : 0.503
+epoch 15	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 16	train_loss : 0.69373	 val_accuracy : 0.503
+epoch 17	train_loss : 0.69456	 val_accuracy : 0.503
+epoch 18	train_loss : 0.69329	 val_accuracy : 0.497
+epoch 19	train_loss : 0.69388	 val_accuracy : 0.497
+epoch 20	train_loss : 0.69429	 val_accuracy : 0.503
+epoch 21	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 22	train_loss : 0.69349	 val_accuracy : 0.503
+epoch 23	train_loss : 0.69273	 val_accuracy : 0.503
+epoch 24	train_loss : 0.69256	 val_accuracy : 0.503
+epoch 25	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 26	train_loss : 0.69369	 val_accuracy : 0.503
+epoch 27	train_loss : 0.69332	 val_accuracy : 0.497
+epoch 28	train_loss : 0.69541	 val_accuracy : 0.503
+epoch 29	train_loss : 0.69798	 val_accuracy : 0.497
+epoch 30	train_loss : 0.69320	 val_accuracy : 0.497
+epoch 31	train_loss : 0.69325	 val_accuracy : 0.503
+epoch 32	train_loss : 0.69258	 val_accuracy : 0.503
+epoch 33	train_loss : 0.69321	 val_accuracy : 0.497
+epoch 34	train_loss : 0.69472	 val_accuracy : 0.503
+epoch 35	train_loss : 0.69388	 val_accuracy : 0.497
+epoch 36	train_loss : 0.69603	 val_accuracy : 0.497
+epoch 37	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 38	train_loss : 0.69339	 val_accuracy : 0.503
+epoch 39	train_loss : 0.69622	 val_accuracy : 0.503
+epoch 40	train_loss : 0.69591	 val_accuracy : 0.503
+epoch 41	train_loss : 0.69528	 val_accuracy : 0.503
+epoch 42	train_loss : 0.69496	 val_accuracy : 0.503
+epoch 43	train_loss : 0.69349	 val_accuracy : 0.497
+epoch 44	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 45	train_loss : 0.69296	 val_accuracy : 0.497
+epoch 46	train_loss : 0.69301	 val_accuracy : 0.497
+epoch 47	train_loss : 0.69418	 val_accuracy : 0.497
+epoch 48	train_loss : 0.69547	 val_accuracy : 0.503
+epoch 49	train_loss : 0.69344	 val_accuracy : 0.503
+epoch 50	train_loss : 0.69229	 val_accuracy : 0.503
+epoch 51	train_loss : 0.69322	 val_accuracy : 0.497
+epoch 52	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 53	train_loss : 0.69253	 val_accuracy : 0.503
+epoch 54	train_loss : 0.69310	 val_accuracy : 0.503
+epoch 55	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 56	train_loss : 0.69352	 val_accuracy : 0.497
+epoch 57	train_loss : 0.69201	 val_accuracy : 0.503
+epoch 58	train_loss : 0.69374	 val_accuracy : 0.497
+epoch 59	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 60	train_loss : 0.70146	 val_accuracy : 0.503
+epoch 61	train_loss : 0.69381	 val_accuracy : 0.497
+epoch 62	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 63	train_loss : 0.70319	 val_accuracy : 0.503
+epoch 64	train_loss : 0.69263	 val_accuracy : 0.503
+epoch 65	train_loss : 0.69312	 val_accuracy : 0.497
+epoch 66	train_loss : 0.69323	 val_accuracy : 0.497
+epoch 67	train_loss : 0.69369	 val_accuracy : 0.503
+epoch 68	train_loss : 0.69245	 val_accuracy : 0.497
+epoch 69	train_loss : 0.69292	 val_accuracy : 0.503
+epoch 70	train_loss : 0.69353	 val_accuracy : 0.503
+epoch 71	train_loss : 0.69304	 val_accuracy : 0.503
+epoch 72	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 73	train_loss : 0.69189	 val_accuracy : 0.503
+epoch 74	train_loss : 0.69238	 val_accuracy : 0.503
+epoch 75	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 76	train_loss : 0.69311	 val_accuracy : 0.503
+epoch 77	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 78	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 79	train_loss : 0.69289	 val_accuracy : 0.503
+epoch 80	train_loss : 0.69390	 val_accuracy : 0.503
+epoch 81	train_loss : 0.69312	 val_accuracy : 0.497
+epoch 82	train_loss : 0.69244	 val_accuracy : 0.503
+epoch 83	train_loss : 0.69288	 val_accuracy : 0.497
+epoch 84	train_loss : 0.69417	 val_accuracy : 0.497
+epoch 85	train_loss : 0.69230	 val_accuracy : 0.503
+epoch 86	train_loss : 0.69266	 val_accuracy : 0.503
+epoch 87	train_loss : 0.69279	 val_accuracy : 0.503
+epoch 88	train_loss : 0.69482	 val_accuracy : 0.503
+epoch 89	train_loss : 0.69236	 val_accuracy : 0.497
+epoch 90	train_loss : 0.69329	 val_accuracy : 0.503
+epoch 91	train_loss : 0.69138	 val_accuracy : 0.503
+epoch 92	train_loss : 0.69374	 val_accuracy : 0.503
+epoch 93	train_loss : 0.69355	 val_accuracy : 0.497
+epoch 94	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 95	train_loss : 0.69267	 val_accuracy : 0.503
+epoch 96	train_loss : 0.69248	 val_accuracy : 0.503
+epoch 97	train_loss : 0.69190	 val_accuracy : 0.497
+epoch 98	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 99	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 100	train_loss : 0.69454	 val_accuracy : 0.503
+epoch 101	train_loss : 0.69631	 val_accuracy : 0.503
+epoch 102	train_loss : 0.69302	 val_accuracy : 0.497
+epoch 103	train_loss : 0.69309	 val_accuracy : 0.497
+epoch 104	train_loss : 0.69519	 val_accuracy : 0.497
+epoch 105	train_loss : 0.69345	 val_accuracy : 0.497
+epoch 106	train_loss : 0.69486	 val_accuracy : 0.497
+epoch 107	train_loss : 0.69335	 val_accuracy : 0.503
+epoch 108	train_loss : 0.69136	 val_accuracy : 0.503
+epoch 109	train_loss : 0.69260	 val_accuracy : 0.503
+epoch 110	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 111	train_loss : 0.69166	 val_accuracy : 0.503
+epoch 112	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 113	train_loss : 0.69321	 val_accuracy : 0.503
+epoch 114	train_loss : 0.69281	 val_accuracy : 0.503
+epoch 115	train_loss : 0.69228	 val_accuracy : 0.503
+epoch 116	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 117	train_loss : 0.69323	 val_accuracy : 0.497
+epoch 118	train_loss : 0.69267	 val_accuracy : 0.503
+epoch 119	train_loss : 0.69394	 val_accuracy : 0.503
+epoch 120	train_loss : 0.69239	 val_accuracy : 0.503
+epoch 121	train_loss : 0.69325	 val_accuracy : 0.503
+epoch 122	train_loss : 0.69398	 val_accuracy : 0.503
+epoch 123	train_loss : 0.69305	 val_accuracy : 0.497
+epoch 124	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 125	train_loss : 0.69364	 val_accuracy : 0.503
+epoch 126	train_loss : 0.69322	 val_accuracy : 0.503
+epoch 127	train_loss : 0.69313	 val_accuracy : 0.503
+epoch 128	train_loss : 0.69265	 val_accuracy : 0.503
+epoch 129	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 130	train_loss : 0.69473	 val_accuracy : 0.497
+epoch 131	train_loss : 0.69237	 val_accuracy : 0.503
+epoch 132	train_loss : 0.69407	 val_accuracy : 0.503
+epoch 133	train_loss : 0.69137	 val_accuracy : 0.503
+epoch 134	train_loss : 0.69351	 val_accuracy : 0.503
+epoch 135	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 136	train_loss : 0.69378	 val_accuracy : 0.497
+epoch 137	train_loss : 0.69301	 val_accuracy : 0.497
+epoch 138	train_loss : 0.69284	 val_accuracy : 0.497
+epoch 139	train_loss : 0.69305	 val_accuracy : 0.497
+epoch 140	train_loss : 0.69283	 val_accuracy : 0.503
+epoch 141	train_loss : 0.69256	 val_accuracy : 0.497
+epoch 142	train_loss : 0.68950	 val_accuracy : 0.503
+epoch 143	train_loss : 0.69311	 val_accuracy : 0.503
+epoch 144	train_loss : 0.69260	 val_accuracy : 0.497
+epoch 145	train_loss : 0.69214	 val_accuracy : 0.497
+epoch 146	train_loss : 0.69338	 val_accuracy : 0.497
+epoch 147	train_loss : 0.69300	 val_accuracy : 0.497
+epoch 148	train_loss : 0.69399	 val_accuracy : 0.503
+epoch 149	train_loss : 0.69364	 val_accuracy : 0.503
+epoch 150	train_loss : 0.69417	 val_accuracy : 0.503
+epoch 151	train_loss : 0.69334	 val_accuracy : 0.497
+epoch 152	train_loss : 0.69859	 val_accuracy : 0.503
+epoch 153	train_loss : 0.69399	 val_accuracy : 0.497
+epoch 154	train_loss : 0.69292	 val_accuracy : 0.503
+epoch 155	train_loss : 0.69269	 val_accuracy : 0.503
+epoch 156	train_loss : 0.69612	 val_accuracy : 0.503
+epoch 157	train_loss : 0.69470	 val_accuracy : 0.497
+epoch 158	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 159	train_loss : 0.69424	 val_accuracy : 0.503
+epoch 160	train_loss : 0.69330	 val_accuracy : 0.503
+epoch 161	train_loss : 0.69331	 val_accuracy : 0.503
+epoch 162	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 163	train_loss : 0.69247	 val_accuracy : 0.497
+epoch 164	train_loss : 0.69322	 val_accuracy : 0.503
+epoch 165	train_loss : 0.69340	 val_accuracy : 0.497
+epoch 166	train_loss : 0.69374	 val_accuracy : 0.497
+epoch 167	train_loss : 0.69434	 val_accuracy : 0.503
+epoch 168	train_loss : 0.69357	 val_accuracy : 0.497
+epoch 169	train_loss : 0.69303	 val_accuracy : 0.503
+epoch 170	train_loss : 0.69321	 val_accuracy : 0.497
+epoch 171	train_loss : 0.69247	 val_accuracy : 0.503
+epoch 172	train_loss : 0.69380	 val_accuracy : 0.497
+epoch 173	train_loss : 0.69411	 val_accuracy : 0.497
+epoch 174	train_loss : 0.69312	 val_accuracy : 0.497
+epoch 175	train_loss : 0.69362	 val_accuracy : 0.497
+epoch 176	train_loss : 0.69337	 val_accuracy : 0.503
+epoch 177	train_loss : 0.69329	 val_accuracy : 0.497
+epoch 178	train_loss : 0.69282	 val_accuracy : 0.503
+epoch 179	train_loss : 0.69328	 val_accuracy : 0.503
+epoch 180	train_loss : 0.69339	 val_accuracy : 0.503
+epoch 181	train_loss : 0.69327	 val_accuracy : 0.497
+epoch 182	train_loss : 0.69620	 val_accuracy : 0.497
+epoch 183	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 184	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 185	train_loss : 0.69339	 val_accuracy : 0.503
+epoch 186	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 187	train_loss : 0.69508	 val_accuracy : 0.503
+epoch 188	train_loss : 0.69423	 val_accuracy : 0.503
+epoch 189	train_loss : 0.69367	 val_accuracy : 0.497
+epoch 190	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 191	train_loss : 0.69434	 val_accuracy : 0.503
+epoch 192	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 193	train_loss : 0.69442	 val_accuracy : 0.497
+epoch 194	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 195	train_loss : 0.69313	 val_accuracy : 0.497
+epoch 196	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 197	train_loss : 0.69363	 val_accuracy : 0.503
+epoch 198	train_loss : 0.69314	 val_accuracy : 0.497
+epoch 199	train_loss : 0.69287	 val_accuracy : 0.503
+epoch 200	train_loss : 0.69345	 val_accuracy : 0.497
+epoch 201	train_loss : 0.69303	 val_accuracy : 0.503
+epoch 202	train_loss : 0.69436	 val_accuracy : 0.503
+epoch 203	train_loss : 0.69480	 val_accuracy : 0.497
+epoch 204	train_loss : 0.69303	 val_accuracy : 0.497
+epoch 205	train_loss : 0.69341	 val_accuracy : 0.497
+epoch 206	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 207	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 208	train_loss : 0.69302	 val_accuracy : 0.503
+epoch 209	train_loss : 0.69303	 val_accuracy : 0.503
+epoch 210	train_loss : 0.69321	 val_accuracy : 0.497
+epoch 211	train_loss : 0.70480	 val_accuracy : 0.503
+epoch 212	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 213	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 214	train_loss : 0.69253	 val_accuracy : 0.503
+epoch 215	train_loss : 0.69291	 val_accuracy : 0.503
+epoch 216	train_loss : 0.69333	 val_accuracy : 0.503
+epoch 217	train_loss : 0.69253	 val_accuracy : 0.503
+epoch 218	train_loss : 0.69307	 val_accuracy : 0.503
+epoch 219	train_loss : 0.69396	 val_accuracy : 0.503
+epoch 220	train_loss : 0.69432	 val_accuracy : 0.497
+epoch 221	train_loss : 0.69533	 val_accuracy : 0.503
+epoch 222	train_loss : 0.69176	 val_accuracy : 0.503
+epoch 223	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 224	train_loss : 0.69317	 val_accuracy : 0.497
+epoch 225	train_loss : 0.69402	 val_accuracy : 0.503
+epoch 226	train_loss : 0.69283	 val_accuracy : 0.503
+epoch 227	train_loss : 0.69277	 val_accuracy : 0.497
+epoch 228	train_loss : 0.69554	 val_accuracy : 0.503
+epoch 229	train_loss : 0.69304	 val_accuracy : 0.503
+epoch 230	train_loss : 0.69288	 val_accuracy : 0.503
+epoch 231	train_loss : 0.69343	 val_accuracy : 0.503
+epoch 232	train_loss : 0.69404	 val_accuracy : 0.503
+epoch 233	train_loss : 0.69466	 val_accuracy : 0.497
+epoch 234	train_loss : 0.69372	 val_accuracy : 0.503
+epoch 235	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 236	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 237	train_loss : 0.69411	 val_accuracy : 0.503
+epoch 238	train_loss : 0.69334	 val_accuracy : 0.503
+epoch 239	train_loss : 0.69339	 val_accuracy : 0.497
+epoch 240	train_loss : 0.69193	 val_accuracy : 0.503
+epoch 241	train_loss : 0.69103	 val_accuracy : 0.503
+epoch 242	train_loss : 0.69222	 val_accuracy : 0.503
+epoch 243	train_loss : 0.69368	 val_accuracy : 0.503
+epoch 244	train_loss : 0.69462	 val_accuracy : 0.497
+epoch 245	train_loss : 0.69298	 val_accuracy : 0.503
+epoch 246	train_loss : 0.69221	 val_accuracy : 0.503
+epoch 247	train_loss : 0.69318	 val_accuracy : 0.503
+epoch 248	train_loss : 0.69305	 val_accuracy : 0.503
+epoch 249	train_loss : 0.69137	 val_accuracy : 0.497
+epoch 250	train_loss : 0.69352	 val_accuracy : 0.497
+epoch 251	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 252	train_loss : 0.69275	 val_accuracy : 0.497
+epoch 253	train_loss : 0.69376	 val_accuracy : 0.497
+epoch 254	train_loss : 0.69391	 val_accuracy : 0.497
+epoch 255	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 256	train_loss : 0.69309	 val_accuracy : 0.497
+epoch 257	train_loss : 0.69329	 val_accuracy : 0.497
+epoch 258	train_loss : 0.69416	 val_accuracy : 0.497
+epoch 259	train_loss : 0.69363	 val_accuracy : 0.503
+epoch 260	train_loss : 0.69329	 val_accuracy : 0.497
+epoch 261	train_loss : 0.69317	 val_accuracy : 0.497
+epoch 262	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 263	train_loss : 0.69335	 val_accuracy : 0.497
+epoch 264	train_loss : 0.69339	 val_accuracy : 0.503
+epoch 265	train_loss : 0.69254	 val_accuracy : 0.503
+epoch 266	train_loss : 0.69417	 val_accuracy : 0.503
+epoch 267	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 268	train_loss : 0.69433	 val_accuracy : 0.503
+epoch 269	train_loss : 0.69343	 val_accuracy : 0.497
+epoch 270	train_loss : 0.69289	 val_accuracy : 0.503
+epoch 271	train_loss : 0.69243	 val_accuracy : 0.503
+epoch 272	train_loss : 0.69338	 val_accuracy : 0.503
+epoch 273	train_loss : 0.69367	 val_accuracy : 0.503
+epoch 274	train_loss : 0.69930	 val_accuracy : 0.503
+epoch 275	train_loss : 0.69267	 val_accuracy : 0.497
+epoch 276	train_loss : 0.69286	 val_accuracy : 0.503
+epoch 277	train_loss : 0.69310	 val_accuracy : 0.497
+epoch 278	train_loss : 0.69303	 val_accuracy : 0.503
+epoch 279	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 280	train_loss : 0.69250	 val_accuracy : 0.497
+epoch 281	train_loss : 0.69278	 val_accuracy : 0.497
+epoch 282	train_loss : 0.69219	 val_accuracy : 0.497
+epoch 283	train_loss : 0.69097	 val_accuracy : 0.503
+epoch 284	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 285	train_loss : 0.69329	 val_accuracy : 0.503
+epoch 286	train_loss : 0.69576	 val_accuracy : 0.503
+epoch 287	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 288	train_loss : 0.69233	 val_accuracy : 0.503
+epoch 289	train_loss : 0.69393	 val_accuracy : 0.503
+epoch 290	train_loss : 0.69325	 val_accuracy : 0.497
+epoch 291	train_loss : 0.69184	 val_accuracy : 0.503
+epoch 292	train_loss : 0.69277	 val_accuracy : 0.503
+epoch 293	train_loss : 0.69267	 val_accuracy : 0.497
+epoch 294	train_loss : 0.69335	 val_accuracy : 0.503
+epoch 295	train_loss : 0.69356	 val_accuracy : 0.497
+epoch 296	train_loss : 0.69443	 val_accuracy : 0.497
+epoch 297	train_loss : 0.69363	 val_accuracy : 0.503
+epoch 298	train_loss : 0.69614	 val_accuracy : 0.503
+epoch 299	train_loss : 0.69295	 val_accuracy : 0.497
+epoch 300	train_loss : 0.69560	 val_accuracy : 0.497
+epoch 301	train_loss : 0.69374	 val_accuracy : 0.503
+epoch 302	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 303	train_loss : 0.69330	 val_accuracy : 0.497
+epoch 304	train_loss : 0.69219	 val_accuracy : 0.497
+epoch 305	train_loss : 0.69321	 val_accuracy : 0.497
+epoch 306	train_loss : 0.69331	 val_accuracy : 0.503
+epoch 307	train_loss : 0.69348	 val_accuracy : 0.497
+epoch 308	train_loss : 0.69441	 val_accuracy : 0.497
+epoch 309	train_loss : 0.69205	 val_accuracy : 0.503
+epoch 310	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 311	train_loss : 0.69302	 val_accuracy : 0.497
+epoch 312	train_loss : 0.69446	 val_accuracy : 0.503
+epoch 313	train_loss : 0.69373	 val_accuracy : 0.503
+epoch 314	train_loss : 0.69327	 val_accuracy : 0.497
+epoch 315	train_loss : 0.69306	 val_accuracy : 0.503
+epoch 316	train_loss : 0.69374	 val_accuracy : 0.497
+epoch 317	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 318	train_loss : 0.69393	 val_accuracy : 0.503
+epoch 319	train_loss : 0.69290	 val_accuracy : 0.497
+epoch 320	train_loss : 0.69339	 val_accuracy : 0.503
+epoch 321	train_loss : 0.69423	 val_accuracy : 0.497
+epoch 322	train_loss : 0.69284	 val_accuracy : 0.503
+epoch 323	train_loss : 0.69264	 val_accuracy : 0.503
+epoch 324	train_loss : 0.69348	 val_accuracy : 0.503
+epoch 325	train_loss : 0.69158	 val_accuracy : 0.503
+epoch 326	train_loss : 0.69386	 val_accuracy : 0.503
+epoch 327	train_loss : 0.69421	 val_accuracy : 0.503
+epoch 328	train_loss : 0.69282	 val_accuracy : 0.497
+epoch 329	train_loss : 0.69299	 val_accuracy : 0.503
+epoch 330	train_loss : 0.69367	 val_accuracy : 0.497
+epoch 331	train_loss : 0.69399	 val_accuracy : 0.497
+epoch 332	train_loss : 0.69575	 val_accuracy : 0.503
+epoch 333	train_loss : 0.69240	 val_accuracy : 0.503
+epoch 334	train_loss : 0.69386	 val_accuracy : 0.503
+epoch 335	train_loss : 0.69180	 val_accuracy : 0.503
+epoch 336	train_loss : 0.69223	 val_accuracy : 0.503
+epoch 337	train_loss : 0.69583	 val_accuracy : 0.497
+epoch 338	train_loss : 0.69504	 val_accuracy : 0.497
+epoch 339	train_loss : 0.69563	 val_accuracy : 0.503
+epoch 340	train_loss : 0.69349	 val_accuracy : 0.497
+epoch 341	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 342	train_loss : 0.69384	 val_accuracy : 0.503
+epoch 343	train_loss : 0.69309	 val_accuracy : 0.503
+epoch 344	train_loss : 0.69327	 val_accuracy : 0.497
+epoch 345	train_loss : 0.69178	 val_accuracy : 0.497
+epoch 346	train_loss : 0.69336	 val_accuracy : 0.497
+epoch 347	train_loss : 0.69160	 val_accuracy : 0.503
+epoch 348	train_loss : 0.69322	 val_accuracy : 0.497
+epoch 349	train_loss : 0.69269	 val_accuracy : 0.503
+epoch 350	train_loss : 0.69376	 val_accuracy : 0.497
+epoch 351	train_loss : 0.69423	 val_accuracy : 0.503
+epoch 352	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 353	train_loss : 0.69331	 val_accuracy : 0.503
+epoch 354	train_loss : 0.69389	 val_accuracy : 0.503
+epoch 355	train_loss : 0.69355	 val_accuracy : 0.497
+epoch 356	train_loss : 0.69305	 val_accuracy : 0.503
+epoch 357	train_loss : 0.69571	 val_accuracy : 0.497
+epoch 358	train_loss : 0.69393	 val_accuracy : 0.497
+epoch 359	train_loss : 0.69394	 val_accuracy : 0.503
+epoch 360	train_loss : 0.69380	 val_accuracy : 0.497
+epoch 361	train_loss : 0.69336	 val_accuracy : 0.503
+epoch 362	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 363	train_loss : 0.69398	 val_accuracy : 0.497
+epoch 364	train_loss : 0.69324	 val_accuracy : 0.503
+epoch 365	train_loss : 0.69380	 val_accuracy : 0.503
+epoch 366	train_loss : 0.69325	 val_accuracy : 0.503
+epoch 367	train_loss : 0.69274	 val_accuracy : 0.503
+epoch 368	train_loss : 0.69512	 val_accuracy : 0.497
+epoch 369	train_loss : 0.69294	 val_accuracy : 0.497
+epoch 370	train_loss : 0.69379	 val_accuracy : 0.503
+epoch 371	train_loss : 0.69238	 val_accuracy : 0.503
+epoch 372	train_loss : 0.69344	 val_accuracy : 0.497
+epoch 373	train_loss : 0.69247	 val_accuracy : 0.497
+epoch 374	train_loss : 0.69415	 val_accuracy : 0.497
+epoch 375	train_loss : 0.69492	 val_accuracy : 0.497
+epoch 376	train_loss : 0.69309	 val_accuracy : 0.497
+epoch 377	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 378	train_loss : 0.69317	 val_accuracy : 0.503
+epoch 379	train_loss : 0.69297	 val_accuracy : 0.503
+epoch 380	train_loss : 0.69275	 val_accuracy : 0.497
+epoch 381	train_loss : 0.69082	 val_accuracy : 0.503
+epoch 382	train_loss : 0.69261	 val_accuracy : 0.503
+epoch 383	train_loss : 0.69428	 val_accuracy : 0.503
+epoch 384	train_loss : 0.69242	 val_accuracy : 0.497
+epoch 385	train_loss : 0.69307	 val_accuracy : 0.497
+epoch 386	train_loss : 0.69330	 val_accuracy : 0.497
+epoch 387	train_loss : 0.69488	 val_accuracy : 0.503
+epoch 388	train_loss : 0.69741	 val_accuracy : 0.497
+epoch 389	train_loss : 0.69403	 val_accuracy : 0.503
+epoch 390	train_loss : 0.69238	 val_accuracy : 0.497
+epoch 391	train_loss : 0.69410	 val_accuracy : 0.503
+epoch 392	train_loss : 0.69498	 val_accuracy : 0.503
+epoch 393	train_loss : 0.69438	 val_accuracy : 0.497
+epoch 394	train_loss : 0.69264	 val_accuracy : 0.497
+epoch 395	train_loss : 0.69331	 val_accuracy : 0.503
+epoch 396	train_loss : 0.69407	 val_accuracy : 0.497
+epoch 397	train_loss : 0.69316	 val_accuracy : 0.497
+epoch 398	train_loss : 0.69609	 val_accuracy : 0.503
+epoch 399	train_loss : 0.69331	 val_accuracy : 0.497
+epoch 400	train_loss : 0.69367	 val_accuracy : 0.497
+epoch 401	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 402	train_loss : 0.69333	 val_accuracy : 0.503
+epoch 403	train_loss : 0.69411	 val_accuracy : 0.503
+epoch 404	train_loss : 0.69435	 val_accuracy : 0.497
+epoch 405	train_loss : 0.69310	 val_accuracy : 0.497
+epoch 406	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 407	train_loss : 0.69493	 val_accuracy : 0.503
+epoch 408	train_loss : 0.69255	 val_accuracy : 0.503
+epoch 409	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 410	train_loss : 0.69368	 val_accuracy : 0.497
+epoch 411	train_loss : 0.69336	 val_accuracy : 0.503
+epoch 412	train_loss : 0.69562	 val_accuracy : 0.503
+epoch 413	train_loss : 0.69318	 val_accuracy : 0.497
+epoch 414	train_loss : 0.69362	 val_accuracy : 0.503
+epoch 415	train_loss : 0.69362	 val_accuracy : 0.503
+epoch 416	train_loss : 0.69397	 val_accuracy : 0.503
+epoch 417	train_loss : 0.69186	 val_accuracy : 0.497
+epoch 418	train_loss : 0.69250	 val_accuracy : 0.503
+epoch 419	train_loss : 0.69320	 val_accuracy : 0.497
+epoch 420	train_loss : 0.69310	 val_accuracy : 0.503
+epoch 421	train_loss : 0.69305	 val_accuracy : 0.503
+epoch 422	train_loss : 0.69384	 val_accuracy : 0.497
+epoch 423	train_loss : 0.69403	 val_accuracy : 0.497
+epoch 424	train_loss : 0.69217	 val_accuracy : 0.503
+epoch 425	train_loss : 0.69302	 val_accuracy : 0.497
+epoch 426	train_loss : 0.69237	 val_accuracy : 0.503
+epoch 427	train_loss : 0.69346	 val_accuracy : 0.503
+epoch 428	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 429	train_loss : 0.69289	 val_accuracy : 0.497
+epoch 430	train_loss : 0.69497	 val_accuracy : 0.497
+epoch 431	train_loss : 0.69370	 val_accuracy : 0.497
+epoch 432	train_loss : 0.69310	 val_accuracy : 0.497
+epoch 433	train_loss : 0.69298	 val_accuracy : 0.503
+epoch 434	train_loss : 0.69376	 val_accuracy : 0.497
+epoch 435	train_loss : 0.69310	 val_accuracy : 0.503
+epoch 436	train_loss : 0.69357	 val_accuracy : 0.503
+epoch 437	train_loss : 0.69235	 val_accuracy : 0.503
+epoch 438	train_loss : 0.69295	 val_accuracy : 0.503
+epoch 439	train_loss : 0.69348	 val_accuracy : 0.497
+epoch 440	train_loss : 0.69371	 val_accuracy : 0.497
+epoch 441	train_loss : 0.69308	 val_accuracy : 0.497
+epoch 442	train_loss : 0.69326	 val_accuracy : 0.503
+epoch 443	train_loss : 0.69362	 val_accuracy : 0.503
+epoch 444	train_loss : 0.69251	 val_accuracy : 0.503
+epoch 445	train_loss : 0.69323	 val_accuracy : 0.503
+epoch 446	train_loss : 0.69218	 val_accuracy : 0.503
+epoch 447	train_loss : 0.69458	 val_accuracy : 0.497
+epoch 448	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 449	train_loss : 0.69326	 val_accuracy : 0.497
+epoch 450	train_loss : 0.69264	 val_accuracy : 0.497
+epoch 451	train_loss : 0.69398	 val_accuracy : 0.497
+epoch 452	train_loss : 0.69630	 val_accuracy : 0.497
+epoch 453	train_loss : 0.69388	 val_accuracy : 0.497
+epoch 454	train_loss : 0.69295	 val_accuracy : 0.497
+epoch 455	train_loss : 0.69309	 val_accuracy : 0.497
+epoch 456	train_loss : 0.69315	 val_accuracy : 0.497
+epoch 457	train_loss : 0.69546	 val_accuracy : 0.497
+epoch 458	train_loss : 0.69367	 val_accuracy : 0.497
+epoch 459	train_loss : 0.69319	 val_accuracy : 0.497
+epoch 460	train_loss : 0.69404	 val_accuracy : 0.503
+epoch 461	train_loss : 0.69306	 val_accuracy : 0.497
+epoch 462	train_loss : 0.69412	 val_accuracy : 0.503
+epoch 463	train_loss : 0.69282	 val_accuracy : 0.497
+epoch 464	train_loss : 0.69286	 val_accuracy : 0.497
+epoch 465	train_loss : 0.69381	 val_accuracy : 0.497
+epoch 466	train_loss : 0.69349	 val_accuracy : 0.503
+epoch 467	train_loss : 0.69231	 val_accuracy : 0.503
+epoch 468	train_loss : 0.69429	 val_accuracy : 0.497
+epoch 469	train_loss : 0.69499	 val_accuracy : 0.497
+epoch 470	train_loss : 0.69291	 val_accuracy : 0.503
+epoch 471	train_loss : 0.69248	 val_accuracy : 0.503
+epoch 472	train_loss : 0.69432	 val_accuracy : 0.503
+epoch 473	train_loss : 0.69327	 val_accuracy : 0.497
+epoch 474	train_loss : 0.69411	 val_accuracy : 0.503
+epoch 475	train_loss : 0.69215	 val_accuracy : 0.503
+epoch 476	train_loss : 0.69356	 val_accuracy : 0.503
+epoch 477	train_loss : 0.69308	 val_accuracy : 0.503
+epoch 478	train_loss : 0.69296	 val_accuracy : 0.503
+epoch 479	train_loss : 0.69315	 val_accuracy : 0.503
+epoch 480	train_loss : 0.69502	 val_accuracy : 0.503
+epoch 481	train_loss : 0.69135	 val_accuracy : 0.503
+epoch 482	train_loss : 0.69390	 val_accuracy : 0.503
+epoch 483	train_loss : 0.69316	 val_accuracy : 0.503
+epoch 484	train_loss : 0.69325	 val_accuracy : 0.503
+epoch 485	train_loss : 0.69386	 val_accuracy : 0.497
+epoch 486	train_loss : 0.69229	 val_accuracy : 0.497
+epoch 487	train_loss : 0.69377	 val_accuracy : 0.503
+epoch 488	train_loss : 0.69363	 val_accuracy : 0.497
+epoch 489	train_loss : 0.69333	 val_accuracy : 0.503
+epoch 490	train_loss : 0.69312	 val_accuracy : 0.503
+epoch 491	train_loss : 0.69339	 val_accuracy : 0.497
+epoch 492	train_loss : 0.69333	 val_accuracy : 0.497
+epoch 493	train_loss : 0.69127	 val_accuracy : 0.503
+epoch 494	train_loss : 0.69291	 val_accuracy : 0.497
+epoch 495	train_loss : 0.69321	 val_accuracy : 0.503
+epoch 496	train_loss : 0.69323	 val_accuracy : 0.497
+epoch 497	train_loss : 0.69549	 val_accuracy : 0.503
+epoch 498	train_loss : 0.69230	 val_accuracy : 0.503
+epoch 499	train_loss : 0.69314	 val_accuracy : 0.503
+epoch 500	train_loss : 0.69276	 val_accuracy : 0.503
+Total training time is 45.334987 min
+There is no model with accuracy of the validation dataset higher than 0.7 .
+
+ ----------------------------------------------------------- 
+
+Learning rate: 0.01
+Batch size: 500
+Number of batch: 250
+
+Training......
+epoch 1	train_loss : 0.62057	 val_accuracy : 0.660
+Save the best model at the 2 epoch! Accuracy: 0.701
+Save the best model at the 2 epoch! Accuracy: 0.710
+Save the best model at the 2 epoch! Accuracy: 0.716
+Save the best model at the 2 epoch! Accuracy: 0.719
+Save the best model at the 2 epoch! Accuracy: 0.722
+Save the best model at the 2 epoch! Accuracy: 0.725
+Save the best model at the 2 epoch! Accuracy: 0.727
+Save the best model at the 2 epoch! Accuracy: 0.727
+Save the best model at the 2 epoch! Accuracy: 0.728
+Save the best model at the 2 epoch! Accuracy: 0.731
+Save the best model at the 2 epoch! Accuracy: 0.732
+Save the best model at the 2 epoch! Accuracy: 0.734
+Save the best model at the 2 epoch! Accuracy: 0.736
+epoch 2	train_loss : 0.57097	 val_accuracy : 0.714
+Save the best model at the 3 epoch! Accuracy: 0.737
+Save the best model at the 3 epoch! Accuracy: 0.738
+Save the best model at the 3 epoch! Accuracy: 0.741
+Save the best model at the 3 epoch! Accuracy: 0.743
+Save the best model at the 3 epoch! Accuracy: 0.743
+Save the best model at the 3 epoch! Accuracy: 0.744
+Save the best model at the 3 epoch! Accuracy: 0.744
+Save the best model at the 3 epoch! Accuracy: 0.745
+Save the best model at the 3 epoch! Accuracy: 0.746
+Save the best model at the 3 epoch! Accuracy: 0.749
+Save the best model at the 3 epoch! Accuracy: 0.751
+Save the best model at the 3 epoch! Accuracy: 0.752
+Save the best model at the 3 epoch! Accuracy: 0.754
+Save the best model at the 3 epoch! Accuracy: 0.755
+Save the best model at the 3 epoch! Accuracy: 0.755
+Save the best model at the 3 epoch! Accuracy: 0.755
+Save the best model at the 3 epoch! Accuracy: 0.757
+epoch 3	train_loss : 0.57332	 val_accuracy : 0.754
+Save the best model at the 4 epoch! Accuracy: 0.758
+Save the best model at the 4 epoch! Accuracy: 0.759
+Save the best model at the 4 epoch! Accuracy: 0.761
+Save the best model at the 4 epoch! Accuracy: 0.762
+Save the best model at the 4 epoch! Accuracy: 0.762
+Save the best model at the 4 epoch! Accuracy: 0.766
+Save the best model at the 4 epoch! Accuracy: 0.767
+Save the best model at the 4 epoch! Accuracy: 0.767
+Save the best model at the 4 epoch! Accuracy: 0.767
+Save the best model at the 4 epoch! Accuracy: 0.770
+epoch 4	train_loss : 0.53355	 val_accuracy : 0.759
+Save the best model at the 5 epoch! Accuracy: 0.770
+Save the best model at the 5 epoch! Accuracy: 0.774
+Save the best model at the 5 epoch! Accuracy: 0.775
+Save the best model at the 5 epoch! Accuracy: 0.777
+Save the best model at the 5 epoch! Accuracy: 0.778
+Save the best model at the 5 epoch! Accuracy: 0.779
+Save the best model at the 5 epoch! Accuracy: 0.779
+Save the best model at the 5 epoch! Accuracy: 0.781
+Save the best model at the 5 epoch! Accuracy: 0.781
+Save the best model at the 5 epoch! Accuracy: 0.781
+Save the best model at the 5 epoch! Accuracy: 0.782
+Save the best model at the 5 epoch! Accuracy: 0.784
+epoch 5	train_loss : 0.51147	 val_accuracy : 0.772
+Save the best model at the 6 epoch! Accuracy: 0.784
+Save the best model at the 6 epoch! Accuracy: 0.785
+Save the best model at the 6 epoch! Accuracy: 0.788
+Save the best model at the 6 epoch! Accuracy: 0.788
+Save the best model at the 6 epoch! Accuracy: 0.789
+Save the best model at the 6 epoch! Accuracy: 0.791
+Save the best model at the 6 epoch! Accuracy: 0.792
+Save the best model at the 6 epoch! Accuracy: 0.793
+Save the best model at the 6 epoch! Accuracy: 0.793
+Save the best model at the 6 epoch! Accuracy: 0.794
+epoch 6	train_loss : 0.49735	 val_accuracy : 0.794
+Save the best model at the 7 epoch! Accuracy: 0.796
+Save the best model at the 7 epoch! Accuracy: 0.797
+Save the best model at the 7 epoch! Accuracy: 0.798
+Save the best model at the 7 epoch! Accuracy: 0.799
+Save the best model at the 7 epoch! Accuracy: 0.800
+Save the best model at the 7 epoch! Accuracy: 0.800
+Save the best model at the 7 epoch! Accuracy: 0.802
+epoch 7	train_loss : 0.50764	 val_accuracy : 0.796
+Save the best model at the 8 epoch! Accuracy: 0.802
+Save the best model at the 8 epoch! Accuracy: 0.805
+Save the best model at the 8 epoch! Accuracy: 0.805
+Save the best model at the 8 epoch! Accuracy: 0.807
+Save the best model at the 8 epoch! Accuracy: 0.807
+Save the best model at the 8 epoch! Accuracy: 0.808
+Save the best model at the 8 epoch! Accuracy: 0.811
+Save the best model at the 8 epoch! Accuracy: 0.811
+epoch 8	train_loss : 0.51805	 val_accuracy : 0.803
+Save the best model at the 9 epoch! Accuracy: 0.812
+epoch 9	train_loss : 0.46786	 val_accuracy : 0.804
+Save the best model at the 10 epoch! Accuracy: 0.813
+Save the best model at the 10 epoch! Accuracy: 0.813
+Save the best model at the 10 epoch! Accuracy: 0.814
+Save the best model at the 10 epoch! Accuracy: 0.817
+Save the best model at the 10 epoch! Accuracy: 0.818
+Save the best model at the 10 epoch! Accuracy: 0.818
+epoch 10	train_loss : 0.47791	 val_accuracy : 0.811
+epoch 11	train_loss : 0.51081	 val_accuracy : 0.810
+Save the best model at the 12 epoch! Accuracy: 0.818
+Save the best model at the 12 epoch! Accuracy: 0.819
+Save the best model at the 12 epoch! Accuracy: 0.819
+Save the best model at the 12 epoch! Accuracy: 0.821
+Save the best model at the 12 epoch! Accuracy: 0.821
+epoch 12	train_loss : 0.43913	 val_accuracy : 0.812
+Save the best model at the 13 epoch! Accuracy: 0.821
+epoch 13	train_loss : 0.45431	 val_accuracy : 0.817
+Save the best model at the 14 epoch! Accuracy: 0.822
+Save the best model at the 14 epoch! Accuracy: 0.822
+Save the best model at the 14 epoch! Accuracy: 0.823
+epoch 14	train_loss : 0.48255	 val_accuracy : 0.820
+Save the best model at the 15 epoch! Accuracy: 0.823
+Save the best model at the 15 epoch! Accuracy: 0.824
+Save the best model at the 15 epoch! Accuracy: 0.824
+Save the best model at the 15 epoch! Accuracy: 0.826
+Save the best model at the 15 epoch! Accuracy: 0.827
+Save the best model at the 15 epoch! Accuracy: 0.827
+Save the best model at the 15 epoch! Accuracy: 0.828
+Save the best model at the 15 epoch! Accuracy: 0.829
+Save the best model at the 15 epoch! Accuracy: 0.829
+epoch 15	train_loss : 0.47845	 val_accuracy : 0.812
+epoch 16	train_loss : 0.46296	 val_accuracy : 0.825
+epoch 17	train_loss : 0.47960	 val_accuracy : 0.823
+epoch 18	train_loss : 0.47317	 val_accuracy : 0.820
+Save the best model at the 19 epoch! Accuracy: 0.830
+Save the best model at the 19 epoch! Accuracy: 0.832
+Save the best model at the 19 epoch! Accuracy: 0.834
+epoch 19	train_loss : 0.46634	 val_accuracy : 0.826
+epoch 20	train_loss : 0.49511	 val_accuracy : 0.821
+epoch 21	train_loss : 0.48996	 val_accuracy : 0.827
+epoch 22	train_loss : 0.45246	 val_accuracy : 0.826
+epoch 23	train_loss : 0.45193	 val_accuracy : 0.825
+Save the best model at the 24 epoch! Accuracy: 0.835
+epoch 24	train_loss : 0.46064	 val_accuracy : 0.821
+Save the best model at the 25 epoch! Accuracy: 0.835
+epoch 25	train_loss : 0.43283	 val_accuracy : 0.826
+epoch 26	train_loss : 0.45251	 val_accuracy : 0.827
+Save the best model at the 27 epoch! Accuracy: 0.836
+epoch 27	train_loss : 0.43153	 val_accuracy : 0.825
+epoch 28	train_loss : 0.43833	 val_accuracy : 0.831
+epoch 29	train_loss : 0.46205	 val_accuracy : 0.824
+Save the best model at the 30 epoch! Accuracy: 0.836
+Save the best model at the 30 epoch! Accuracy: 0.836
+epoch 30	train_loss : 0.45640	 val_accuracy : 0.832
+Save the best model at the 31 epoch! Accuracy: 0.836
+epoch 31	train_loss : 0.41039	 val_accuracy : 0.832
+epoch 32	train_loss : 0.46153	 val_accuracy : 0.832
+Save the best model at the 33 epoch! Accuracy: 0.837
+epoch 33	train_loss : 0.40294	 val_accuracy : 0.828
+epoch 34	train_loss : 0.43893	 val_accuracy : 0.828
+Save the best model at the 35 epoch! Accuracy: 0.837
+epoch 35	train_loss : 0.39293	 val_accuracy : 0.831
+epoch 36	train_loss : 0.43148	 val_accuracy : 0.825
+epoch 37	train_loss : 0.43490	 val_accuracy : 0.829
+epoch 38	train_loss : 0.45794	 val_accuracy : 0.826
+Save the best model at the 39 epoch! Accuracy: 0.837
+Save the best model at the 39 epoch! Accuracy: 0.837
+epoch 39	train_loss : 0.43521	 val_accuracy : 0.823
+epoch 40	train_loss : 0.44409	 val_accuracy : 0.834
+epoch 41	train_loss : 0.40595	 val_accuracy : 0.830
+epoch 42	train_loss : 0.44712	 val_accuracy : 0.834
+epoch 43	train_loss : 0.36107	 val_accuracy : 0.834
+Save the best model at the 44 epoch! Accuracy: 0.839
+Save the best model at the 44 epoch! Accuracy: 0.840
+epoch 44	train_loss : 0.46783	 val_accuracy : 0.829
+epoch 45	train_loss : 0.41403	 val_accuracy : 0.831
+epoch 46	train_loss : 0.48513	 val_accuracy : 0.832
+epoch 47	train_loss : 0.40204	 val_accuracy : 0.832
+epoch 48	train_loss : 0.41282	 val_accuracy : 0.832
+epoch 49	train_loss : 0.48967	 val_accuracy : 0.837
+epoch 50	train_loss : 0.44997	 val_accuracy : 0.829
+epoch 51	train_loss : 0.41856	 val_accuracy : 0.834
+epoch 52	train_loss : 0.42877	 val_accuracy : 0.829
+epoch 53	train_loss : 0.43505	 val_accuracy : 0.829
+epoch 54	train_loss : 0.42257	 val_accuracy : 0.833
+epoch 55	train_loss : 0.43681	 val_accuracy : 0.831
+epoch 56	train_loss : 0.41228	 val_accuracy : 0.823
+epoch 57	train_loss : 0.43361	 val_accuracy : 0.825
+epoch 58	train_loss : 0.42243	 val_accuracy : 0.827
+epoch 59	train_loss : 0.41566	 val_accuracy : 0.823
+epoch 60	train_loss : 0.44644	 val_accuracy : 0.830
+epoch 61	train_loss : 0.37705	 val_accuracy : 0.827
+epoch 62	train_loss : 0.38318	 val_accuracy : 0.826
+epoch 63	train_loss : 0.37725	 val_accuracy : 0.826
+epoch 64	train_loss : 0.41348	 val_accuracy : 0.828
+epoch 65	train_loss : 0.40329	 val_accuracy : 0.825
+epoch 66	train_loss : 0.41233	 val_accuracy : 0.825
+epoch 67	train_loss : 0.35591	 val_accuracy : 0.826
+epoch 68	train_loss : 0.41076	 val_accuracy : 0.824
+epoch 69	train_loss : 0.37908	 val_accuracy : 0.830
+epoch 70	train_loss : 0.41400	 val_accuracy : 0.824
+epoch 71	train_loss : 0.38092	 val_accuracy : 0.826
+epoch 72	train_loss : 0.35418	 val_accuracy : 0.818
+epoch 73	train_loss : 0.43650	 val_accuracy : 0.829
+epoch 74	train_loss : 0.38714	 val_accuracy : 0.825
+epoch 75	train_loss : 0.38981	 val_accuracy : 0.828
+epoch 76	train_loss : 0.35561	 val_accuracy : 0.829
+epoch 77	train_loss : 0.35395	 val_accuracy : 0.819
+epoch 78	train_loss : 0.39902	 val_accuracy : 0.823
+epoch 79	train_loss : 0.41064	 val_accuracy : 0.830
+epoch 80	train_loss : 0.36574	 val_accuracy : 0.827
+epoch 81	train_loss : 0.38952	 val_accuracy : 0.825
+epoch 82	train_loss : 0.38045	 val_accuracy : 0.827
+epoch 83	train_loss : 0.37508	 val_accuracy : 0.824
+epoch 84	train_loss : 0.31858	 val_accuracy : 0.828
+epoch 85	train_loss : 0.40820	 val_accuracy : 0.821
+epoch 86	train_loss : 0.41338	 val_accuracy : 0.822
+epoch 87	train_loss : 0.34738	 val_accuracy : 0.822
+epoch 88	train_loss : 0.39714	 val_accuracy : 0.827
+epoch 89	train_loss : 0.40268	 val_accuracy : 0.823
+epoch 90	train_loss : 0.40814	 val_accuracy : 0.828
+epoch 91	train_loss : 0.35729	 val_accuracy : 0.826
+epoch 92	train_loss : 0.33994	 val_accuracy : 0.821
+epoch 93	train_loss : 0.37038	 val_accuracy : 0.826
+epoch 94	train_loss : 0.37173	 val_accuracy : 0.824
+epoch 95	train_loss : 0.38580	 val_accuracy : 0.821
+epoch 96	train_loss : 0.35861	 val_accuracy : 0.824
+epoch 97	train_loss : 0.37670	 val_accuracy : 0.819
+epoch 98	train_loss : 0.39779	 val_accuracy : 0.822
+epoch 99	train_loss : 0.33383	 val_accuracy : 0.824
+epoch 100	train_loss : 0.40299	 val_accuracy : 0.821
+epoch 101	train_loss : 0.38043	 val_accuracy : 0.822
+epoch 102	train_loss : 0.36402	 val_accuracy : 0.820
+epoch 103	train_loss : 0.31949	 val_accuracy : 0.819
+epoch 104	train_loss : 0.31191	 val_accuracy : 0.825
+epoch 105	train_loss : 0.39575	 val_accuracy : 0.819
+epoch 106	train_loss : 0.33046	 val_accuracy : 0.819
+epoch 107	train_loss : 0.39082	 val_accuracy : 0.822
+epoch 108	train_loss : 0.33822	 val_accuracy : 0.817
+epoch 109	train_loss : 0.34581	 val_accuracy : 0.817
+epoch 110	train_loss : 0.35819	 val_accuracy : 0.820
+epoch 111	train_loss : 0.34269	 val_accuracy : 0.818
+epoch 112	train_loss : 0.37229	 val_accuracy : 0.817
+epoch 113	train_loss : 0.30620	 val_accuracy : 0.817
+epoch 114	train_loss : 0.36183	 val_accuracy : 0.824
+epoch 115	train_loss : 0.33685	 val_accuracy : 0.819
+epoch 116	train_loss : 0.37708	 val_accuracy : 0.817
+epoch 117	train_loss : 0.33673	 val_accuracy : 0.820
+epoch 118	train_loss : 0.33356	 val_accuracy : 0.817
+epoch 119	train_loss : 0.31758	 val_accuracy : 0.816
+epoch 120	train_loss : 0.32731	 val_accuracy : 0.817
+epoch 121	train_loss : 0.32158	 val_accuracy : 0.819
+epoch 122	train_loss : 0.31690	 val_accuracy : 0.818
+epoch 123	train_loss : 0.33915	 val_accuracy : 0.817
+epoch 124	train_loss : 0.33604	 val_accuracy : 0.813
+epoch 125	train_loss : 0.38117	 val_accuracy : 0.813
+epoch 126	train_loss : 0.32245	 val_accuracy : 0.815
+epoch 127	train_loss : 0.33479	 val_accuracy : 0.819
+epoch 128	train_loss : 0.32979	 val_accuracy : 0.820
+epoch 129	train_loss : 0.35579	 val_accuracy : 0.814
+epoch 130	train_loss : 0.32728	 val_accuracy : 0.815
+epoch 131	train_loss : 0.33764	 val_accuracy : 0.810
+epoch 132	train_loss : 0.34485	 val_accuracy : 0.813
+epoch 133	train_loss : 0.35679	 val_accuracy : 0.814
+epoch 134	train_loss : 0.32243	 val_accuracy : 0.816
+epoch 135	train_loss : 0.33495	 val_accuracy : 0.821
+epoch 136	train_loss : 0.35723	 val_accuracy : 0.814
+epoch 137	train_loss : 0.32943	 val_accuracy : 0.811
+epoch 138	train_loss : 0.34281	 val_accuracy : 0.818
+epoch 139	train_loss : 0.32571	 val_accuracy : 0.813
+epoch 140	train_loss : 0.34757	 val_accuracy : 0.808
+epoch 141	train_loss : 0.35987	 val_accuracy : 0.810
+epoch 142	train_loss : 0.36767	 val_accuracy : 0.813
+epoch 143	train_loss : 0.33029	 val_accuracy : 0.810
+epoch 144	train_loss : 0.35404	 val_accuracy : 0.808
+epoch 145	train_loss : 0.32280	 val_accuracy : 0.812
+epoch 146	train_loss : 0.29653	 val_accuracy : 0.813
+epoch 147	train_loss : 0.30733	 val_accuracy : 0.812
+epoch 148	train_loss : 0.37135	 val_accuracy : 0.812
+epoch 149	train_loss : 0.32241	 val_accuracy : 0.812
+epoch 150	train_loss : 0.30441	 val_accuracy : 0.811
+epoch 151	train_loss : 0.32910	 val_accuracy : 0.810
+epoch 152	train_loss : 0.36082	 val_accuracy : 0.809
+epoch 153	train_loss : 0.31715	 val_accuracy : 0.810
+epoch 154	train_loss : 0.30664	 val_accuracy : 0.811
+epoch 155	train_loss : 0.34057	 val_accuracy : 0.813
+epoch 156	train_loss : 0.27190	 val_accuracy : 0.812
+epoch 157	train_loss : 0.30875	 val_accuracy : 0.810
+epoch 158	train_loss : 0.30334	 val_accuracy : 0.806
+epoch 159	train_loss : 0.33985	 val_accuracy : 0.812
+epoch 160	train_loss : 0.28641	 val_accuracy : 0.815
+epoch 161	train_loss : 0.29806	 val_accuracy : 0.809
+epoch 162	train_loss : 0.29528	 val_accuracy : 0.808
+epoch 163	train_loss : 0.30872	 val_accuracy : 0.809
+epoch 164	train_loss : 0.28013	 val_accuracy : 0.808
+epoch 165	train_loss : 0.33261	 val_accuracy : 0.809
+epoch 166	train_loss : 0.32416	 val_accuracy : 0.809
+epoch 167	train_loss : 0.28571	 val_accuracy : 0.810
+epoch 168	train_loss : 0.34447	 val_accuracy : 0.809
+epoch 169	train_loss : 0.35580	 val_accuracy : 0.808
+epoch 170	train_loss : 0.29621	 val_accuracy : 0.806
+epoch 171	train_loss : 0.28718	 val_accuracy : 0.805
+epoch 172	train_loss : 0.35186	 val_accuracy : 0.809
+epoch 173	train_loss : 0.34972	 val_accuracy : 0.811
+epoch 174	train_loss : 0.28217	 val_accuracy : 0.807
+epoch 175	train_loss : 0.26822	 val_accuracy : 0.806
+epoch 176	train_loss : 0.34262	 val_accuracy : 0.809
+epoch 177	train_loss : 0.27547	 val_accuracy : 0.808
+epoch 178	train_loss : 0.29594	 val_accuracy : 0.809
+epoch 179	train_loss : 0.30864	 val_accuracy : 0.809
+epoch 180	train_loss : 0.30469	 val_accuracy : 0.808
+epoch 181	train_loss : 0.24498	 val_accuracy : 0.808
+epoch 182	train_loss : 0.29656	 val_accuracy : 0.807
+epoch 183	train_loss : 0.29942	 val_accuracy : 0.809
+epoch 184	train_loss : 0.30754	 val_accuracy : 0.804
+epoch 185	train_loss : 0.35278	 val_accuracy : 0.804
+epoch 186	train_loss : 0.34006	 val_accuracy : 0.810
+epoch 187	train_loss : 0.30054	 val_accuracy : 0.805
+epoch 188	train_loss : 0.31273	 val_accuracy : 0.804
+epoch 189	train_loss : 0.33811	 val_accuracy : 0.802
+epoch 190	train_loss : 0.33852	 val_accuracy : 0.804
+epoch 191	train_loss : 0.27320	 val_accuracy : 0.804
+epoch 192	train_loss : 0.34357	 val_accuracy : 0.805
+epoch 193	train_loss : 0.28785	 val_accuracy : 0.805
+epoch 194	train_loss : 0.25761	 val_accuracy : 0.805
+epoch 195	train_loss : 0.28957	 val_accuracy : 0.807
+epoch 196	train_loss : 0.28049	 val_accuracy : 0.802
+epoch 197	train_loss : 0.33777	 val_accuracy : 0.803
+epoch 198	train_loss : 0.34954	 val_accuracy : 0.804
+epoch 199	train_loss : 0.31216	 val_accuracy : 0.802
+epoch 200	train_loss : 0.30226	 val_accuracy : 0.809
+epoch 201	train_loss : 0.31888	 val_accuracy : 0.802
+epoch 202	train_loss : 0.31265	 val_accuracy : 0.805
+epoch 203	train_loss : 0.30846	 val_accuracy : 0.804
+epoch 204	train_loss : 0.29859	 val_accuracy : 0.804
+epoch 205	train_loss : 0.31256	 val_accuracy : 0.800
+epoch 206	train_loss : 0.28718	 val_accuracy : 0.808
+epoch 207	train_loss : 0.32743	 val_accuracy : 0.806
+epoch 208	train_loss : 0.29670	 val_accuracy : 0.805
+epoch 209	train_loss : 0.28763	 val_accuracy : 0.802
+epoch 210	train_loss : 0.27427	 val_accuracy : 0.802
+epoch 211	train_loss : 0.29616	 val_accuracy : 0.802
+epoch 212	train_loss : 0.26007	 val_accuracy : 0.807
+epoch 213	train_loss : 0.27714	 val_accuracy : 0.804
+epoch 214	train_loss : 0.32015	 val_accuracy : 0.806
+epoch 215	train_loss : 0.31788	 val_accuracy : 0.805
+epoch 216	train_loss : 0.30025	 val_accuracy : 0.801
+epoch 217	train_loss : 0.27141	 val_accuracy : 0.802
+epoch 218	train_loss : 0.27636	 val_accuracy : 0.802
+epoch 219	train_loss : 0.26556	 val_accuracy : 0.800
+epoch 220	train_loss : 0.27906	 val_accuracy : 0.801
+epoch 221	train_loss : 0.32816	 val_accuracy : 0.800
+epoch 222	train_loss : 0.29513	 val_accuracy : 0.802
+epoch 223	train_loss : 0.28852	 val_accuracy : 0.798
+epoch 224	train_loss : 0.27290	 val_accuracy : 0.800
+epoch 225	train_loss : 0.31024	 val_accuracy : 0.801
+epoch 226	train_loss : 0.24906	 val_accuracy : 0.806
+epoch 227	train_loss : 0.29469	 val_accuracy : 0.803
+epoch 228	train_loss : 0.34562	 val_accuracy : 0.803
+epoch 229	train_loss : 0.29864	 val_accuracy : 0.801
+epoch 230	train_loss : 0.26686	 val_accuracy : 0.805
+epoch 231	train_loss : 0.29912	 val_accuracy : 0.799
+epoch 232	train_loss : 0.27374	 val_accuracy : 0.796
+epoch 233	train_loss : 0.27706	 val_accuracy : 0.801
+epoch 234	train_loss : 0.33869	 val_accuracy : 0.801
+epoch 235	train_loss : 0.27248	 val_accuracy : 0.802
+epoch 236	train_loss : 0.32593	 val_accuracy : 0.798
+epoch 237	train_loss : 0.26208	 val_accuracy : 0.801
+epoch 238	train_loss : 0.26306	 val_accuracy : 0.797
+epoch 239	train_loss : 0.25626	 val_accuracy : 0.803
+epoch 240	train_loss : 0.30188	 val_accuracy : 0.801
+epoch 241	train_loss : 0.31920	 val_accuracy : 0.800
+epoch 242	train_loss : 0.27002	 val_accuracy : 0.802
+epoch 243	train_loss : 0.30982	 val_accuracy : 0.806
+epoch 244	train_loss : 0.30982	 val_accuracy : 0.799
+epoch 245	train_loss : 0.28217	 val_accuracy : 0.801
+epoch 246	train_loss : 0.29406	 val_accuracy : 0.797
+epoch 247	train_loss : 0.31796	 val_accuracy : 0.802
+epoch 248	train_loss : 0.29783	 val_accuracy : 0.800
+epoch 249	train_loss : 0.29812	 val_accuracy : 0.800
+epoch 250	train_loss : 0.28410	 val_accuracy : 0.803
+epoch 251	train_loss : 0.26851	 val_accuracy : 0.799
+epoch 252	train_loss : 0.31380	 val_accuracy : 0.800
+epoch 253	train_loss : 0.23234	 val_accuracy : 0.799
+epoch 254	train_loss : 0.25665	 val_accuracy : 0.800
+epoch 255	train_loss : 0.31415	 val_accuracy : 0.800
+epoch 256	train_loss : 0.26184	 val_accuracy : 0.797
+epoch 257	train_loss : 0.30953	 val_accuracy : 0.802
+epoch 258	train_loss : 0.28806	 val_accuracy : 0.800
+epoch 259	train_loss : 0.32868	 val_accuracy : 0.796
+epoch 260	train_loss : 0.25006	 val_accuracy : 0.802
+epoch 261	train_loss : 0.28988	 val_accuracy : 0.801
+epoch 262	train_loss : 0.30250	 val_accuracy : 0.796
+epoch 263	train_loss : 0.31823	 val_accuracy : 0.796
+epoch 264	train_loss : 0.27869	 val_accuracy : 0.803
+epoch 265	train_loss : 0.27751	 val_accuracy : 0.800
+epoch 266	train_loss : 0.28167	 val_accuracy : 0.801
+epoch 267	train_loss : 0.27294	 val_accuracy : 0.798
+epoch 268	train_loss : 0.30981	 val_accuracy : 0.799
+epoch 269	train_loss : 0.27485	 val_accuracy : 0.800
+epoch 270	train_loss : 0.26688	 val_accuracy : 0.796
+epoch 271	train_loss : 0.28244	 val_accuracy : 0.796
+epoch 272	train_loss : 0.23881	 val_accuracy : 0.797
+epoch 273	train_loss : 0.27496	 val_accuracy : 0.803
+epoch 274	train_loss : 0.26198	 val_accuracy : 0.800
+epoch 275	train_loss : 0.28824	 val_accuracy : 0.798
+epoch 276	train_loss : 0.29164	 val_accuracy : 0.800
+epoch 277	train_loss : 0.27632	 val_accuracy : 0.799
+epoch 278	train_loss : 0.26960	 val_accuracy : 0.798
+epoch 279	train_loss : 0.24823	 val_accuracy : 0.798
+epoch 280	train_loss : 0.33706	 val_accuracy : 0.797
+epoch 281	train_loss : 0.26125	 val_accuracy : 0.798
+epoch 282	train_loss : 0.31850	 val_accuracy : 0.798
+epoch 283	train_loss : 0.24651	 val_accuracy : 0.798
+epoch 284	train_loss : 0.20743	 val_accuracy : 0.793
+epoch 285	train_loss : 0.26704	 val_accuracy : 0.797
+epoch 286	train_loss : 0.25257	 val_accuracy : 0.801
+epoch 287	train_loss : 0.28307	 val_accuracy : 0.797
+epoch 288	train_loss : 0.25449	 val_accuracy : 0.801
+epoch 289	train_loss : 0.33767	 val_accuracy : 0.793
+epoch 290	train_loss : 0.27861	 val_accuracy : 0.799
+epoch 291	train_loss : 0.24955	 val_accuracy : 0.796
+epoch 292	train_loss : 0.28795	 val_accuracy : 0.802
+epoch 293	train_loss : 0.31758	 val_accuracy : 0.800
+epoch 294	train_loss : 0.31500	 val_accuracy : 0.802
+epoch 295	train_loss : 0.23711	 val_accuracy : 0.800
+epoch 296	train_loss : 0.26619	 val_accuracy : 0.796
+epoch 297	train_loss : 0.29432	 val_accuracy : 0.794
+epoch 298	train_loss : 0.24303	 val_accuracy : 0.798
+epoch 299	train_loss : 0.28703	 val_accuracy : 0.797
+epoch 300	train_loss : 0.28933	 val_accuracy : 0.797
+epoch 301	train_loss : 0.24024	 val_accuracy : 0.801
+epoch 302	train_loss : 0.21996	 val_accuracy : 0.797
+epoch 303	train_loss : 0.31358	 val_accuracy : 0.803
+epoch 304	train_loss : 0.29459	 val_accuracy : 0.796
+epoch 305	train_loss : 0.27468	 val_accuracy : 0.794
+epoch 306	train_loss : 0.26316	 val_accuracy : 0.796
+epoch 307	train_loss : 0.20978	 val_accuracy : 0.793
+epoch 308	train_loss : 0.23600	 val_accuracy : 0.795
+epoch 309	train_loss : 0.25012	 val_accuracy : 0.797
+epoch 310	train_loss : 0.29478	 val_accuracy : 0.795
+epoch 311	train_loss : 0.24963	 val_accuracy : 0.792
+epoch 312	train_loss : 0.23035	 val_accuracy : 0.800
+epoch 313	train_loss : 0.30490	 val_accuracy : 0.797
+epoch 314	train_loss : 0.30911	 val_accuracy : 0.795
+epoch 315	train_loss : 0.26548	 val_accuracy : 0.794
+epoch 316	train_loss : 0.31635	 val_accuracy : 0.797
+epoch 317	train_loss : 0.26592	 val_accuracy : 0.799
+epoch 318	train_loss : 0.27063	 val_accuracy : 0.796
+epoch 319	train_loss : 0.26349	 val_accuracy : 0.793
+epoch 320	train_loss : 0.28361	 val_accuracy : 0.796
+epoch 321	train_loss : 0.28922	 val_accuracy : 0.796
+epoch 322	train_loss : 0.29866	 val_accuracy : 0.796
+epoch 323	train_loss : 0.26772	 val_accuracy : 0.794
+epoch 324	train_loss : 0.24873	 val_accuracy : 0.796
+epoch 325	train_loss : 0.23035	 val_accuracy : 0.790
+epoch 326	train_loss : 0.28385	 val_accuracy : 0.796
+epoch 327	train_loss : 0.25570	 val_accuracy : 0.796
+epoch 328	train_loss : 0.27650	 val_accuracy : 0.794
+epoch 329	train_loss : 0.23631	 val_accuracy : 0.801
+epoch 330	train_loss : 0.23285	 val_accuracy : 0.794
+epoch 331	train_loss : 0.30105	 val_accuracy : 0.791
+epoch 332	train_loss : 0.27829	 val_accuracy : 0.793
+epoch 333	train_loss : 0.23831	 val_accuracy : 0.791
+epoch 334	train_loss : 0.22005	 val_accuracy : 0.793
+epoch 335	train_loss : 0.23459	 val_accuracy : 0.791
+epoch 336	train_loss : 0.27915	 val_accuracy : 0.795
+epoch 337	train_loss : 0.27013	 val_accuracy : 0.797
+epoch 338	train_loss : 0.27793	 val_accuracy : 0.791
+epoch 339	train_loss : 0.30360	 val_accuracy : 0.796
+epoch 340	train_loss : 0.27391	 val_accuracy : 0.794
+epoch 341	train_loss : 0.26052	 val_accuracy : 0.798
+epoch 342	train_loss : 0.26270	 val_accuracy : 0.798
+epoch 343	train_loss : 0.23410	 val_accuracy : 0.796
+epoch 344	train_loss : 0.26600	 val_accuracy : 0.799
+epoch 345	train_loss : 0.24906	 val_accuracy : 0.792
+epoch 346	train_loss : 0.24825	 val_accuracy : 0.796
+epoch 347	train_loss : 0.23921	 val_accuracy : 0.792
+epoch 348	train_loss : 0.21807	 val_accuracy : 0.798
+epoch 349	train_loss : 0.28208	 val_accuracy : 0.795
+epoch 350	train_loss : 0.25468	 val_accuracy : 0.794
+epoch 351	train_loss : 0.29885	 val_accuracy : 0.794
+epoch 352	train_loss : 0.29323	 val_accuracy : 0.793
+epoch 353	train_loss : 0.25738	 val_accuracy : 0.793
+epoch 354	train_loss : 0.27559	 val_accuracy : 0.793
+epoch 355	train_loss : 0.27234	 val_accuracy : 0.798
+epoch 356	train_loss : 0.20951	 val_accuracy : 0.794
+epoch 357	train_loss : 0.27076	 val_accuracy : 0.795
+epoch 358	train_loss : 0.21289	 val_accuracy : 0.793
+epoch 359	train_loss : 0.29620	 val_accuracy : 0.798
+epoch 360	train_loss : 0.19446	 val_accuracy : 0.792
+epoch 361	train_loss : 0.24597	 val_accuracy : 0.797
+epoch 362	train_loss : 0.24647	 val_accuracy : 0.795
+epoch 363	train_loss : 0.23108	 val_accuracy : 0.795
+epoch 364	train_loss : 0.27503	 val_accuracy : 0.792
+epoch 365	train_loss : 0.25046	 val_accuracy : 0.791
+epoch 366	train_loss : 0.20651	 val_accuracy : 0.797
+epoch 367	train_loss : 0.27090	 val_accuracy : 0.798
+epoch 368	train_loss : 0.24949	 val_accuracy : 0.794
+epoch 369	train_loss : 0.26950	 val_accuracy : 0.793
+epoch 370	train_loss : 0.25893	 val_accuracy : 0.797
+epoch 371	train_loss : 0.22570	 val_accuracy : 0.793
+epoch 372	train_loss : 0.26156	 val_accuracy : 0.795
+epoch 373	train_loss : 0.28010	 val_accuracy : 0.794
+epoch 374	train_loss : 0.20010	 val_accuracy : 0.798
+epoch 375	train_loss : 0.21099	 val_accuracy : 0.793
+epoch 376	train_loss : 0.29188	 val_accuracy : 0.797
+epoch 377	train_loss : 0.24385	 val_accuracy : 0.794
+epoch 378	train_loss : 0.24928	 val_accuracy : 0.791
+epoch 379	train_loss : 0.23766	 val_accuracy : 0.791
+epoch 380	train_loss : 0.23143	 val_accuracy : 0.793
+epoch 381	train_loss : 0.24331	 val_accuracy : 0.788
+epoch 382	train_loss : 0.23334	 val_accuracy : 0.794
+epoch 383	train_loss : 0.22088	 val_accuracy : 0.791
+epoch 384	train_loss : 0.21352	 val_accuracy : 0.796
+epoch 385	train_loss : 0.25032	 val_accuracy : 0.798
+epoch 386	train_loss : 0.26450	 val_accuracy : 0.789
+epoch 387	train_loss : 0.30862	 val_accuracy : 0.793
+epoch 388	train_loss : 0.27746	 val_accuracy : 0.790
+epoch 389	train_loss : 0.24100	 val_accuracy : 0.789
+epoch 390	train_loss : 0.25969	 val_accuracy : 0.794
+epoch 391	train_loss : 0.23392	 val_accuracy : 0.796
+epoch 392	train_loss : 0.22528	 val_accuracy : 0.797
+epoch 393	train_loss : 0.26050	 val_accuracy : 0.791
+epoch 394	train_loss : 0.25750	 val_accuracy : 0.794
+epoch 395	train_loss : 0.26710	 val_accuracy : 0.792
+epoch 396	train_loss : 0.22017	 val_accuracy : 0.792
+epoch 397	train_loss : 0.25633	 val_accuracy : 0.793
+epoch 398	train_loss : 0.24907	 val_accuracy : 0.794
+epoch 399	train_loss : 0.21510	 val_accuracy : 0.791
+epoch 400	train_loss : 0.20380	 val_accuracy : 0.792
+epoch 401	train_loss : 0.28573	 val_accuracy : 0.791
+epoch 402	train_loss : 0.25765	 val_accuracy : 0.794
+epoch 403	train_loss : 0.22592	 val_accuracy : 0.795
+epoch 404	train_loss : 0.25181	 val_accuracy : 0.791
+epoch 405	train_loss : 0.23858	 val_accuracy : 0.794
+epoch 406	train_loss : 0.25333	 val_accuracy : 0.791
+epoch 407	train_loss : 0.25185	 val_accuracy : 0.794
+epoch 408	train_loss : 0.21766	 val_accuracy : 0.791
+epoch 409	train_loss : 0.25506	 val_accuracy : 0.790
+epoch 410	train_loss : 0.20374	 val_accuracy : 0.794
+epoch 411	train_loss : 0.25445	 val_accuracy : 0.790
+epoch 412	train_loss : 0.27464	 val_accuracy : 0.787
+epoch 413	train_loss : 0.24348	 val_accuracy : 0.792
+epoch 414	train_loss : 0.22464	 val_accuracy : 0.789
+epoch 415	train_loss : 0.22198	 val_accuracy : 0.791
+epoch 416	train_loss : 0.19945	 val_accuracy : 0.796
+epoch 417	train_loss : 0.22961	 val_accuracy : 0.795
+epoch 418	train_loss : 0.24797	 val_accuracy : 0.788
+epoch 419	train_loss : 0.21599	 val_accuracy : 0.795
+epoch 420	train_loss : 0.25362	 val_accuracy : 0.790
+epoch 421	train_loss : 0.26223	 val_accuracy : 0.787
+epoch 422	train_loss : 0.21659	 val_accuracy : 0.792
+epoch 423	train_loss : 0.21814	 val_accuracy : 0.788
+epoch 424	train_loss : 0.25775	 val_accuracy : 0.792
+epoch 425	train_loss : 0.24766	 val_accuracy : 0.792
+epoch 426	train_loss : 0.22054	 val_accuracy : 0.787
+epoch 427	train_loss : 0.25686	 val_accuracy : 0.791
+epoch 428	train_loss : 0.27318	 val_accuracy : 0.790
+epoch 429	train_loss : 0.22216	 val_accuracy : 0.793
+epoch 430	train_loss : 0.23136	 val_accuracy : 0.792
+epoch 431	train_loss : 0.17668	 val_accuracy : 0.796
+epoch 432	train_loss : 0.26305	 val_accuracy : 0.792
+epoch 433	train_loss : 0.22318	 val_accuracy : 0.794
+epoch 434	train_loss : 0.23696	 val_accuracy : 0.792
+epoch 435	train_loss : 0.23971	 val_accuracy : 0.794
+epoch 436	train_loss : 0.25151	 val_accuracy : 0.790
+epoch 437	train_loss : 0.22235	 val_accuracy : 0.787
+epoch 438	train_loss : 0.23653	 val_accuracy : 0.790
+epoch 439	train_loss : 0.25652	 val_accuracy : 0.791
+epoch 440	train_loss : 0.23865	 val_accuracy : 0.792
+epoch 441	train_loss : 0.23935	 val_accuracy : 0.787
+epoch 442	train_loss : 0.26740	 val_accuracy : 0.789
+epoch 443	train_loss : 0.23057	 val_accuracy : 0.788
+epoch 444	train_loss : 0.23549	 val_accuracy : 0.794
+epoch 445	train_loss : 0.22859	 val_accuracy : 0.788
+epoch 446	train_loss : 0.24311	 val_accuracy : 0.793
+epoch 447	train_loss : 0.26268	 val_accuracy : 0.794
+epoch 448	train_loss : 0.18778	 val_accuracy : 0.795
+epoch 449	train_loss : 0.23607	 val_accuracy : 0.793
+epoch 450	train_loss : 0.23830	 val_accuracy : 0.796
+epoch 451	train_loss : 0.25047	 val_accuracy : 0.793
+epoch 452	train_loss : 0.18408	 val_accuracy : 0.796
+epoch 453	train_loss : 0.24879	 val_accuracy : 0.788
+epoch 454	train_loss : 0.24179	 val_accuracy : 0.793
+epoch 455	train_loss : 0.26325	 val_accuracy : 0.790
+epoch 456	train_loss : 0.22384	 val_accuracy : 0.791
+epoch 457	train_loss : 0.31547	 val_accuracy : 0.795
+epoch 458	train_loss : 0.28087	 val_accuracy : 0.789
+epoch 459	train_loss : 0.21033	 val_accuracy : 0.791
+epoch 460	train_loss : 0.25771	 val_accuracy : 0.788
+epoch 461	train_loss : 0.23876	 val_accuracy : 0.793
+epoch 462	train_loss : 0.24045	 val_accuracy : 0.792
+epoch 463	train_loss : 0.22055	 val_accuracy : 0.794
+epoch 464	train_loss : 0.22670	 val_accuracy : 0.791
+epoch 465	train_loss : 0.20867	 val_accuracy : 0.793
+epoch 466	train_loss : 0.27636	 val_accuracy : 0.790
+epoch 467	train_loss : 0.30250	 val_accuracy : 0.796
+epoch 468	train_loss : 0.23949	 val_accuracy : 0.789
+epoch 469	train_loss : 0.27693	 val_accuracy : 0.791
+epoch 470	train_loss : 0.25175	 val_accuracy : 0.791
+epoch 471	train_loss : 0.23788	 val_accuracy : 0.792
+epoch 472	train_loss : 0.26710	 val_accuracy : 0.795
+epoch 473	train_loss : 0.28615	 val_accuracy : 0.786
+epoch 474	train_loss : 0.22205	 val_accuracy : 0.795
+epoch 475	train_loss : 0.21253	 val_accuracy : 0.789
+epoch 476	train_loss : 0.23642	 val_accuracy : 0.790
+epoch 477	train_loss : 0.23233	 val_accuracy : 0.791
+epoch 478	train_loss : 0.22354	 val_accuracy : 0.790
+epoch 479	train_loss : 0.23553	 val_accuracy : 0.795
+epoch 480	train_loss : 0.27118	 val_accuracy : 0.785
+epoch 481	train_loss : 0.19998	 val_accuracy : 0.789
+epoch 482	train_loss : 0.24713	 val_accuracy : 0.787
+epoch 483	train_loss : 0.27716	 val_accuracy : 0.791
+epoch 484	train_loss : 0.27633	 val_accuracy : 0.788
+epoch 485	train_loss : 0.21411	 val_accuracy : 0.791
+epoch 486	train_loss : 0.27264	 val_accuracy : 0.790
+epoch 487	train_loss : 0.23522	 val_accuracy : 0.788
+epoch 488	train_loss : 0.26181	 val_accuracy : 0.791
+epoch 489	train_loss : 0.23363	 val_accuracy : 0.790
+epoch 490	train_loss : 0.19629	 val_accuracy : 0.791
+epoch 491	train_loss : 0.19144	 val_accuracy : 0.789
+epoch 492	train_loss : 0.25586	 val_accuracy : 0.794
+epoch 493	train_loss : 0.25823	 val_accuracy : 0.789
+epoch 494	train_loss : 0.24731	 val_accuracy : 0.794
+epoch 495	train_loss : 0.27013	 val_accuracy : 0.789
+epoch 496	train_loss : 0.19424	 val_accuracy : 0.791
+epoch 497	train_loss : 0.25082	 val_accuracy : 0.786
+epoch 498	train_loss : 0.32440	 val_accuracy : 0.786
+epoch 499	train_loss : 0.17971	 val_accuracy : 0.789
+epoch 500	train_loss : 0.20971	 val_accuracy : 0.789
+Total training time is 41.821704 min
+Best model accuracy of the validation dataset : 0.8396484375
+
+ ----------------------------------------------------------- 
+
+Learning rate: 0.005
+Batch size: 500
+Number of batch: 250
+
+Training......
+epoch 1	train_loss : 0.64261	 val_accuracy : 0.684
+Save the best model at the 2 epoch! Accuracy: 0.703
+Save the best model at the 2 epoch! Accuracy: 0.705
+Save the best model at the 2 epoch! Accuracy: 0.707
+Save the best model at the 2 epoch! Accuracy: 0.707
+Save the best model at the 2 epoch! Accuracy: 0.708
+Save the best model at the 2 epoch! Accuracy: 0.710
+Save the best model at the 2 epoch! Accuracy: 0.713
+Save the best model at the 2 epoch! Accuracy: 0.715
+Save the best model at the 2 epoch! Accuracy: 0.723
+Save the best model at the 2 epoch! Accuracy: 0.723
+Save the best model at the 2 epoch! Accuracy: 0.725
+Save the best model at the 2 epoch! Accuracy: 0.726
+Save the best model at the 2 epoch! Accuracy: 0.731
+Save the best model at the 2 epoch! Accuracy: 0.732
+Save the best model at the 2 epoch! Accuracy: 0.733
+Save the best model at the 2 epoch! Accuracy: 0.733
+Save the best model at the 2 epoch! Accuracy: 0.737
+Save the best model at the 2 epoch! Accuracy: 0.737
+Save the best model at the 2 epoch! Accuracy: 0.737
+Save the best model at the 2 epoch! Accuracy: 0.737
+Save the best model at the 2 epoch! Accuracy: 0.740
+Save the best model at the 2 epoch! Accuracy: 0.743
+epoch 2	train_loss : 0.53067	 val_accuracy : 0.741
+Save the best model at the 3 epoch! Accuracy: 0.744
+Save the best model at the 3 epoch! Accuracy: 0.745
+Save the best model at the 3 epoch! Accuracy: 0.745
+Save the best model at the 3 epoch! Accuracy: 0.746
+Save the best model at the 3 epoch! Accuracy: 0.748
+Save the best model at the 3 epoch! Accuracy: 0.749
+Save the best model at the 3 epoch! Accuracy: 0.754
+Save the best model at the 3 epoch! Accuracy: 0.754
+Save the best model at the 3 epoch! Accuracy: 0.757
+Save the best model at the 3 epoch! Accuracy: 0.757
+Save the best model at the 3 epoch! Accuracy: 0.761
+Save the best model at the 3 epoch! Accuracy: 0.761
+Save the best model at the 3 epoch! Accuracy: 0.762
+Save the best model at the 3 epoch! Accuracy: 0.764
+Save the best model at the 3 epoch! Accuracy: 0.764
+Save the best model at the 3 epoch! Accuracy: 0.765
+epoch 3	train_loss : 0.58607	 val_accuracy : 0.748
+Save the best model at the 4 epoch! Accuracy: 0.765
+Save the best model at the 4 epoch! Accuracy: 0.766
+Save the best model at the 4 epoch! Accuracy: 0.768
+Save the best model at the 4 epoch! Accuracy: 0.770
+Save the best model at the 4 epoch! Accuracy: 0.771
+Save the best model at the 4 epoch! Accuracy: 0.773
+Save the best model at the 4 epoch! Accuracy: 0.775
+Save the best model at the 4 epoch! Accuracy: 0.776
+Save the best model at the 4 epoch! Accuracy: 0.777
+Save the best model at the 4 epoch! Accuracy: 0.779
+Save the best model at the 4 epoch! Accuracy: 0.779
+Save the best model at the 4 epoch! Accuracy: 0.780
+Save the best model at the 4 epoch! Accuracy: 0.781
+epoch 4	train_loss : 0.54940	 val_accuracy : 0.776
+Save the best model at the 5 epoch! Accuracy: 0.782
+Save the best model at the 5 epoch! Accuracy: 0.784
+Save the best model at the 5 epoch! Accuracy: 0.784
+Save the best model at the 5 epoch! Accuracy: 0.786
+Save the best model at the 5 epoch! Accuracy: 0.786
+Save the best model at the 5 epoch! Accuracy: 0.787
+Save the best model at the 5 epoch! Accuracy: 0.789
+Save the best model at the 5 epoch! Accuracy: 0.789
+Save the best model at the 5 epoch! Accuracy: 0.790
+Save the best model at the 5 epoch! Accuracy: 0.791
+epoch 5	train_loss : 0.57896	 val_accuracy : 0.790
+Save the best model at the 6 epoch! Accuracy: 0.792
+Save the best model at the 6 epoch! Accuracy: 0.793
+Save the best model at the 6 epoch! Accuracy: 0.794
+Save the best model at the 6 epoch! Accuracy: 0.798
+Save the best model at the 6 epoch! Accuracy: 0.801
+Save the best model at the 6 epoch! Accuracy: 0.803
+Save the best model at the 6 epoch! Accuracy: 0.803
+epoch 6	train_loss : 0.50285	 val_accuracy : 0.796
+Save the best model at the 7 epoch! Accuracy: 0.803
+Save the best model at the 7 epoch! Accuracy: 0.804
+epoch 7	train_loss : 0.51897	 val_accuracy : 0.801
+Save the best model at the 8 epoch! Accuracy: 0.805
+Save the best model at the 8 epoch! Accuracy: 0.806
+Save the best model at the 8 epoch! Accuracy: 0.806
+Save the best model at the 8 epoch! Accuracy: 0.808
+Save the best model at the 8 epoch! Accuracy: 0.808
+Save the best model at the 8 epoch! Accuracy: 0.809
+Save the best model at the 8 epoch! Accuracy: 0.810
+Save the best model at the 8 epoch! Accuracy: 0.811
+Save the best model at the 8 epoch! Accuracy: 0.812
+epoch 8	train_loss : 0.49274	 val_accuracy : 0.798
+Save the best model at the 9 epoch! Accuracy: 0.813
+Save the best model at the 9 epoch! Accuracy: 0.815
+Save the best model at the 9 epoch! Accuracy: 0.815
+epoch 9	train_loss : 0.51174	 val_accuracy : 0.807
+Save the best model at the 10 epoch! Accuracy: 0.816
+Save the best model at the 10 epoch! Accuracy: 0.817
+Save the best model at the 10 epoch! Accuracy: 0.818
+Save the best model at the 10 epoch! Accuracy: 0.818
+epoch 10	train_loss : 0.47683	 val_accuracy : 0.814
+Save the best model at the 11 epoch! Accuracy: 0.821
+Save the best model at the 11 epoch! Accuracy: 0.821
+Save the best model at the 11 epoch! Accuracy: 0.822
+Save the best model at the 11 epoch! Accuracy: 0.823
+Save the best model at the 11 epoch! Accuracy: 0.824
+epoch 11	train_loss : 0.47488	 val_accuracy : 0.818
+Save the best model at the 12 epoch! Accuracy: 0.824
+Save the best model at the 12 epoch! Accuracy: 0.825
+Save the best model at the 12 epoch! Accuracy: 0.826
+epoch 12	train_loss : 0.48430	 val_accuracy : 0.815
+epoch 13	train_loss : 0.45409	 val_accuracy : 0.821
+Save the best model at the 14 epoch! Accuracy: 0.827
+epoch 14	train_loss : 0.46126	 val_accuracy : 0.824
+Save the best model at the 15 epoch! Accuracy: 0.827
+Save the best model at the 15 epoch! Accuracy: 0.827
+Save the best model at the 15 epoch! Accuracy: 0.828
+epoch 15	train_loss : 0.46422	 val_accuracy : 0.826
+epoch 16	train_loss : 0.44983	 val_accuracy : 0.825
+Save the best model at the 17 epoch! Accuracy: 0.829
+Save the best model at the 17 epoch! Accuracy: 0.829
+Save the best model at the 17 epoch! Accuracy: 0.830
+Save the best model at the 17 epoch! Accuracy: 0.831
+Save the best model at the 17 epoch! Accuracy: 0.831
+Save the best model at the 17 epoch! Accuracy: 0.831
+Save the best model at the 17 epoch! Accuracy: 0.832
+Save the best model at the 17 epoch! Accuracy: 0.832
+epoch 17	train_loss : 0.43786	 val_accuracy : 0.824
+Save the best model at the 18 epoch! Accuracy: 0.833
+epoch 18	train_loss : 0.46468	 val_accuracy : 0.826
+epoch 19	train_loss : 0.43133	 val_accuracy : 0.819
+Save the best model at the 20 epoch! Accuracy: 0.833
+Save the best model at the 20 epoch! Accuracy: 0.834
+epoch 20	train_loss : 0.44469	 val_accuracy : 0.828
+epoch 21	train_loss : 0.42424	 val_accuracy : 0.825
+Save the best model at the 22 epoch! Accuracy: 0.835
+Save the best model at the 22 epoch! Accuracy: 0.837
+epoch 22	train_loss : 0.44674	 val_accuracy : 0.828
+epoch 23	train_loss : 0.43491	 val_accuracy : 0.828
+Save the best model at the 24 epoch! Accuracy: 0.838
+epoch 24	train_loss : 0.40856	 val_accuracy : 0.826
+epoch 25	train_loss : 0.48899	 val_accuracy : 0.832
+epoch 26	train_loss : 0.42977	 val_accuracy : 0.832
+epoch 27	train_loss : 0.44621	 val_accuracy : 0.832
+epoch 28	train_loss : 0.40003	 val_accuracy : 0.830
+epoch 29	train_loss : 0.46600	 val_accuracy : 0.830
+epoch 30	train_loss : 0.41386	 val_accuracy : 0.829
+epoch 31	train_loss : 0.43100	 val_accuracy : 0.830
+epoch 32	train_loss : 0.43995	 val_accuracy : 0.829
+epoch 33	train_loss : 0.46837	 val_accuracy : 0.825
+epoch 34	train_loss : 0.46314	 val_accuracy : 0.832
+epoch 35	train_loss : 0.43612	 val_accuracy : 0.831
+epoch 36	train_loss : 0.41787	 val_accuracy : 0.828
+epoch 37	train_loss : 0.45833	 val_accuracy : 0.827
+epoch 38	train_loss : 0.46750	 val_accuracy : 0.830
+epoch 39	train_loss : 0.40768	 val_accuracy : 0.829
+epoch 40	train_loss : 0.44069	 val_accuracy : 0.829
+epoch 41	train_loss : 0.40109	 val_accuracy : 0.830
+epoch 42	train_loss : 0.40562	 val_accuracy : 0.830
+epoch 43	train_loss : 0.38208	 val_accuracy : 0.827
+epoch 44	train_loss : 0.39172	 val_accuracy : 0.831
+epoch 45	train_loss : 0.41028	 val_accuracy : 0.827
+epoch 46	train_loss : 0.42725	 val_accuracy : 0.830
+epoch 47	train_loss : 0.42509	 val_accuracy : 0.827
+epoch 48	train_loss : 0.41079	 val_accuracy : 0.828
+epoch 49	train_loss : 0.40476	 val_accuracy : 0.827
+epoch 50	train_loss : 0.37746	 val_accuracy : 0.823
+epoch 51	train_loss : 0.41191	 val_accuracy : 0.828
+epoch 52	train_loss : 0.37825	 val_accuracy : 0.824
+epoch 53	train_loss : 0.43214	 val_accuracy : 0.825
+epoch 54	train_loss : 0.40618	 val_accuracy : 0.828
+epoch 55	train_loss : 0.35384	 val_accuracy : 0.829
+epoch 56	train_loss : 0.38452	 val_accuracy : 0.830
+epoch 57	train_loss : 0.40851	 val_accuracy : 0.827
+epoch 58	train_loss : 0.34906	 val_accuracy : 0.823
+epoch 59	train_loss : 0.36002	 val_accuracy : 0.828
+epoch 60	train_loss : 0.38108	 val_accuracy : 0.826
+epoch 61	train_loss : 0.37125	 val_accuracy : 0.821
+epoch 62	train_loss : 0.35348	 val_accuracy : 0.826
+epoch 63	train_loss : 0.41972	 val_accuracy : 0.828
+epoch 64	train_loss : 0.39832	 val_accuracy : 0.822
+epoch 65	train_loss : 0.37032	 val_accuracy : 0.828
+epoch 66	train_loss : 0.41207	 val_accuracy : 0.826
+epoch 67	train_loss : 0.33559	 val_accuracy : 0.828
+epoch 68	train_loss : 0.35858	 val_accuracy : 0.824
+epoch 69	train_loss : 0.39768	 val_accuracy : 0.822
+epoch 70	train_loss : 0.38742	 val_accuracy : 0.822
+epoch 71	train_loss : 0.39109	 val_accuracy : 0.820
+epoch 72	train_loss : 0.32193	 val_accuracy : 0.816
+epoch 73	train_loss : 0.39038	 val_accuracy : 0.819
+epoch 74	train_loss : 0.34083	 val_accuracy : 0.818
+epoch 75	train_loss : 0.37002	 val_accuracy : 0.823
+epoch 76	train_loss : 0.37898	 val_accuracy : 0.820
+epoch 77	train_loss : 0.36896	 val_accuracy : 0.818
+epoch 78	train_loss : 0.36882	 val_accuracy : 0.819
+epoch 79	train_loss : 0.33479	 val_accuracy : 0.821
+epoch 80	train_loss : 0.35931	 val_accuracy : 0.825
+epoch 81	train_loss : 0.36584	 val_accuracy : 0.822
+epoch 82	train_loss : 0.38483	 val_accuracy : 0.822
+epoch 83	train_loss : 0.33975	 val_accuracy : 0.819
+epoch 84	train_loss : 0.35144	 val_accuracy : 0.815
+epoch 85	train_loss : 0.35814	 val_accuracy : 0.821
+epoch 86	train_loss : 0.36344	 val_accuracy : 0.821
+epoch 87	train_loss : 0.35449	 val_accuracy : 0.821
+epoch 88	train_loss : 0.29927	 val_accuracy : 0.821
+epoch 89	train_loss : 0.38433	 val_accuracy : 0.812
+epoch 90	train_loss : 0.33387	 val_accuracy : 0.821
+epoch 91	train_loss : 0.36565	 val_accuracy : 0.814
+epoch 92	train_loss : 0.34052	 val_accuracy : 0.815
+epoch 93	train_loss : 0.38145	 val_accuracy : 0.812
+epoch 94	train_loss : 0.40203	 val_accuracy : 0.816
+epoch 95	train_loss : 0.38192	 val_accuracy : 0.820
+epoch 96	train_loss : 0.31959	 val_accuracy : 0.817
+epoch 97	train_loss : 0.34181	 val_accuracy : 0.815
+epoch 98	train_loss : 0.31358	 val_accuracy : 0.817
+epoch 99	train_loss : 0.39544	 val_accuracy : 0.816
+epoch 100	train_loss : 0.33902	 val_accuracy : 0.812
+epoch 101	train_loss : 0.40821	 val_accuracy : 0.818
+epoch 102	train_loss : 0.34553	 val_accuracy : 0.820
+epoch 103	train_loss : 0.35014	 val_accuracy : 0.818
+epoch 104	train_loss : 0.34969	 val_accuracy : 0.819
+epoch 105	train_loss : 0.31984	 val_accuracy : 0.817
+epoch 106	train_loss : 0.29417	 val_accuracy : 0.814
+epoch 107	train_loss : 0.32731	 val_accuracy : 0.815
+epoch 108	train_loss : 0.32027	 val_accuracy : 0.814
+epoch 109	train_loss : 0.34612	 val_accuracy : 0.813
+epoch 110	train_loss : 0.37046	 val_accuracy : 0.814
+epoch 111	train_loss : 0.28658	 val_accuracy : 0.818
+epoch 112	train_loss : 0.31229	 val_accuracy : 0.809
+epoch 113	train_loss : 0.33665	 val_accuracy : 0.812
+epoch 114	train_loss : 0.36119	 val_accuracy : 0.815
+epoch 115	train_loss : 0.32818	 val_accuracy : 0.818
+epoch 116	train_loss : 0.30602	 val_accuracy : 0.815
+epoch 117	train_loss : 0.31810	 val_accuracy : 0.813
+epoch 118	train_loss : 0.33974	 val_accuracy : 0.810
+epoch 119	train_loss : 0.32178	 val_accuracy : 0.809
+epoch 120	train_loss : 0.36328	 val_accuracy : 0.814
+epoch 121	train_loss : 0.32791	 val_accuracy : 0.811
+epoch 122	train_loss : 0.33543	 val_accuracy : 0.814
+epoch 123	train_loss : 0.33834	 val_accuracy : 0.816
+epoch 124	train_loss : 0.29297	 val_accuracy : 0.811
+epoch 125	train_loss : 0.33564	 val_accuracy : 0.811
+epoch 126	train_loss : 0.28525	 val_accuracy : 0.812
+epoch 127	train_loss : 0.30354	 val_accuracy : 0.809
+epoch 128	train_loss : 0.30128	 val_accuracy : 0.812
+epoch 129	train_loss : 0.33463	 val_accuracy : 0.808
+epoch 130	train_loss : 0.35070	 val_accuracy : 0.812
+epoch 131	train_loss : 0.34466	 val_accuracy : 0.812
+epoch 132	train_loss : 0.32756	 val_accuracy : 0.810
+epoch 133	train_loss : 0.32023	 val_accuracy : 0.810
+epoch 134	train_loss : 0.31580	 val_accuracy : 0.810
+epoch 135	train_loss : 0.33899	 val_accuracy : 0.808
+epoch 136	train_loss : 0.30286	 val_accuracy : 0.812
+epoch 137	train_loss : 0.32975	 val_accuracy : 0.814
+epoch 138	train_loss : 0.32878	 val_accuracy : 0.811
+epoch 139	train_loss : 0.31880	 val_accuracy : 0.808
+epoch 140	train_loss : 0.31963	 val_accuracy : 0.809
+epoch 141	train_loss : 0.30609	 val_accuracy : 0.809
+epoch 142	train_loss : 0.27532	 val_accuracy : 0.808
+epoch 143	train_loss : 0.29449	 val_accuracy : 0.811
+epoch 144	train_loss : 0.28806	 val_accuracy : 0.814
+epoch 145	train_loss : 0.32394	 val_accuracy : 0.811
+epoch 146	train_loss : 0.32465	 val_accuracy : 0.806
+epoch 147	train_loss : 0.29943	 val_accuracy : 0.807
+epoch 148	train_loss : 0.29690	 val_accuracy : 0.810
+epoch 149	train_loss : 0.31670	 val_accuracy : 0.810
+epoch 150	train_loss : 0.32589	 val_accuracy : 0.808
+epoch 151	train_loss : 0.29396	 val_accuracy : 0.808
+epoch 152	train_loss : 0.30555	 val_accuracy : 0.804
+epoch 153	train_loss : 0.28617	 val_accuracy : 0.809
+epoch 154	train_loss : 0.28966	 val_accuracy : 0.805
+epoch 155	train_loss : 0.28450	 val_accuracy : 0.805
+epoch 156	train_loss : 0.31156	 val_accuracy : 0.809
+epoch 157	train_loss : 0.29063	 val_accuracy : 0.803
+epoch 158	train_loss : 0.30100	 val_accuracy : 0.807
+epoch 159	train_loss : 0.27755	 val_accuracy : 0.808
+epoch 160	train_loss : 0.26294	 val_accuracy : 0.808
+epoch 161	train_loss : 0.33358	 val_accuracy : 0.806
+epoch 162	train_loss : 0.34002	 val_accuracy : 0.807
+epoch 163	train_loss : 0.31958	 val_accuracy : 0.807
+epoch 164	train_loss : 0.31183	 val_accuracy : 0.804
+epoch 165	train_loss : 0.27404	 val_accuracy : 0.810
+epoch 166	train_loss : 0.29201	 val_accuracy : 0.803
+epoch 167	train_loss : 0.25175	 val_accuracy : 0.807
+epoch 168	train_loss : 0.30817	 val_accuracy : 0.804
+epoch 169	train_loss : 0.26923	 val_accuracy : 0.805
+epoch 170	train_loss : 0.30152	 val_accuracy : 0.806
+epoch 171	train_loss : 0.30784	 val_accuracy : 0.804
+epoch 172	train_loss : 0.29195	 val_accuracy : 0.807
+epoch 173	train_loss : 0.29070	 val_accuracy : 0.804
+epoch 174	train_loss : 0.29340	 val_accuracy : 0.804
+epoch 175	train_loss : 0.25248	 val_accuracy : 0.804
+epoch 176	train_loss : 0.27809	 val_accuracy : 0.803
+epoch 177	train_loss : 0.25944	 val_accuracy : 0.803
+epoch 178	train_loss : 0.32364	 val_accuracy : 0.804
+epoch 179	train_loss : 0.35639	 val_accuracy : 0.805
+epoch 180	train_loss : 0.28490	 val_accuracy : 0.803
+epoch 181	train_loss : 0.28137	 val_accuracy : 0.803
+epoch 182	train_loss : 0.25790	 val_accuracy : 0.805
+epoch 183	train_loss : 0.27523	 val_accuracy : 0.802
+epoch 184	train_loss : 0.30909	 val_accuracy : 0.803
+epoch 185	train_loss : 0.27502	 val_accuracy : 0.807
+epoch 186	train_loss : 0.28532	 val_accuracy : 0.807
+epoch 187	train_loss : 0.31781	 val_accuracy : 0.804
+epoch 188	train_loss : 0.33677	 val_accuracy : 0.802
+epoch 189	train_loss : 0.30133	 val_accuracy : 0.803
+epoch 190	train_loss : 0.24348	 val_accuracy : 0.802
+epoch 191	train_loss : 0.29865	 val_accuracy : 0.803
+epoch 192	train_loss : 0.27020	 val_accuracy : 0.802
+epoch 193	train_loss : 0.26242	 val_accuracy : 0.799
+epoch 194	train_loss : 0.29541	 val_accuracy : 0.802
+epoch 195	train_loss : 0.28945	 val_accuracy : 0.801
+epoch 196	train_loss : 0.26839	 val_accuracy : 0.804
+epoch 197	train_loss : 0.28320	 val_accuracy : 0.801
+epoch 198	train_loss : 0.27040	 val_accuracy : 0.800
+epoch 199	train_loss : 0.32339	 val_accuracy : 0.800
+epoch 200	train_loss : 0.24489	 val_accuracy : 0.804
+epoch 201	train_loss : 0.26580	 val_accuracy : 0.805
+epoch 202	train_loss : 0.32037	 val_accuracy : 0.802
+epoch 203	train_loss : 0.29706	 val_accuracy : 0.799
+epoch 204	train_loss : 0.25010	 val_accuracy : 0.803
+epoch 205	train_loss : 0.27221	 val_accuracy : 0.800
+epoch 206	train_loss : 0.29494	 val_accuracy : 0.802
+epoch 207	train_loss : 0.24417	 val_accuracy : 0.802
+epoch 208	train_loss : 0.23212	 val_accuracy : 0.799
+epoch 209	train_loss : 0.24896	 val_accuracy : 0.798
+epoch 210	train_loss : 0.29472	 val_accuracy : 0.801
+epoch 211	train_loss : 0.30302	 val_accuracy : 0.794
+epoch 212	train_loss : 0.31107	 val_accuracy : 0.799
+epoch 213	train_loss : 0.31213	 val_accuracy : 0.803
+epoch 214	train_loss : 0.31423	 val_accuracy : 0.796
+epoch 215	train_loss : 0.30996	 val_accuracy : 0.801
+epoch 216	train_loss : 0.27012	 val_accuracy : 0.802
+epoch 217	train_loss : 0.26785	 val_accuracy : 0.797
+epoch 218	train_loss : 0.28910	 val_accuracy : 0.795
+epoch 219	train_loss : 0.25738	 val_accuracy : 0.801
+epoch 220	train_loss : 0.26151	 val_accuracy : 0.799
+epoch 221	train_loss : 0.27788	 val_accuracy : 0.792
+epoch 222	train_loss : 0.30751	 val_accuracy : 0.797
+epoch 223	train_loss : 0.28906	 val_accuracy : 0.793
+epoch 224	train_loss : 0.30762	 val_accuracy : 0.804
+epoch 225	train_loss : 0.25201	 val_accuracy : 0.799
+epoch 226	train_loss : 0.24344	 val_accuracy : 0.799
+epoch 227	train_loss : 0.27124	 val_accuracy : 0.799
+epoch 228	train_loss : 0.27676	 val_accuracy : 0.805
+epoch 229	train_loss : 0.25254	 val_accuracy : 0.800
+epoch 230	train_loss : 0.22574	 val_accuracy : 0.799
+epoch 231	train_loss : 0.27252	 val_accuracy : 0.798
+epoch 232	train_loss : 0.27041	 val_accuracy : 0.800
+epoch 233	train_loss : 0.20179	 val_accuracy : 0.798
+epoch 234	train_loss : 0.25224	 val_accuracy : 0.797
+epoch 235	train_loss : 0.26131	 val_accuracy : 0.799
+epoch 236	train_loss : 0.28179	 val_accuracy : 0.797
+epoch 237	train_loss : 0.26643	 val_accuracy : 0.801
+epoch 238	train_loss : 0.24725	 val_accuracy : 0.791
+epoch 239	train_loss : 0.26527	 val_accuracy : 0.797
+epoch 240	train_loss : 0.25769	 val_accuracy : 0.800
+epoch 241	train_loss : 0.24717	 val_accuracy : 0.797
+epoch 242	train_loss : 0.27060	 val_accuracy : 0.792
+epoch 243	train_loss : 0.26293	 val_accuracy : 0.800
+epoch 244	train_loss : 0.29347	 val_accuracy : 0.794
+epoch 245	train_loss : 0.25460	 val_accuracy : 0.800
+epoch 246	train_loss : 0.28369	 val_accuracy : 0.794
+epoch 247	train_loss : 0.28894	 val_accuracy : 0.793
+epoch 248	train_loss : 0.26772	 val_accuracy : 0.799
+epoch 249	train_loss : 0.27813	 val_accuracy : 0.799
+epoch 250	train_loss : 0.24540	 val_accuracy : 0.796
+epoch 251	train_loss : 0.25593	 val_accuracy : 0.798
+epoch 252	train_loss : 0.24510	 val_accuracy : 0.794
+epoch 253	train_loss : 0.25343	 val_accuracy : 0.793
+epoch 254	train_loss : 0.24203	 val_accuracy : 0.795
+epoch 255	train_loss : 0.23609	 val_accuracy : 0.796
+epoch 256	train_loss : 0.26234	 val_accuracy : 0.795
+epoch 257	train_loss : 0.23780	 val_accuracy : 0.799
+epoch 258	train_loss : 0.32697	 val_accuracy : 0.794
+epoch 259	train_loss : 0.30209	 val_accuracy : 0.791
+epoch 260	train_loss : 0.30910	 val_accuracy : 0.796
+epoch 261	train_loss : 0.26750	 val_accuracy : 0.796
+epoch 262	train_loss : 0.26868	 val_accuracy : 0.797
+epoch 263	train_loss : 0.26815	 val_accuracy : 0.797
+epoch 264	train_loss : 0.25876	 val_accuracy : 0.795
+epoch 265	train_loss : 0.25468	 val_accuracy : 0.800
+epoch 266	train_loss : 0.25654	 val_accuracy : 0.791
+epoch 267	train_loss : 0.23640	 val_accuracy : 0.793
+epoch 268	train_loss : 0.30575	 val_accuracy : 0.791
+epoch 269	train_loss : 0.24667	 val_accuracy : 0.795
+epoch 270	train_loss : 0.29140	 val_accuracy : 0.792
+epoch 271	train_loss : 0.22652	 val_accuracy : 0.795
+epoch 272	train_loss : 0.24085	 val_accuracy : 0.793
+epoch 273	train_loss : 0.26404	 val_accuracy : 0.793
+epoch 274	train_loss : 0.24438	 val_accuracy : 0.796
+epoch 275	train_loss : 0.25359	 val_accuracy : 0.799
+epoch 276	train_loss : 0.22988	 val_accuracy : 0.796
+epoch 277	train_loss : 0.27926	 val_accuracy : 0.795
+epoch 278	train_loss : 0.29053	 val_accuracy : 0.793
+epoch 279	train_loss : 0.23569	 val_accuracy : 0.796
+epoch 280	train_loss : 0.30189	 val_accuracy : 0.797
+epoch 281	train_loss : 0.23268	 val_accuracy : 0.793
+epoch 282	train_loss : 0.25789	 val_accuracy : 0.795
+epoch 283	train_loss : 0.26028	 val_accuracy : 0.794
+epoch 284	train_loss : 0.24304	 val_accuracy : 0.796
+epoch 285	train_loss : 0.22985	 val_accuracy : 0.791
+epoch 286	train_loss : 0.25990	 val_accuracy : 0.793
+epoch 287	train_loss : 0.26899	 val_accuracy : 0.790
+epoch 288	train_loss : 0.22683	 val_accuracy : 0.794
+epoch 289	train_loss : 0.24075	 val_accuracy : 0.790
+epoch 290	train_loss : 0.29705	 val_accuracy : 0.793
+epoch 291	train_loss : 0.24407	 val_accuracy : 0.789
+epoch 292	train_loss : 0.23478	 val_accuracy : 0.790
+epoch 293	train_loss : 0.22695	 val_accuracy : 0.793
+epoch 294	train_loss : 0.25475	 val_accuracy : 0.789
+epoch 295	train_loss : 0.27012	 val_accuracy : 0.795
+epoch 296	train_loss : 0.24518	 val_accuracy : 0.792
+epoch 297	train_loss : 0.27338	 val_accuracy : 0.792
+epoch 298	train_loss : 0.23069	 val_accuracy : 0.792
+epoch 299	train_loss : 0.23294	 val_accuracy : 0.792
+epoch 300	train_loss : 0.23461	 val_accuracy : 0.792
+epoch 301	train_loss : 0.20626	 val_accuracy : 0.798
+epoch 302	train_loss : 0.26940	 val_accuracy : 0.791
+epoch 303	train_loss : 0.27513	 val_accuracy : 0.790
+epoch 304	train_loss : 0.25120	 val_accuracy : 0.790
+epoch 305	train_loss : 0.19908	 val_accuracy : 0.791
+epoch 306	train_loss : 0.23986	 val_accuracy : 0.795
+epoch 307	train_loss : 0.26629	 val_accuracy : 0.795
+epoch 308	train_loss : 0.25713	 val_accuracy : 0.793
+epoch 309	train_loss : 0.22234	 val_accuracy : 0.795
+epoch 310	train_loss : 0.24111	 val_accuracy : 0.793
+epoch 311	train_loss : 0.25895	 val_accuracy : 0.792
+epoch 312	train_loss : 0.21908	 val_accuracy : 0.793
+epoch 313	train_loss : 0.23094	 val_accuracy : 0.791
+epoch 314	train_loss : 0.24158	 val_accuracy : 0.789
+epoch 315	train_loss : 0.21819	 val_accuracy : 0.790
+epoch 316	train_loss : 0.21907	 val_accuracy : 0.794
+epoch 317	train_loss : 0.28588	 val_accuracy : 0.791
+epoch 318	train_loss : 0.22231	 val_accuracy : 0.792
+epoch 319	train_loss : 0.24559	 val_accuracy : 0.792
+epoch 320	train_loss : 0.25918	 val_accuracy : 0.788
+epoch 321	train_loss : 0.24685	 val_accuracy : 0.790
+epoch 322	train_loss : 0.27588	 val_accuracy : 0.791
+epoch 323	train_loss : 0.25797	 val_accuracy : 0.790
+epoch 324	train_loss : 0.26845	 val_accuracy : 0.789
+epoch 325	train_loss : 0.25863	 val_accuracy : 0.788
+epoch 326	train_loss : 0.23456	 val_accuracy : 0.790
+epoch 327	train_loss : 0.23882	 val_accuracy : 0.795
+epoch 328	train_loss : 0.22572	 val_accuracy : 0.790
+epoch 329	train_loss : 0.23774	 val_accuracy : 0.784
+epoch 330	train_loss : 0.22935	 val_accuracy : 0.787
+epoch 331	train_loss : 0.25121	 val_accuracy : 0.792
+epoch 332	train_loss : 0.21652	 val_accuracy : 0.794
+epoch 333	train_loss : 0.27938	 val_accuracy : 0.793
+epoch 334	train_loss : 0.21887	 val_accuracy : 0.790
+epoch 335	train_loss : 0.18997	 val_accuracy : 0.791
+epoch 336	train_loss : 0.20083	 val_accuracy : 0.788
+epoch 337	train_loss : 0.26535	 val_accuracy : 0.791
+epoch 338	train_loss : 0.25695	 val_accuracy : 0.790
+epoch 339	train_loss : 0.24046	 val_accuracy : 0.792
+epoch 340	train_loss : 0.23714	 val_accuracy : 0.795
+epoch 341	train_loss : 0.21029	 val_accuracy : 0.791
+epoch 342	train_loss : 0.23600	 val_accuracy : 0.787
+epoch 343	train_loss : 0.22275	 val_accuracy : 0.791
+epoch 344	train_loss : 0.23495	 val_accuracy : 0.790
+epoch 345	train_loss : 0.28670	 val_accuracy : 0.790
+epoch 346	train_loss : 0.25466	 val_accuracy : 0.785
+epoch 347	train_loss : 0.21509	 val_accuracy : 0.790
+epoch 348	train_loss : 0.27041	 val_accuracy : 0.794
+epoch 349	train_loss : 0.23215	 val_accuracy : 0.791
+epoch 350	train_loss : 0.20671	 val_accuracy : 0.791
+epoch 351	train_loss : 0.24886	 val_accuracy : 0.792
+epoch 352	train_loss : 0.22271	 val_accuracy : 0.792
+epoch 353	train_loss : 0.27093	 val_accuracy : 0.788
+epoch 354	train_loss : 0.23921	 val_accuracy : 0.789
+epoch 355	train_loss : 0.25383	 val_accuracy : 0.788
+epoch 356	train_loss : 0.24397	 val_accuracy : 0.795
+epoch 357	train_loss : 0.22007	 val_accuracy : 0.787
+epoch 358	train_loss : 0.21926	 val_accuracy : 0.792
+epoch 359	train_loss : 0.22262	 val_accuracy : 0.790
+epoch 360	train_loss : 0.22076	 val_accuracy : 0.784
+epoch 361	train_loss : 0.18601	 val_accuracy : 0.788
+epoch 362	train_loss : 0.30802	 val_accuracy : 0.794
+epoch 363	train_loss : 0.22036	 val_accuracy : 0.792
+epoch 364	train_loss : 0.24483	 val_accuracy : 0.788
+epoch 365	train_loss : 0.20365	 val_accuracy : 0.787
+epoch 366	train_loss : 0.20158	 val_accuracy : 0.788
+epoch 367	train_loss : 0.20275	 val_accuracy : 0.788
+epoch 368	train_loss : 0.24424	 val_accuracy : 0.794
+epoch 369	train_loss : 0.18397	 val_accuracy : 0.792
+epoch 370	train_loss : 0.18953	 val_accuracy : 0.789
+epoch 371	train_loss : 0.24703	 val_accuracy : 0.789
+epoch 372	train_loss : 0.27064	 val_accuracy : 0.788
+epoch 373	train_loss : 0.27162	 val_accuracy : 0.789
+epoch 374	train_loss : 0.19301	 val_accuracy : 0.791
+epoch 375	train_loss : 0.16394	 val_accuracy : 0.790
+epoch 376	train_loss : 0.24296	 val_accuracy : 0.790
+epoch 377	train_loss : 0.22685	 val_accuracy : 0.786
+epoch 378	train_loss : 0.19059	 val_accuracy : 0.790
+epoch 379	train_loss : 0.20099	 val_accuracy : 0.789
+epoch 380	train_loss : 0.22702	 val_accuracy : 0.782
+epoch 381	train_loss : 0.16482	 val_accuracy : 0.787
+epoch 382	train_loss : 0.25612	 val_accuracy : 0.787
+epoch 383	train_loss : 0.19896	 val_accuracy : 0.789
+epoch 384	train_loss : 0.21272	 val_accuracy : 0.790
+epoch 385	train_loss : 0.22912	 val_accuracy : 0.786
+epoch 386	train_loss : 0.17294	 val_accuracy : 0.787
+epoch 387	train_loss : 0.26580	 val_accuracy : 0.787
+epoch 388	train_loss : 0.21190	 val_accuracy : 0.790
+epoch 389	train_loss : 0.19732	 val_accuracy : 0.792
+epoch 390	train_loss : 0.27944	 val_accuracy : 0.790
+epoch 391	train_loss : 0.23390	 val_accuracy : 0.788
+epoch 392	train_loss : 0.25408	 val_accuracy : 0.788
+epoch 393	train_loss : 0.24315	 val_accuracy : 0.791
+epoch 394	train_loss : 0.22620	 val_accuracy : 0.790
+epoch 395	train_loss : 0.20685	 val_accuracy : 0.788
+epoch 396	train_loss : 0.30838	 val_accuracy : 0.785
+epoch 397	train_loss : 0.24096	 val_accuracy : 0.787
+epoch 398	train_loss : 0.24056	 val_accuracy : 0.786
+epoch 399	train_loss : 0.20461	 val_accuracy : 0.783
+epoch 400	train_loss : 0.18963	 val_accuracy : 0.785
+epoch 401	train_loss : 0.26940	 val_accuracy : 0.790
+epoch 402	train_loss : 0.22227	 val_accuracy : 0.788
+epoch 403	train_loss : 0.22891	 val_accuracy : 0.786
+epoch 404	train_loss : 0.27453	 val_accuracy : 0.787
+epoch 405	train_loss : 0.21298	 val_accuracy : 0.790
+epoch 406	train_loss : 0.19529	 val_accuracy : 0.783
+epoch 407	train_loss : 0.20157	 val_accuracy : 0.785
+epoch 408	train_loss : 0.23251	 val_accuracy : 0.789
+epoch 409	train_loss : 0.25963	 val_accuracy : 0.785
+epoch 410	train_loss : 0.24087	 val_accuracy : 0.788
+epoch 411	train_loss : 0.23895	 val_accuracy : 0.783
+epoch 412	train_loss : 0.20894	 val_accuracy : 0.787
+epoch 413	train_loss : 0.23351	 val_accuracy : 0.787
+epoch 414	train_loss : 0.22021	 val_accuracy : 0.786
+epoch 415	train_loss : 0.24675	 val_accuracy : 0.791
+epoch 416	train_loss : 0.23858	 val_accuracy : 0.791
+epoch 417	train_loss : 0.21007	 val_accuracy : 0.784
+epoch 418	train_loss : 0.21457	 val_accuracy : 0.784
+epoch 419	train_loss : 0.21822	 val_accuracy : 0.790
+epoch 420	train_loss : 0.21780	 val_accuracy : 0.789
+epoch 421	train_loss : 0.23330	 val_accuracy : 0.793
+epoch 422	train_loss : 0.20875	 val_accuracy : 0.792
+epoch 423	train_loss : 0.22147	 val_accuracy : 0.787
+epoch 424	train_loss : 0.20276	 val_accuracy : 0.789
+epoch 425	train_loss : 0.21729	 val_accuracy : 0.789
+epoch 426	train_loss : 0.27587	 val_accuracy : 0.788
+epoch 427	train_loss : 0.22215	 val_accuracy : 0.789
+epoch 428	train_loss : 0.24362	 val_accuracy : 0.791
+epoch 429	train_loss : 0.22697	 val_accuracy : 0.786
+epoch 430	train_loss : 0.23563	 val_accuracy : 0.788
+epoch 431	train_loss : 0.21919	 val_accuracy : 0.783
+epoch 432	train_loss : 0.24207	 val_accuracy : 0.785
+epoch 433	train_loss : 0.19001	 val_accuracy : 0.785
+epoch 434	train_loss : 0.22544	 val_accuracy : 0.787
+epoch 435	train_loss : 0.21563	 val_accuracy : 0.790
+epoch 436	train_loss : 0.21267	 val_accuracy : 0.783
+epoch 437	train_loss : 0.22401	 val_accuracy : 0.782
+epoch 438	train_loss : 0.18320	 val_accuracy : 0.786
+epoch 439	train_loss : 0.19838	 val_accuracy : 0.784
+epoch 440	train_loss : 0.19167	 val_accuracy : 0.788
+epoch 441	train_loss : 0.25578	 val_accuracy : 0.784
+epoch 442	train_loss : 0.26345	 val_accuracy : 0.788
+epoch 443	train_loss : 0.23698	 val_accuracy : 0.788
+epoch 444	train_loss : 0.22555	 val_accuracy : 0.781
+epoch 445	train_loss : 0.22136	 val_accuracy : 0.785
+epoch 446	train_loss : 0.21544	 val_accuracy : 0.782
+epoch 447	train_loss : 0.20922	 val_accuracy : 0.788
+epoch 448	train_loss : 0.18450	 val_accuracy : 0.784
+epoch 449	train_loss : 0.21589	 val_accuracy : 0.784
+epoch 450	train_loss : 0.21764	 val_accuracy : 0.788
+epoch 451	train_loss : 0.22599	 val_accuracy : 0.790
+epoch 452	train_loss : 0.24106	 val_accuracy : 0.785
+epoch 453	train_loss : 0.18001	 val_accuracy : 0.791
+epoch 454	train_loss : 0.23086	 val_accuracy : 0.785
+epoch 455	train_loss : 0.21707	 val_accuracy : 0.788
+epoch 456	train_loss : 0.20817	 val_accuracy : 0.788
+epoch 457	train_loss : 0.17833	 val_accuracy : 0.785
+epoch 458	train_loss : 0.23315	 val_accuracy : 0.783
+epoch 459	train_loss : 0.18645	 val_accuracy : 0.785
+epoch 460	train_loss : 0.22142	 val_accuracy : 0.787
+epoch 461	train_loss : 0.19318	 val_accuracy : 0.789
+epoch 462	train_loss : 0.21851	 val_accuracy : 0.786
+epoch 463	train_loss : 0.25060	 val_accuracy : 0.786
+epoch 464	train_loss : 0.19879	 val_accuracy : 0.787
+epoch 465	train_loss : 0.26197	 val_accuracy : 0.783
+epoch 466	train_loss : 0.22844	 val_accuracy : 0.783
+epoch 467	train_loss : 0.17879	 val_accuracy : 0.784
+epoch 468	train_loss : 0.26230	 val_accuracy : 0.787
+epoch 469	train_loss : 0.17293	 val_accuracy : 0.789
+epoch 470	train_loss : 0.19981	 val_accuracy : 0.786
+epoch 471	train_loss : 0.18388	 val_accuracy : 0.781
+epoch 472	train_loss : 0.25624	 val_accuracy : 0.786
+epoch 473	train_loss : 0.21499	 val_accuracy : 0.783
+epoch 474	train_loss : 0.23521	 val_accuracy : 0.787
+epoch 475	train_loss : 0.26098	 val_accuracy : 0.789
+epoch 476	train_loss : 0.27233	 val_accuracy : 0.786
+epoch 477	train_loss : 0.22337	 val_accuracy : 0.787
+epoch 478	train_loss : 0.21638	 val_accuracy : 0.785
+epoch 479	train_loss : 0.24594	 val_accuracy : 0.784
+epoch 480	train_loss : 0.23306	 val_accuracy : 0.789
+epoch 481	train_loss : 0.20089	 val_accuracy : 0.785
+epoch 482	train_loss : 0.16315	 val_accuracy : 0.782
+epoch 483	train_loss : 0.17704	 val_accuracy : 0.787
+epoch 484	train_loss : 0.19250	 val_accuracy : 0.788
+epoch 485	train_loss : 0.26369	 val_accuracy : 0.785
+epoch 486	train_loss : 0.22676	 val_accuracy : 0.783
+epoch 487	train_loss : 0.23083	 val_accuracy : 0.786
+epoch 488	train_loss : 0.22242	 val_accuracy : 0.783
+epoch 489	train_loss : 0.18181	 val_accuracy : 0.786
+epoch 490	train_loss : 0.22158	 val_accuracy : 0.787
+epoch 491	train_loss : 0.17409	 val_accuracy : 0.782
+epoch 492	train_loss : 0.19123	 val_accuracy : 0.783
+epoch 493	train_loss : 0.19960	 val_accuracy : 0.785
+epoch 494	train_loss : 0.20587	 val_accuracy : 0.790
+epoch 495	train_loss : 0.22474	 val_accuracy : 0.787
+epoch 496	train_loss : 0.21690	 val_accuracy : 0.789
+epoch 497	train_loss : 0.31699	 val_accuracy : 0.783
+epoch 498	train_loss : 0.27346	 val_accuracy : 0.785
+epoch 499	train_loss : 0.23050	 val_accuracy : 0.782
+epoch 500	train_loss : 0.23218	 val_accuracy : 0.785
+Total training time is 41.853875 min
+Best model accuracy of the validation dataset : 0.837890625
+
+ ----------------------------------------------------------- 
+
+Learning rate: 0.001
+Batch size: 500
+Number of batch: 250
+
+Training......
+Save the best model at the 1 epoch! Accuracy: 0.704
+Save the best model at the 1 epoch! Accuracy: 0.708
+Save the best model at the 1 epoch! Accuracy: 0.712
+Save the best model at the 1 epoch! Accuracy: 0.713
+Save the best model at the 1 epoch! Accuracy: 0.713
+Save the best model at the 1 epoch! Accuracy: 0.714
+Save the best model at the 1 epoch! Accuracy: 0.715
+Save the best model at the 1 epoch! Accuracy: 0.723
+Save the best model at the 1 epoch! Accuracy: 0.726
+Save the best model at the 1 epoch! Accuracy: 0.732
+Save the best model at the 1 epoch! Accuracy: 0.736
+epoch 1	train_loss : 0.57423	 val_accuracy : 0.719
+Save the best model at the 2 epoch! Accuracy: 0.737
+Save the best model at the 2 epoch! Accuracy: 0.739
+Save the best model at the 2 epoch! Accuracy: 0.740
+Save the best model at the 2 epoch! Accuracy: 0.743
+Save the best model at the 2 epoch! Accuracy: 0.744
+Save the best model at the 2 epoch! Accuracy: 0.745
+Save the best model at the 2 epoch! Accuracy: 0.746
+Save the best model at the 2 epoch! Accuracy: 0.748
+Save the best model at the 2 epoch! Accuracy: 0.753
+Save the best model at the 2 epoch! Accuracy: 0.755
+Save the best model at the 2 epoch! Accuracy: 0.757
+Save the best model at the 2 epoch! Accuracy: 0.758
+Save the best model at the 2 epoch! Accuracy: 0.761
+Save the best model at the 2 epoch! Accuracy: 0.763
+Save the best model at the 2 epoch! Accuracy: 0.763
+Save the best model at the 2 epoch! Accuracy: 0.764
+Save the best model at the 2 epoch! Accuracy: 0.768
+Save the best model at the 2 epoch! Accuracy: 0.768
+Save the best model at the 2 epoch! Accuracy: 0.769
+epoch 2	train_loss : 0.57863	 val_accuracy : 0.761
+Save the best model at the 3 epoch! Accuracy: 0.769
+Save the best model at the 3 epoch! Accuracy: 0.770
+Save the best model at the 3 epoch! Accuracy: 0.770
+Save the best model at the 3 epoch! Accuracy: 0.771
+Save the best model at the 3 epoch! Accuracy: 0.772
+Save the best model at the 3 epoch! Accuracy: 0.773
+Save the best model at the 3 epoch! Accuracy: 0.773
+Save the best model at the 3 epoch! Accuracy: 0.776
+Save the best model at the 3 epoch! Accuracy: 0.780
+Save the best model at the 3 epoch! Accuracy: 0.780
+Save the best model at the 3 epoch! Accuracy: 0.782
+Save the best model at the 3 epoch! Accuracy: 0.784
+epoch 3	train_loss : 0.55154	 val_accuracy : 0.778
+Save the best model at the 4 epoch! Accuracy: 0.785
+Save the best model at the 4 epoch! Accuracy: 0.787
+Save the best model at the 4 epoch! Accuracy: 0.788
+Save the best model at the 4 epoch! Accuracy: 0.789
+Save the best model at the 4 epoch! Accuracy: 0.790
+Save the best model at the 4 epoch! Accuracy: 0.794
+Save the best model at the 4 epoch! Accuracy: 0.795
+epoch 4	train_loss : 0.50035	 val_accuracy : 0.785
+Save the best model at the 5 epoch! Accuracy: 0.796
+Save the best model at the 5 epoch! Accuracy: 0.796
+Save the best model at the 5 epoch! Accuracy: 0.797
+epoch 5	train_loss : 0.54017	 val_accuracy : 0.788
+Save the best model at the 6 epoch! Accuracy: 0.797
+Save the best model at the 6 epoch! Accuracy: 0.799
+Save the best model at the 6 epoch! Accuracy: 0.800
+Save the best model at the 6 epoch! Accuracy: 0.800
+Save the best model at the 6 epoch! Accuracy: 0.801
+Save the best model at the 6 epoch! Accuracy: 0.801
+Save the best model at the 6 epoch! Accuracy: 0.802
+Save the best model at the 6 epoch! Accuracy: 0.804
+Save the best model at the 6 epoch! Accuracy: 0.804
+Save the best model at the 6 epoch! Accuracy: 0.805
+Save the best model at the 6 epoch! Accuracy: 0.807
+Save the best model at the 6 epoch! Accuracy: 0.808
+epoch 6	train_loss : 0.55530	 val_accuracy : 0.803
+Save the best model at the 7 epoch! Accuracy: 0.808
+Save the best model at the 7 epoch! Accuracy: 0.809
+Save the best model at the 7 epoch! Accuracy: 0.810
+epoch 7	train_loss : 0.47425	 val_accuracy : 0.801
+Save the best model at the 8 epoch! Accuracy: 0.811
+Save the best model at the 8 epoch! Accuracy: 0.811
+Save the best model at the 8 epoch! Accuracy: 0.812
+Save the best model at the 8 epoch! Accuracy: 0.813
+Save the best model at the 8 epoch! Accuracy: 0.814
+Save the best model at the 8 epoch! Accuracy: 0.814
+epoch 8	train_loss : 0.50471	 val_accuracy : 0.808
+Save the best model at the 9 epoch! Accuracy: 0.816
+Save the best model at the 9 epoch! Accuracy: 0.816
+Save the best model at the 9 epoch! Accuracy: 0.819
+epoch 9	train_loss : 0.46367	 val_accuracy : 0.814
+Save the best model at the 10 epoch! Accuracy: 0.819
+epoch 10	train_loss : 0.48130	 val_accuracy : 0.813
+Save the best model at the 11 epoch! Accuracy: 0.819
+Save the best model at the 11 epoch! Accuracy: 0.821
+Save the best model at the 11 epoch! Accuracy: 0.821
+epoch 11	train_loss : 0.53385	 val_accuracy : 0.817
+Save the best model at the 12 epoch! Accuracy: 0.822
+Save the best model at the 12 epoch! Accuracy: 0.823
+Save the best model at the 12 epoch! Accuracy: 0.825
+Save the best model at the 12 epoch! Accuracy: 0.825
+epoch 12	train_loss : 0.48322	 val_accuracy : 0.820
+Save the best model at the 13 epoch! Accuracy: 0.827
+epoch 13	train_loss : 0.47243	 val_accuracy : 0.821
+Save the best model at the 14 epoch! Accuracy: 0.827
+epoch 14	train_loss : 0.48144	 val_accuracy : 0.822
+Save the best model at the 15 epoch! Accuracy: 0.828
+epoch 15	train_loss : 0.47242	 val_accuracy : 0.823
+epoch 16	train_loss : 0.40449	 val_accuracy : 0.818
+epoch 17	train_loss : 0.49773	 val_accuracy : 0.821
+Save the best model at the 18 epoch! Accuracy: 0.829
+epoch 18	train_loss : 0.47753	 val_accuracy : 0.821
+Save the best model at the 19 epoch! Accuracy: 0.830
+epoch 19	train_loss : 0.45037	 val_accuracy : 0.818
+Save the best model at the 20 epoch! Accuracy: 0.830
+Save the best model at the 20 epoch! Accuracy: 0.830
+epoch 20	train_loss : 0.38608	 val_accuracy : 0.821
+Save the best model at the 21 epoch! Accuracy: 0.831
+Save the best model at the 21 epoch! Accuracy: 0.832
+epoch 21	train_loss : 0.46231	 val_accuracy : 0.828
+Save the best model at the 22 epoch! Accuracy: 0.832
+Save the best model at the 22 epoch! Accuracy: 0.832
+epoch 22	train_loss : 0.46641	 val_accuracy : 0.830
+epoch 23	train_loss : 0.47050	 val_accuracy : 0.827
+epoch 24	train_loss : 0.44938	 val_accuracy : 0.824
+epoch 25	train_loss : 0.45243	 val_accuracy : 0.826
+Save the best model at the 26 epoch! Accuracy: 0.833
+Save the best model at the 26 epoch! Accuracy: 0.833
+Save the best model at the 26 epoch! Accuracy: 0.834
+epoch 26	train_loss : 0.45814	 val_accuracy : 0.828
+Save the best model at the 27 epoch! Accuracy: 0.835
+epoch 27	train_loss : 0.43159	 val_accuracy : 0.827
+epoch 28	train_loss : 0.46549	 val_accuracy : 0.824
+epoch 29	train_loss : 0.44773	 val_accuracy : 0.826
+epoch 30	train_loss : 0.36094	 val_accuracy : 0.825
+epoch 31	train_loss : 0.42194	 val_accuracy : 0.820
+epoch 32	train_loss : 0.42945	 val_accuracy : 0.823
+epoch 33	train_loss : 0.45037	 val_accuracy : 0.818
+Save the best model at the 34 epoch! Accuracy: 0.835
+epoch 34	train_loss : 0.41973	 val_accuracy : 0.830
+epoch 35	train_loss : 0.42478	 val_accuracy : 0.830
+epoch 36	train_loss : 0.41529	 val_accuracy : 0.820
+epoch 37	train_loss : 0.44221	 val_accuracy : 0.828
+epoch 38	train_loss : 0.38853	 val_accuracy : 0.823
+epoch 39	train_loss : 0.37016	 val_accuracy : 0.823
+epoch 40	train_loss : 0.39485	 val_accuracy : 0.825
+epoch 41	train_loss : 0.40041	 val_accuracy : 0.826
+epoch 42	train_loss : 0.39469	 val_accuracy : 0.819
+epoch 43	train_loss : 0.38220	 val_accuracy : 0.823
+epoch 44	train_loss : 0.39625	 val_accuracy : 0.826
+epoch 45	train_loss : 0.43377	 val_accuracy : 0.817
+epoch 46	train_loss : 0.36789	 val_accuracy : 0.822
+epoch 47	train_loss : 0.35445	 val_accuracy : 0.828
+epoch 48	train_loss : 0.37312	 val_accuracy : 0.817
+epoch 49	train_loss : 0.39547	 val_accuracy : 0.822
+epoch 50	train_loss : 0.38929	 val_accuracy : 0.820
+epoch 51	train_loss : 0.38955	 val_accuracy : 0.825
+epoch 52	train_loss : 0.42084	 val_accuracy : 0.825
+epoch 53	train_loss : 0.35632	 val_accuracy : 0.828
+epoch 54	train_loss : 0.34551	 val_accuracy : 0.824
+epoch 55	train_loss : 0.32945	 val_accuracy : 0.826
+epoch 56	train_loss : 0.36172	 val_accuracy : 0.819
+epoch 57	train_loss : 0.36096	 val_accuracy : 0.821
+epoch 58	train_loss : 0.36422	 val_accuracy : 0.817
+epoch 59	train_loss : 0.39683	 val_accuracy : 0.822
+epoch 60	train_loss : 0.41186	 val_accuracy : 0.826
+epoch 61	train_loss : 0.35725	 val_accuracy : 0.821
+epoch 62	train_loss : 0.36825	 val_accuracy : 0.821
+epoch 63	train_loss : 0.37827	 val_accuracy : 0.822
+epoch 64	train_loss : 0.36895	 val_accuracy : 0.817
+epoch 65	train_loss : 0.33894	 val_accuracy : 0.817
+epoch 66	train_loss : 0.42589	 val_accuracy : 0.817
+epoch 67	train_loss : 0.31346	 val_accuracy : 0.817
+epoch 68	train_loss : 0.36990	 val_accuracy : 0.817
+epoch 69	train_loss : 0.34275	 val_accuracy : 0.818
+epoch 70	train_loss : 0.31432	 val_accuracy : 0.815
+epoch 71	train_loss : 0.35806	 val_accuracy : 0.816
+epoch 72	train_loss : 0.37046	 val_accuracy : 0.821
+epoch 73	train_loss : 0.37914	 val_accuracy : 0.814
+epoch 74	train_loss : 0.34582	 val_accuracy : 0.816
+epoch 75	train_loss : 0.37020	 val_accuracy : 0.816
+epoch 76	train_loss : 0.33842	 val_accuracy : 0.812
+epoch 77	train_loss : 0.31140	 val_accuracy : 0.815
+epoch 78	train_loss : 0.36368	 val_accuracy : 0.813
+epoch 79	train_loss : 0.32421	 val_accuracy : 0.814
+epoch 80	train_loss : 0.37931	 val_accuracy : 0.812
+epoch 81	train_loss : 0.38302	 val_accuracy : 0.813
+epoch 82	train_loss : 0.33105	 val_accuracy : 0.811
+epoch 83	train_loss : 0.36587	 val_accuracy : 0.813
+epoch 84	train_loss : 0.32134	 val_accuracy : 0.813
+epoch 85	train_loss : 0.30324	 val_accuracy : 0.808
+epoch 86	train_loss : 0.32843	 val_accuracy : 0.813
+epoch 87	train_loss : 0.29881	 val_accuracy : 0.812
+epoch 88	train_loss : 0.38097	 val_accuracy : 0.811
+epoch 89	train_loss : 0.33128	 val_accuracy : 0.816
+epoch 90	train_loss : 0.35054	 val_accuracy : 0.808
+epoch 91	train_loss : 0.35307	 val_accuracy : 0.812
+epoch 92	train_loss : 0.32858	 val_accuracy : 0.818
+epoch 93	train_loss : 0.31297	 val_accuracy : 0.813
+epoch 94	train_loss : 0.32858	 val_accuracy : 0.805
+epoch 95	train_loss : 0.38584	 val_accuracy : 0.811
+epoch 96	train_loss : 0.33597	 val_accuracy : 0.809
+epoch 97	train_loss : 0.39038	 val_accuracy : 0.814
+epoch 98	train_loss : 0.27988	 val_accuracy : 0.808
+epoch 99	train_loss : 0.30746	 val_accuracy : 0.806
+epoch 100	train_loss : 0.37240	 val_accuracy : 0.802
+epoch 101	train_loss : 0.31631	 val_accuracy : 0.809
+epoch 102	train_loss : 0.36776	 val_accuracy : 0.805
+epoch 103	train_loss : 0.29590	 val_accuracy : 0.807
+epoch 104	train_loss : 0.30940	 val_accuracy : 0.804
+epoch 105	train_loss : 0.24960	 val_accuracy : 0.806
+epoch 106	train_loss : 0.32899	 val_accuracy : 0.806
+epoch 107	train_loss : 0.30921	 val_accuracy : 0.811
+epoch 108	train_loss : 0.28225	 val_accuracy : 0.810
+epoch 109	train_loss : 0.30895	 val_accuracy : 0.807
+epoch 110	train_loss : 0.28524	 val_accuracy : 0.805
+epoch 111	train_loss : 0.32813	 val_accuracy : 0.805
+epoch 112	train_loss : 0.33851	 val_accuracy : 0.804
+epoch 113	train_loss : 0.33744	 val_accuracy : 0.805
+epoch 114	train_loss : 0.34959	 val_accuracy : 0.804
+epoch 115	train_loss : 0.30179	 val_accuracy : 0.805
+epoch 116	train_loss : 0.28593	 val_accuracy : 0.804
+epoch 117	train_loss : 0.29012	 val_accuracy : 0.802
+epoch 118	train_loss : 0.30232	 val_accuracy : 0.806
+epoch 119	train_loss : 0.33406	 val_accuracy : 0.806
+epoch 120	train_loss : 0.29565	 val_accuracy : 0.804
+epoch 121	train_loss : 0.31525	 val_accuracy : 0.806
+epoch 122	train_loss : 0.29121	 val_accuracy : 0.802
+epoch 123	train_loss : 0.26797	 val_accuracy : 0.807
+epoch 124	train_loss : 0.25603	 val_accuracy : 0.801
+epoch 125	train_loss : 0.30877	 val_accuracy : 0.805
+epoch 126	train_loss : 0.27423	 val_accuracy : 0.801
+epoch 127	train_loss : 0.29265	 val_accuracy : 0.805
+epoch 128	train_loss : 0.32325	 val_accuracy : 0.796
+epoch 129	train_loss : 0.28185	 val_accuracy : 0.802
+epoch 130	train_loss : 0.27797	 val_accuracy : 0.802
+epoch 131	train_loss : 0.31318	 val_accuracy : 0.802
+epoch 132	train_loss : 0.27692	 val_accuracy : 0.801
+epoch 133	train_loss : 0.26115	 val_accuracy : 0.800
+epoch 134	train_loss : 0.26818	 val_accuracy : 0.805
+epoch 135	train_loss : 0.29004	 val_accuracy : 0.800
+epoch 136	train_loss : 0.28056	 val_accuracy : 0.799
+epoch 137	train_loss : 0.28535	 val_accuracy : 0.800
+epoch 138	train_loss : 0.29999	 val_accuracy : 0.798
+epoch 139	train_loss : 0.33702	 val_accuracy : 0.802
+epoch 140	train_loss : 0.26878	 val_accuracy : 0.804
+epoch 141	train_loss : 0.29258	 val_accuracy : 0.800
+epoch 142	train_loss : 0.27515	 val_accuracy : 0.797
+epoch 143	train_loss : 0.27727	 val_accuracy : 0.799
+epoch 144	train_loss : 0.23222	 val_accuracy : 0.796
+epoch 145	train_loss : 0.25111	 val_accuracy : 0.801
+epoch 146	train_loss : 0.32817	 val_accuracy : 0.797
+epoch 147	train_loss : 0.32470	 val_accuracy : 0.795
+epoch 148	train_loss : 0.27948	 val_accuracy : 0.802
+epoch 149	train_loss : 0.28692	 val_accuracy : 0.796
+epoch 150	train_loss : 0.27255	 val_accuracy : 0.798
+epoch 151	train_loss : 0.26695	 val_accuracy : 0.790
+epoch 152	train_loss : 0.27893	 val_accuracy : 0.799
+epoch 153	train_loss : 0.28254	 val_accuracy : 0.805
+epoch 154	train_loss : 0.26037	 val_accuracy : 0.800
+epoch 155	train_loss : 0.31662	 val_accuracy : 0.797
+epoch 156	train_loss : 0.26042	 val_accuracy : 0.797
+epoch 157	train_loss : 0.26974	 val_accuracy : 0.795
+epoch 158	train_loss : 0.26920	 val_accuracy : 0.795
+epoch 159	train_loss : 0.29601	 val_accuracy : 0.800
+epoch 160	train_loss : 0.29453	 val_accuracy : 0.800
+epoch 161	train_loss : 0.29319	 val_accuracy : 0.795
+epoch 162	train_loss : 0.29905	 val_accuracy : 0.793
+epoch 163	train_loss : 0.25488	 val_accuracy : 0.800
+epoch 164	train_loss : 0.27183	 val_accuracy : 0.798
+epoch 165	train_loss : 0.29870	 val_accuracy : 0.793
+epoch 166	train_loss : 0.25335	 val_accuracy : 0.797
+epoch 167	train_loss : 0.24990	 val_accuracy : 0.794
+epoch 168	train_loss : 0.31791	 val_accuracy : 0.790
+epoch 169	train_loss : 0.27282	 val_accuracy : 0.792
+epoch 170	train_loss : 0.31981	 val_accuracy : 0.800
+epoch 171	train_loss : 0.23870	 val_accuracy : 0.797
+epoch 172	train_loss : 0.34047	 val_accuracy : 0.794
+epoch 173	train_loss : 0.23826	 val_accuracy : 0.792
+epoch 174	train_loss : 0.26151	 val_accuracy : 0.796
+epoch 175	train_loss : 0.28401	 val_accuracy : 0.794
+epoch 176	train_loss : 0.23121	 val_accuracy : 0.798
+epoch 177	train_loss : 0.25988	 val_accuracy : 0.793
+epoch 178	train_loss : 0.25395	 val_accuracy : 0.796
+epoch 179	train_loss : 0.29528	 val_accuracy : 0.800
+epoch 180	train_loss : 0.24075	 val_accuracy : 0.794
+epoch 181	train_loss : 0.23090	 val_accuracy : 0.798
+epoch 182	train_loss : 0.29554	 val_accuracy : 0.792
+epoch 183	train_loss : 0.24832	 val_accuracy : 0.796
+epoch 184	train_loss : 0.27369	 val_accuracy : 0.795
+epoch 185	train_loss : 0.27360	 val_accuracy : 0.798
+epoch 186	train_loss : 0.25737	 val_accuracy : 0.796
+epoch 187	train_loss : 0.28589	 val_accuracy : 0.791
+epoch 188	train_loss : 0.33451	 val_accuracy : 0.791
+epoch 189	train_loss : 0.22523	 val_accuracy : 0.794
+epoch 190	train_loss : 0.26706	 val_accuracy : 0.795
+epoch 191	train_loss : 0.24444	 val_accuracy : 0.795
+epoch 192	train_loss : 0.24978	 val_accuracy : 0.793
+epoch 193	train_loss : 0.24318	 val_accuracy : 0.795
+epoch 194	train_loss : 0.21105	 val_accuracy : 0.796
+epoch 195	train_loss : 0.23756	 val_accuracy : 0.793
+epoch 196	train_loss : 0.23840	 val_accuracy : 0.794
+epoch 197	train_loss : 0.26377	 val_accuracy : 0.790
+epoch 198	train_loss : 0.25834	 val_accuracy : 0.790
+epoch 199	train_loss : 0.29154	 val_accuracy : 0.793
+epoch 200	train_loss : 0.30173	 val_accuracy : 0.793
+epoch 201	train_loss : 0.22932	 val_accuracy : 0.796
+epoch 202	train_loss : 0.25825	 val_accuracy : 0.786
+epoch 203	train_loss : 0.26361	 val_accuracy : 0.788
+epoch 204	train_loss : 0.31643	 val_accuracy : 0.788
+epoch 205	train_loss : 0.27623	 val_accuracy : 0.792
+epoch 206	train_loss : 0.23465	 val_accuracy : 0.793
+epoch 207	train_loss : 0.20804	 val_accuracy : 0.790
+epoch 208	train_loss : 0.24421	 val_accuracy : 0.784
+epoch 209	train_loss : 0.29563	 val_accuracy : 0.790
+epoch 210	train_loss : 0.27499	 val_accuracy : 0.792
+epoch 211	train_loss : 0.23125	 val_accuracy : 0.789
+epoch 212	train_loss : 0.26736	 val_accuracy : 0.788
+epoch 213	train_loss : 0.24699	 val_accuracy : 0.793
+epoch 214	train_loss : 0.25892	 val_accuracy : 0.797
+epoch 215	train_loss : 0.25976	 val_accuracy : 0.792
+epoch 216	train_loss : 0.25136	 val_accuracy : 0.787
+epoch 217	train_loss : 0.22632	 val_accuracy : 0.792
+epoch 218	train_loss : 0.23896	 val_accuracy : 0.793
+epoch 219	train_loss : 0.21298	 val_accuracy : 0.791
+epoch 220	train_loss : 0.24101	 val_accuracy : 0.790
+epoch 221	train_loss : 0.24814	 val_accuracy : 0.792
+epoch 222	train_loss : 0.20042	 val_accuracy : 0.791
+epoch 223	train_loss : 0.23393	 val_accuracy : 0.794
+epoch 224	train_loss : 0.28448	 val_accuracy : 0.794
+epoch 225	train_loss : 0.24336	 val_accuracy : 0.788
+epoch 226	train_loss : 0.25461	 val_accuracy : 0.788
+epoch 227	train_loss : 0.26908	 val_accuracy : 0.789
+epoch 228	train_loss : 0.21456	 val_accuracy : 0.787
+epoch 229	train_loss : 0.20470	 val_accuracy : 0.792
+epoch 230	train_loss : 0.25036	 val_accuracy : 0.790
+epoch 231	train_loss : 0.24859	 val_accuracy : 0.791
+epoch 232	train_loss : 0.24282	 val_accuracy : 0.794
+epoch 233	train_loss : 0.24795	 val_accuracy : 0.790
+epoch 234	train_loss : 0.24115	 val_accuracy : 0.791
+epoch 235	train_loss : 0.22713	 val_accuracy : 0.788
+epoch 236	train_loss : 0.25621	 val_accuracy : 0.792
+epoch 237	train_loss : 0.23421	 val_accuracy : 0.788
+epoch 238	train_loss : 0.28765	 val_accuracy : 0.790
+epoch 239	train_loss : 0.21242	 val_accuracy : 0.787
+epoch 240	train_loss : 0.21357	 val_accuracy : 0.792
+epoch 241	train_loss : 0.24180	 val_accuracy : 0.796
+epoch 242	train_loss : 0.26297	 val_accuracy : 0.792
+epoch 243	train_loss : 0.24646	 val_accuracy : 0.789
+epoch 244	train_loss : 0.20899	 val_accuracy : 0.795
+epoch 245	train_loss : 0.22065	 val_accuracy : 0.793
+epoch 246	train_loss : 0.26102	 val_accuracy : 0.789
+epoch 247	train_loss : 0.30334	 val_accuracy : 0.792
+epoch 248	train_loss : 0.20228	 val_accuracy : 0.788
+epoch 249	train_loss : 0.28812	 val_accuracy : 0.790
+epoch 250	train_loss : 0.21964	 val_accuracy : 0.786
+epoch 251	train_loss : 0.20123	 val_accuracy : 0.789
+epoch 252	train_loss : 0.19031	 val_accuracy : 0.787
+epoch 253	train_loss : 0.21923	 val_accuracy : 0.791
+epoch 254	train_loss : 0.23020	 val_accuracy : 0.790
+epoch 255	train_loss : 0.25635	 val_accuracy : 0.789
+epoch 256	train_loss : 0.25017	 val_accuracy : 0.789
+epoch 257	train_loss : 0.22289	 val_accuracy : 0.788
+epoch 258	train_loss : 0.20327	 val_accuracy : 0.791
+epoch 259	train_loss : 0.20887	 val_accuracy : 0.792
+epoch 260	train_loss : 0.24305	 val_accuracy : 0.786
+epoch 261	train_loss : 0.24705	 val_accuracy : 0.791
+epoch 262	train_loss : 0.21069	 val_accuracy : 0.792
+epoch 263	train_loss : 0.30424	 val_accuracy : 0.789
+epoch 264	train_loss : 0.24886	 val_accuracy : 0.782
+epoch 265	train_loss : 0.23375	 val_accuracy : 0.792
+epoch 266	train_loss : 0.22169	 val_accuracy : 0.786
+epoch 267	train_loss : 0.18425	 val_accuracy : 0.791
+epoch 268	train_loss : 0.20208	 val_accuracy : 0.788
+epoch 269	train_loss : 0.20222	 val_accuracy : 0.788
+epoch 270	train_loss : 0.22972	 val_accuracy : 0.791
+epoch 271	train_loss : 0.21309	 val_accuracy : 0.789
+epoch 272	train_loss : 0.17485	 val_accuracy : 0.786
+epoch 273	train_loss : 0.24986	 val_accuracy : 0.788
+epoch 274	train_loss : 0.24228	 val_accuracy : 0.789
+epoch 275	train_loss : 0.23124	 val_accuracy : 0.788
+epoch 276	train_loss : 0.22571	 val_accuracy : 0.791
+epoch 277	train_loss : 0.23794	 val_accuracy : 0.792
+epoch 278	train_loss : 0.18214	 val_accuracy : 0.783
+epoch 279	train_loss : 0.26112	 val_accuracy : 0.786
+epoch 280	train_loss : 0.20049	 val_accuracy : 0.784
+epoch 281	train_loss : 0.21826	 val_accuracy : 0.789
+epoch 282	train_loss : 0.19607	 val_accuracy : 0.787
+epoch 283	train_loss : 0.25907	 val_accuracy : 0.785
+epoch 284	train_loss : 0.17766	 val_accuracy : 0.787
+epoch 285	train_loss : 0.19748	 val_accuracy : 0.790
+epoch 286	train_loss : 0.21159	 val_accuracy : 0.787
+epoch 287	train_loss : 0.21751	 val_accuracy : 0.787
+epoch 288	train_loss : 0.20393	 val_accuracy : 0.790
+epoch 289	train_loss : 0.22379	 val_accuracy : 0.785
+epoch 290	train_loss : 0.26929	 val_accuracy : 0.787
+epoch 291	train_loss : 0.20276	 val_accuracy : 0.786
+epoch 292	train_loss : 0.23558	 val_accuracy : 0.790
+epoch 293	train_loss : 0.20479	 val_accuracy : 0.785
+epoch 294	train_loss : 0.17490	 val_accuracy : 0.786
+epoch 295	train_loss : 0.24191	 val_accuracy : 0.789
+epoch 296	train_loss : 0.20728	 val_accuracy : 0.785
+epoch 297	train_loss : 0.25323	 val_accuracy : 0.788
+epoch 298	train_loss : 0.21969	 val_accuracy : 0.788
+epoch 299	train_loss : 0.20880	 val_accuracy : 0.788
+epoch 300	train_loss : 0.21140	 val_accuracy : 0.789
+epoch 301	train_loss : 0.19953	 val_accuracy : 0.782
+epoch 302	train_loss : 0.25937	 val_accuracy : 0.788
+epoch 303	train_loss : 0.24274	 val_accuracy : 0.791
+epoch 304	train_loss : 0.18201	 val_accuracy : 0.788
+epoch 305	train_loss : 0.19720	 val_accuracy : 0.784
+epoch 306	train_loss : 0.25725	 val_accuracy : 0.785
+epoch 307	train_loss : 0.19767	 val_accuracy : 0.786
+epoch 308	train_loss : 0.23968	 val_accuracy : 0.782
+epoch 309	train_loss : 0.24933	 val_accuracy : 0.782
+epoch 310	train_loss : 0.20916	 val_accuracy : 0.785
+epoch 311	train_loss : 0.24128	 val_accuracy : 0.783
+epoch 312	train_loss : 0.21223	 val_accuracy : 0.789
+epoch 313	train_loss : 0.20113	 val_accuracy : 0.792
+epoch 314	train_loss : 0.22175	 val_accuracy : 0.788
+epoch 315	train_loss : 0.19399	 val_accuracy : 0.785
+epoch 316	train_loss : 0.26578	 val_accuracy : 0.790
+epoch 317	train_loss : 0.23731	 val_accuracy : 0.791
+epoch 318	train_loss : 0.21815	 val_accuracy : 0.785
+epoch 319	train_loss : 0.18009	 val_accuracy : 0.785
+epoch 320	train_loss : 0.20062	 val_accuracy : 0.788
+epoch 321	train_loss : 0.20260	 val_accuracy : 0.786
+epoch 322	train_loss : 0.23072	 val_accuracy : 0.787
+epoch 323	train_loss : 0.18222	 val_accuracy : 0.788
+epoch 324	train_loss : 0.22319	 val_accuracy : 0.788
+epoch 325	train_loss : 0.19137	 val_accuracy : 0.782
+epoch 326	train_loss : 0.23868	 val_accuracy : 0.781
+epoch 327	train_loss : 0.20286	 val_accuracy : 0.786
+epoch 328	train_loss : 0.19767	 val_accuracy : 0.784
+epoch 329	train_loss : 0.24990	 val_accuracy : 0.787
+epoch 330	train_loss : 0.18533	 val_accuracy : 0.780
+epoch 331	train_loss : 0.21563	 val_accuracy : 0.784
+epoch 332	train_loss : 0.21490	 val_accuracy : 0.787
+epoch 333	train_loss : 0.17823	 val_accuracy : 0.784
+epoch 334	train_loss : 0.24673	 val_accuracy : 0.785
+epoch 335	train_loss : 0.18404	 val_accuracy : 0.785
+epoch 336	train_loss : 0.23657	 val_accuracy : 0.782
+epoch 337	train_loss : 0.18477	 val_accuracy : 0.784
+epoch 338	train_loss : 0.17611	 val_accuracy : 0.788
+epoch 339	train_loss : 0.26909	 val_accuracy : 0.782
+epoch 340	train_loss : 0.16548	 val_accuracy : 0.788
+epoch 341	train_loss : 0.20343	 val_accuracy : 0.784
+epoch 342	train_loss : 0.20271	 val_accuracy : 0.781
+epoch 343	train_loss : 0.22075	 val_accuracy : 0.789
+epoch 344	train_loss : 0.21988	 val_accuracy : 0.782
+epoch 345	train_loss : 0.21693	 val_accuracy : 0.783
+epoch 346	train_loss : 0.18670	 val_accuracy : 0.785
+epoch 347	train_loss : 0.22423	 val_accuracy : 0.785
+epoch 348	train_loss : 0.25224	 val_accuracy : 0.789
+epoch 349	train_loss : 0.19112	 val_accuracy : 0.786
+epoch 350	train_loss : 0.19011	 val_accuracy : 0.787
+epoch 351	train_loss : 0.24644	 val_accuracy : 0.784
+epoch 352	train_loss : 0.18409	 val_accuracy : 0.786
+epoch 353	train_loss : 0.15731	 val_accuracy : 0.786
+epoch 354	train_loss : 0.23285	 val_accuracy : 0.787
+epoch 355	train_loss : 0.16441	 val_accuracy : 0.780
+epoch 356	train_loss : 0.17360	 val_accuracy : 0.786
+epoch 357	train_loss : 0.20987	 val_accuracy : 0.782
+epoch 358	train_loss : 0.15963	 val_accuracy : 0.786
+epoch 359	train_loss : 0.21904	 val_accuracy : 0.785
+epoch 360	train_loss : 0.17134	 val_accuracy : 0.783
+epoch 361	train_loss : 0.17827	 val_accuracy : 0.785
+epoch 362	train_loss : 0.18202	 val_accuracy : 0.786
+epoch 363	train_loss : 0.24080	 val_accuracy : 0.783
+epoch 364	train_loss : 0.19313	 val_accuracy : 0.781
+epoch 365	train_loss : 0.21201	 val_accuracy : 0.779
+epoch 366	train_loss : 0.20767	 val_accuracy : 0.780
+epoch 367	train_loss : 0.20652	 val_accuracy : 0.783
+epoch 368	train_loss : 0.20403	 val_accuracy : 0.785
+epoch 369	train_loss : 0.25687	 val_accuracy : 0.785
+epoch 370	train_loss : 0.21383	 val_accuracy : 0.779
+epoch 371	train_loss : 0.30255	 val_accuracy : 0.782
+epoch 372	train_loss : 0.20028	 val_accuracy : 0.782
+epoch 373	train_loss : 0.20759	 val_accuracy : 0.783
+epoch 374	train_loss : 0.19089	 val_accuracy : 0.782
+epoch 375	train_loss : 0.25979	 val_accuracy : 0.784
+epoch 376	train_loss : 0.17997	 val_accuracy : 0.784
+epoch 377	train_loss : 0.19183	 val_accuracy : 0.786
+epoch 378	train_loss : 0.20141	 val_accuracy : 0.788
+epoch 379	train_loss : 0.16271	 val_accuracy : 0.789
+epoch 380	train_loss : 0.22231	 val_accuracy : 0.785
+epoch 381	train_loss : 0.19414	 val_accuracy : 0.779
+epoch 382	train_loss : 0.16809	 val_accuracy : 0.781
+epoch 383	train_loss : 0.13499	 val_accuracy : 0.781
+epoch 384	train_loss : 0.18479	 val_accuracy : 0.779
+epoch 385	train_loss : 0.20429	 val_accuracy : 0.784
+epoch 386	train_loss : 0.15876	 val_accuracy : 0.782
+epoch 387	train_loss : 0.19071	 val_accuracy : 0.782
+epoch 388	train_loss : 0.23768	 val_accuracy : 0.779
+epoch 389	train_loss : 0.17896	 val_accuracy : 0.782
+epoch 390	train_loss : 0.22651	 val_accuracy : 0.780
+epoch 391	train_loss : 0.15623	 val_accuracy : 0.782
+epoch 392	train_loss : 0.18993	 val_accuracy : 0.782
+epoch 393	train_loss : 0.21223	 val_accuracy : 0.780
+epoch 394	train_loss : 0.19605	 val_accuracy : 0.783
+epoch 395	train_loss : 0.21288	 val_accuracy : 0.786
+epoch 396	train_loss : 0.15838	 val_accuracy : 0.780
+epoch 397	train_loss : 0.18034	 val_accuracy : 0.782
+epoch 398	train_loss : 0.18807	 val_accuracy : 0.784
+epoch 399	train_loss : 0.18962	 val_accuracy : 0.780
+epoch 400	train_loss : 0.21811	 val_accuracy : 0.782
+epoch 401	train_loss : 0.17676	 val_accuracy : 0.779
+epoch 402	train_loss : 0.17436	 val_accuracy : 0.784
+epoch 403	train_loss : 0.20998	 val_accuracy : 0.781
+epoch 404	train_loss : 0.20641	 val_accuracy : 0.779
+epoch 405	train_loss : 0.18598	 val_accuracy : 0.783
+epoch 406	train_loss : 0.20885	 val_accuracy : 0.782
+epoch 407	train_loss : 0.18149	 val_accuracy : 0.782
+epoch 408	train_loss : 0.21461	 val_accuracy : 0.775
+epoch 409	train_loss : 0.15526	 val_accuracy : 0.783
+epoch 410	train_loss : 0.19145	 val_accuracy : 0.781
+epoch 411	train_loss : 0.18714	 val_accuracy : 0.781
+epoch 412	train_loss : 0.17328	 val_accuracy : 0.781
+epoch 413	train_loss : 0.21671	 val_accuracy : 0.782
+epoch 414	train_loss : 0.17949	 val_accuracy : 0.777
+epoch 415	train_loss : 0.22221	 val_accuracy : 0.778
+epoch 416	train_loss : 0.14116	 val_accuracy : 0.782
+epoch 417	train_loss : 0.21991	 val_accuracy : 0.780
+epoch 418	train_loss : 0.16537	 val_accuracy : 0.781
+epoch 419	train_loss : 0.18510	 val_accuracy : 0.778
+epoch 420	train_loss : 0.23762	 val_accuracy : 0.779
+epoch 421	train_loss : 0.13392	 val_accuracy : 0.778
+epoch 422	train_loss : 0.19201	 val_accuracy : 0.777
+epoch 423	train_loss : 0.21574	 val_accuracy : 0.780
+epoch 424	train_loss : 0.21197	 val_accuracy : 0.782
+epoch 425	train_loss : 0.16991	 val_accuracy : 0.780
+epoch 426	train_loss : 0.17414	 val_accuracy : 0.782
+epoch 427	train_loss : 0.24023	 val_accuracy : 0.777
+epoch 428	train_loss : 0.18573	 val_accuracy : 0.780
+epoch 429	train_loss : 0.18556	 val_accuracy : 0.785
+epoch 430	train_loss : 0.17051	 val_accuracy : 0.786
+epoch 431	train_loss : 0.14816	 val_accuracy : 0.779
+epoch 432	train_loss : 0.18906	 val_accuracy : 0.781
+epoch 433	train_loss : 0.20814	 val_accuracy : 0.777
+epoch 434	train_loss : 0.19318	 val_accuracy : 0.777
+epoch 435	train_loss : 0.16250	 val_accuracy : 0.776
+epoch 436	train_loss : 0.19842	 val_accuracy : 0.781
+epoch 437	train_loss : 0.20462	 val_accuracy : 0.780
+epoch 438	train_loss : 0.17375	 val_accuracy : 0.784
+epoch 439	train_loss : 0.18298	 val_accuracy : 0.785
+epoch 440	train_loss : 0.19235	 val_accuracy : 0.779
+epoch 441	train_loss : 0.16205	 val_accuracy : 0.778
+epoch 442	train_loss : 0.19701	 val_accuracy : 0.782
+epoch 443	train_loss : 0.14907	 val_accuracy : 0.781
+epoch 444	train_loss : 0.15501	 val_accuracy : 0.778
+epoch 445	train_loss : 0.17459	 val_accuracy : 0.782
+epoch 446	train_loss : 0.18406	 val_accuracy : 0.781
+epoch 447	train_loss : 0.18553	 val_accuracy : 0.779
+epoch 448	train_loss : 0.22833	 val_accuracy : 0.780
+epoch 449	train_loss : 0.24900	 val_accuracy : 0.779
+epoch 450	train_loss : 0.19376	 val_accuracy : 0.778
+epoch 451	train_loss : 0.20313	 val_accuracy : 0.785
+epoch 452	train_loss : 0.19851	 val_accuracy : 0.776
+epoch 453	train_loss : 0.21403	 val_accuracy : 0.784
+epoch 454	train_loss : 0.16994	 val_accuracy : 0.780
+epoch 455	train_loss : 0.18700	 val_accuracy : 0.780
+epoch 456	train_loss : 0.14317	 val_accuracy : 0.782
+epoch 457	train_loss : 0.20153	 val_accuracy : 0.780
+epoch 458	train_loss : 0.17079	 val_accuracy : 0.780
+epoch 459	train_loss : 0.25039	 val_accuracy : 0.781
+epoch 460	train_loss : 0.23975	 val_accuracy : 0.782
+epoch 461	train_loss : 0.22059	 val_accuracy : 0.777
+epoch 462	train_loss : 0.20033	 val_accuracy : 0.776
+epoch 463	train_loss : 0.21430	 val_accuracy : 0.782
+epoch 464	train_loss : 0.17807	 val_accuracy : 0.782
+epoch 465	train_loss : 0.20013	 val_accuracy : 0.779
+epoch 466	train_loss : 0.19895	 val_accuracy : 0.776
+epoch 467	train_loss : 0.19249	 val_accuracy : 0.779
+epoch 468	train_loss : 0.17866	 val_accuracy : 0.776
+epoch 469	train_loss : 0.21508	 val_accuracy : 0.783
+epoch 470	train_loss : 0.12826	 val_accuracy : 0.781
+epoch 471	train_loss : 0.17393	 val_accuracy : 0.776
+epoch 472	train_loss : 0.19328	 val_accuracy : 0.774
+epoch 473	train_loss : 0.16847	 val_accuracy : 0.780
+epoch 474	train_loss : 0.20339	 val_accuracy : 0.778
+epoch 475	train_loss : 0.17861	 val_accuracy : 0.780
+epoch 476	train_loss : 0.21776	 val_accuracy : 0.778
+epoch 477	train_loss : 0.16896	 val_accuracy : 0.777
+epoch 478	train_loss : 0.17753	 val_accuracy : 0.781
+epoch 479	train_loss : 0.15397	 val_accuracy : 0.776
+epoch 480	train_loss : 0.19346	 val_accuracy : 0.779
+epoch 481	train_loss : 0.16521	 val_accuracy : 0.781
+epoch 482	train_loss : 0.14949	 val_accuracy : 0.779
+epoch 483	train_loss : 0.13433	 val_accuracy : 0.778
+epoch 484	train_loss : 0.20355	 val_accuracy : 0.776
+epoch 485	train_loss : 0.20913	 val_accuracy : 0.779
+epoch 486	train_loss : 0.19496	 val_accuracy : 0.782
+epoch 487	train_loss : 0.12528	 val_accuracy : 0.779
+epoch 488	train_loss : 0.14643	 val_accuracy : 0.779
+epoch 489	train_loss : 0.24694	 val_accuracy : 0.776
+epoch 490	train_loss : 0.15051	 val_accuracy : 0.773
+epoch 491	train_loss : 0.16370	 val_accuracy : 0.777
+epoch 492	train_loss : 0.15946	 val_accuracy : 0.779
+epoch 493	train_loss : 0.18905	 val_accuracy : 0.778
+epoch 494	train_loss : 0.16893	 val_accuracy : 0.782
+epoch 495	train_loss : 0.15762	 val_accuracy : 0.781
+epoch 496	train_loss : 0.13254	 val_accuracy : 0.776
+epoch 497	train_loss : 0.15628	 val_accuracy : 0.778
+epoch 498	train_loss : 0.15815	 val_accuracy : 0.782
+epoch 499	train_loss : 0.22344	 val_accuracy : 0.780
+epoch 500	train_loss : 0.19757	 val_accuracy : 0.776
+Total training time is 42.556771 min
+Best model accuracy of the validation dataset : 0.83486328125
+
+ ----------------------------------------------------------- 
+

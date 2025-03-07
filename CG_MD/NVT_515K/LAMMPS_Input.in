@@ -1,0 +1,26 @@
+include CG_IB.init
+read_data CG_NVT_515K_8Cells_Initial.data
+#read_restart analysis.restart.270000000
+include CG_IB.settings
+
+restart 1000000 analysis.restart
+
+timestep 1.0
+thermo 100000
+thermo_style custom step temp press vol etotal ke pe
+#neigh_modify delay 0 every 1 check yes page 100000 one 10000
+neigh_modify delay 10 every 2 check yes page 100000 one 2000
+minimize 1.0e-4 1.0e-4 1000 1000
+
+
+
+fix 1 all nve
+fix 2 all langevin 515.0 515.0 10.0 66663332
+dump 4 all dcd 1000000 traj.dcd
+dump_modify 4 sort id
+run 20000000
+unfix 2
+unfix 1
+undump 4
+
+write_data CG_NVT_515K_8Cells_Eq_20ns.data

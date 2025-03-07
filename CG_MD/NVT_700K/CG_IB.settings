@@ -1,0 +1,246 @@
+#Non-bonded interactions (pair-wise)
+#Pair style: https://docs.lammps.org/pair_table.html
+pair_coeff  1  1  CG_Nonbond_Table.txt CG-1-1  15
+pair_coeff  1  2  CG_Nonbond_Table.txt CG-1-2  15
+pair_coeff  1  3  CG_Nonbond_Table.txt CG-1-3  15
+pair_coeff  1  4  CG_Nonbond_Table.txt CG-1-4  15
+pair_coeff  1  5  CG_Nonbond_Table.txt CG-1-5  15
+pair_coeff  1  6  CG_Nonbond_Table.txt CG-1-6  15
+pair_coeff  1  7  CG_Nonbond_Table.txt CG-1-7  15
+pair_coeff  1  8  CG_Nonbond_Table.txt CG-1-8  15
+pair_coeff  1  9  CG_Nonbond_Table.txt CG-1-9  15
+pair_coeff  1  10  CG_Nonbond_Table.txt CG-1-10  15
+pair_coeff  1  11  CG_Nonbond_Table.txt CG-1-11  15
+pair_coeff  1  12  CG_Nonbond_Table.txt CG-1-12  15
+pair_coeff  1  13  CG_Nonbond_Table.txt CG-1-13  15
+pair_coeff  1  14  CG_Nonbond_Table.txt CG-1-14  15
+pair_coeff  1  15  CG_Nonbond_Table.txt CG-1-15  15
+pair_coeff  2  2  CG_Nonbond_Table.txt CG-2-2  15
+pair_coeff  2  3  CG_Nonbond_Table.txt CG-2-3  15
+pair_coeff  2  4  CG_Nonbond_Table.txt CG-2-4  15
+pair_coeff  2  5  CG_Nonbond_Table.txt CG-2-5  15
+pair_coeff  2  6  CG_Nonbond_Table.txt CG-2-6  15
+pair_coeff  2  7  CG_Nonbond_Table.txt CG-2-7  15
+pair_coeff  2  8  CG_Nonbond_Table.txt CG-2-8  15
+pair_coeff  2  9  CG_Nonbond_Table.txt CG-2-9  15
+pair_coeff  2  10  CG_Nonbond_Table.txt CG-2-10  15
+pair_coeff  2  11  CG_Nonbond_Table.txt CG-2-11  15
+pair_coeff  2  12  CG_Nonbond_Table.txt CG-2-12  15
+pair_coeff  2  13  CG_Nonbond_Table.txt CG-2-13  15
+pair_coeff  2  14  CG_Nonbond_Table.txt CG-2-14  15
+pair_coeff  2  15  CG_Nonbond_Table.txt CG-2-15  15
+pair_coeff  3  3  CG_Nonbond_Table.txt CG-3-3  15
+pair_coeff  3  4  CG_Nonbond_Table.txt CG-3-4  15
+pair_coeff  3  5  CG_Nonbond_Table.txt CG-3-5  15
+pair_coeff  3  6  CG_Nonbond_Table.txt CG-3-6  15
+pair_coeff  3  7  CG_Nonbond_Table.txt CG-3-7  15
+pair_coeff  3  8  CG_Nonbond_Table.txt CG-3-8  15
+pair_coeff  3  9  CG_Nonbond_Table.txt CG-3-9  15
+pair_coeff  3  10  CG_Nonbond_Table.txt CG-3-10  15
+pair_coeff  3  11  CG_Nonbond_Table.txt CG-3-11  15
+pair_coeff  3  12  CG_Nonbond_Table.txt CG-3-12  15
+pair_coeff  3  13  CG_Nonbond_Table.txt CG-3-13  15
+pair_coeff  3  14  CG_Nonbond_Table.txt CG-3-14  15
+pair_coeff  3  15  CG_Nonbond_Table.txt CG-3-15  15
+pair_coeff  4  4  CG_Nonbond_Table.txt CG-4-4  15
+pair_coeff  4  5  CG_Nonbond_Table.txt CG-4-5  15
+pair_coeff  4  6  CG_Nonbond_Table.txt CG-4-6  15
+pair_coeff  4  7  CG_Nonbond_Table.txt CG-4-7  15
+pair_coeff  4  8  CG_Nonbond_Table.txt CG-4-8  15
+pair_coeff  4  9  CG_Nonbond_Table.txt CG-4-9  15
+pair_coeff  4  10  CG_Nonbond_Table.txt CG-4-10  15
+pair_coeff  4  11  CG_Nonbond_Table.txt CG-4-11  15
+pair_coeff  4  12  CG_Nonbond_Table.txt CG-4-12  15
+pair_coeff  4  13  CG_Nonbond_Table.txt CG-4-13  15
+pair_coeff  4  14  CG_Nonbond_Table.txt CG-4-14  15
+pair_coeff  4  15  CG_Nonbond_Table.txt CG-4-15  15
+pair_coeff  5  5  CG_Nonbond_Table.txt CG-5-5  15
+pair_coeff  5  6  CG_Nonbond_Table.txt CG-5-6  15
+pair_coeff  5  7  CG_Nonbond_Table.txt CG-5-7  15
+pair_coeff  5  8  CG_Nonbond_Table.txt CG-5-8  15
+pair_coeff  5  9  CG_Nonbond_Table.txt CG-5-9  15
+pair_coeff  5  10  CG_Nonbond_Table.txt CG-5-10  15
+pair_coeff  5  11  CG_Nonbond_Table.txt CG-5-11  15
+pair_coeff  5  12  CG_Nonbond_Table.txt CG-5-12  15
+pair_coeff  5  13  CG_Nonbond_Table.txt CG-5-13  15
+pair_coeff  5  14  CG_Nonbond_Table.txt CG-5-14  15
+pair_coeff  5  15  CG_Nonbond_Table.txt CG-5-15  15
+pair_coeff  6  6  CG_Nonbond_Table.txt CG-6-6  15
+pair_coeff  6  7  CG_Nonbond_Table.txt CG-6-7  15
+pair_coeff  6  8  CG_Nonbond_Table.txt CG-6-8  15
+pair_coeff  6  9  CG_Nonbond_Table.txt CG-6-9  15
+pair_coeff  6  10  CG_Nonbond_Table.txt CG-6-10  15
+pair_coeff  6  11  CG_Nonbond_Table.txt CG-6-11  15
+pair_coeff  6  12  CG_Nonbond_Table.txt CG-6-12  15
+pair_coeff  6  13  CG_Nonbond_Table.txt CG-6-13  15
+pair_coeff  6  14  CG_Nonbond_Table.txt CG-6-14  15
+pair_coeff  6  15  CG_Nonbond_Table.txt CG-6-15  15
+pair_coeff  7  7  CG_Nonbond_Table.txt CG-7-7  15
+pair_coeff  7  8  CG_Nonbond_Table.txt CG-7-8  15
+pair_coeff  7  9  CG_Nonbond_Table.txt CG-7-9  15
+pair_coeff  7  10  CG_Nonbond_Table.txt CG-7-10  15
+pair_coeff  7  11  CG_Nonbond_Table.txt CG-7-11  15
+pair_coeff  7  12  CG_Nonbond_Table.txt CG-7-12  15
+pair_coeff  7  13  CG_Nonbond_Table.txt CG-7-13  15
+pair_coeff  7  14  CG_Nonbond_Table.txt CG-7-14  15
+pair_coeff  7  15  CG_Nonbond_Table.txt CG-7-15  15
+pair_coeff  8  8  CG_Nonbond_Table.txt CG-8-8  15
+pair_coeff  8  9  CG_Nonbond_Table.txt CG-8-9  15
+pair_coeff  8  10  CG_Nonbond_Table.txt CG-8-10  15
+pair_coeff  8  11  CG_Nonbond_Table.txt CG-8-11  15
+pair_coeff  8  12  CG_Nonbond_Table.txt CG-8-12  15
+pair_coeff  8  13  CG_Nonbond_Table.txt CG-8-13  15
+pair_coeff  8  14  CG_Nonbond_Table.txt CG-8-14  15
+pair_coeff  8  15  CG_Nonbond_Table.txt CG-8-15  15
+pair_coeff  9  9  CG_Nonbond_Table.txt CG-9-9  15
+pair_coeff  9  10  CG_Nonbond_Table.txt CG-9-10  15
+pair_coeff  9  11  CG_Nonbond_Table.txt CG-9-11  15
+pair_coeff  9  12  CG_Nonbond_Table.txt CG-9-12  15
+pair_coeff  9  13  CG_Nonbond_Table.txt CG-9-13  15
+pair_coeff  9  14  CG_Nonbond_Table.txt CG-9-14  15
+pair_coeff  9  15  CG_Nonbond_Table.txt CG-9-15  15
+pair_coeff  10  10  CG_Nonbond_Table.txt CG-10-10  15
+pair_coeff  10  11  CG_Nonbond_Table.txt CG-10-11  15
+pair_coeff  10  12  CG_Nonbond_Table.txt CG-10-12  15
+pair_coeff  10  13  CG_Nonbond_Table.txt CG-10-13  15
+pair_coeff  10  14  CG_Nonbond_Table.txt CG-10-14  15
+pair_coeff  10  15  CG_Nonbond_Table.txt CG-10-15  15
+pair_coeff  11  11  CG_Nonbond_Table.txt CG-11-11  15
+pair_coeff  11  12  CG_Nonbond_Table.txt CG-11-12  15
+pair_coeff  11  13  CG_Nonbond_Table.txt CG-11-13  15
+pair_coeff  11  14  CG_Nonbond_Table.txt CG-11-14  15
+pair_coeff  11  15  CG_Nonbond_Table.txt CG-11-15  15
+pair_coeff  12  12  CG_Nonbond_Table.txt CG-12-12  15
+pair_coeff  12  13  CG_Nonbond_Table.txt CG-12-13  15
+pair_coeff  12  14  CG_Nonbond_Table.txt CG-12-14  15
+pair_coeff  12  15  CG_Nonbond_Table.txt CG-12-15  15
+pair_coeff  13  13  CG_Nonbond_Table.txt CG-13-13  15
+pair_coeff  13  14  CG_Nonbond_Table.txt CG-13-14  15
+pair_coeff  13  15  CG_Nonbond_Table.txt CG-13-15  15
+pair_coeff  14  14  CG_Nonbond_Table.txt CG-14-14  15
+pair_coeff  14  15  CG_Nonbond_Table.txt CG-14-15  15
+pair_coeff  15  15  CG_Nonbond_Table.txt CG-15-15  15
+
+#Bond stretching potentials
+#Bond type: https://docs.lammps.org/bond_table.html
+bond_coeff   1 harmonic   209.9386     3.1293
+bond_coeff   2 harmonic   343.6022     2.8677
+bond_coeff   3 harmonic   274.4737     2.1951
+bond_coeff   4 harmonic   388.4078     2.0664
+bond_coeff   5 harmonic   475.2948     1.5084
+bond_coeff   6 harmonic   291.0139     2.5769
+bond_coeff   7 harmonic   268.1023     2.1959
+bond_coeff   8 harmonic   569.3627     1.3690
+bond_coeff   9 harmonic   213.1855     3.1195
+bond_coeff  10 harmonic   347.8251     2.8720
+bond_coeff  11 harmonic   380.5623     2.0520
+bond_coeff  12 table    CG_Bond_Table.txt Bond-12
+bond_coeff  13 harmonic   282.8528     2.5779
+bond_coeff  14 harmonic   359.5479     2.0848
+bond_coeff  15 harmonic   201.2429     2.4321
+bond_coeff  16 harmonic   818.6258     1.6039
+bond_coeff  17 harmonic   365.9844     2.0841
+bond_coeff  18 harmonic   197.9041     2.4324
+bond_coeff  19 harmonic   309.7113     1.4196
+bond_coeff  20 table    CG_Bond_Table.txt Bond-20
+
+#Angle potentials
+#Angle type: https://docs.lammps.org/angle_table.html
+angle_coeff   1 harmonic    933.9497    63.1777
+angle_coeff   2 harmonic    159.4924   140.1111
+angle_coeff   3 harmonic    834.5754    76.9031
+angle_coeff   4 harmonic   1269.7692    55.4017
+angle_coeff   5 harmonic    320.1772    87.8893
+angle_coeff   6 harmonic    185.0276   143.2349
+angle_coeff   7 harmonic   2152.9141    40.0242
+angle_coeff   8 harmonic    549.9267   128.5603
+angle_coeff   9 harmonic    525.4841   131.9384
+angle_coeff  10 harmonic    168.3099   156.4164
+angle_coeff  11 harmonic    164.0354   156.4268
+angle_coeff  12 harmonic    850.9132    88.9291
+angle_coeff  13 harmonic    150.3403   155.4925
+angle_coeff  14 harmonic    189.7409   143.2259
+angle_coeff  15 harmonic    271.3776   127.4662
+angle_coeff  16 harmonic    553.0685   128.3274
+angle_coeff  17 harmonic    839.7740    88.8925
+angle_coeff  18 harmonic    266.3447   127.5604
+angle_coeff  19 harmonic    313.6630    87.9693
+angle_coeff  20 harmonic    900.2200    63.6468
+angle_coeff  21 table    CG_Angle_Table.txt Angle-21
+angle_coeff  22 harmonic    827.8929    76.7297
+angle_coeff  23 harmonic   1264.1942    55.3396
+angle_coeff  24 harmonic   2132.1432    39.8092
+angle_coeff  25 harmonic    524.9024   131.6709
+angle_coeff  26 table    CG_Angle_Table.txt Angle-26
+angle_coeff  27 table    CG_Angle_Table.txt Angle-27
+angle_coeff  28 harmonic   1251.8305    45.3206
+angle_coeff  29 harmonic   2033.2546    38.3538
+angle_coeff  30 table    CG_Angle_Table.txt Angle-30
+angle_coeff  31 harmonic    979.1565    67.3859
+angle_coeff  32 harmonic    377.3983    70.8731
+angle_coeff  33 harmonic    289.8429   137.8217
+angle_coeff  34 harmonic    997.2409    67.3972
+angle_coeff  35 harmonic    290.5267   137.9253
+angle_coeff  36 harmonic    369.8647    70.7997
+angle_coeff  37 table    CG_Angle_Table.txt Angle-37
+
+#Dihedral angle potentials
+#Dihedral type: https://docs.lammps.org/dihedral_opls.html
+dihedral_coeff   1 -383.452686 -100.443505 -18.972818   5.669363
+dihedral_coeff   2 -391.632034 -100.636665 -10.281248   3.797642
+dihedral_coeff   3   1.344275   7.640422  -0.290747  -1.993659
+dihedral_coeff   4  -1.494075   7.623739   0.625556  -1.991989
+dihedral_coeff   5 266.588837 -100.149585  33.294733  -5.740916
+dihedral_coeff   6 284.079663 -102.853186  15.837324   3.222527
+dihedral_coeff   7 280.572899 -108.397104  19.231208   1.861971
+dihedral_coeff   8 254.772493 -99.663041  45.913317  -2.271992
+dihedral_coeff   9 261.295887 -100.196574  38.342721  -9.898281
+dihedral_coeff  10 -364.714188 -100.963655 -38.100261  -8.524474
+dihedral_coeff  11 286.451814 -99.548583  14.464849  17.647249
+dihedral_coeff  12 -394.704812 -99.470714  -7.150237  40.798179
+dihedral_coeff  13 -374.023310 -100.892564 -28.436697  -5.117279
+dihedral_coeff  14 270.408748 -99.596945  30.415918   7.652870
+dihedral_coeff  15 -399.110400 -100.640637  -2.457295   6.036192
+dihedral_coeff  16 -371.075279 -100.552908 -31.686407   2.547716
+dihedral_coeff  17 261.044242 -100.197168  38.591990 -10.042714
+dihedral_coeff  18 280.502175 -105.679360  19.463351   1.855651
+dihedral_coeff  19 278.851084 -109.696882  21.211959   1.931927
+dihedral_coeff  20 279.164089 -101.488243  20.600956  -0.081111
+dihedral_coeff  21 281.529198 -104.944390  18.442259   2.260833
+dihedral_coeff  22 -420.161900 -100.758499  19.326226  15.772334
+dihedral_coeff  23 266.941688 -120.340378  32.816895  -2.556544
+dihedral_coeff  24 266.327701 -121.794363  33.405995  -2.576456
+dihedral_coeff  25 285.801415 -102.590491  13.707504   2.740579
+dihedral_coeff  26  -1.479952   5.954781   0.615037  -1.441104
+dihedral_coeff  27 285.525088 -102.606559  13.967170   2.554955
+dihedral_coeff  28 269.421316 -120.289212  30.383543  -1.173331
+dihedral_coeff  29   1.351728   5.935818  -0.282638  -1.424339
+dihedral_coeff  30 283.056837 -106.450928  16.891206   3.248620
+dihedral_coeff  31 278.711856 -100.992714  20.973533  -0.617157
+dihedral_coeff  32 279.365851 -100.825829  20.620693   1.165637
+dihedral_coeff  33 -393.580963 -100.606050  -8.274849   4.803013
+dihedral_coeff  34  12.183035  -0.987412  -1.631096   0.173851
+dihedral_coeff  35 -406.126447 -100.550647   4.669242  10.422345
+dihedral_coeff  36 255.534234 -99.666587  45.146780  -2.106870
+dihedral_coeff  37 -1617.330141 -94.338699 425.555642 209.520314
+dihedral_coeff  38 -405.616083 -99.936494   3.867341  21.826515
+dihedral_coeff  39 -372.192321 -100.822654 -30.422402  -4.257629
+dihedral_coeff  40 -420.635135 -100.840003  19.801272  16.086351
+dihedral_coeff  41 -377.382706 -100.828425 -25.000534  -3.166426
+dihedral_coeff  42 -347.331155 -101.123134 -56.103620 -15.059199
+dihedral_coeff  43  -0.602402   0.019752   0.000277   0.004788
+dihedral_coeff  44  12.374691  -0.411245  -1.945845  -0.164094
+dihedral_coeff  45   5.416120  -1.139766  -0.783216  -0.029981
+dihedral_coeff  46 246.696279 -99.620076  54.067563  -4.369432
+dihedral_coeff  47   5.360678  -1.165916  -0.704905  -0.013485
+dihedral_coeff  48  -1.162686   0.022650  -0.015211   0.008182
+dihedral_coeff  49 -390.937035 -100.588672 -11.062155   4.374220
+dihedral_coeff  50 -384.993070 -100.708476 -17.140476   0.822386
+dihedral_coeff  51 -380.142793 -100.756871 -22.177381  -1.243366
+dihedral_coeff  52 -375.218709 -100.856046 -27.219456  -4.157294
+dihedral_coeff  53  -0.855831   7.589099   1.377903   0.293496
+dihedral_coeff  54  -1.168856   7.783365   1.480041   0.753207
+dihedral_coeff  55 264.264914 -99.566408  36.606221   6.897443
+dihedral_coeff  56  -1.248308   7.774899   1.481164   0.759558
+dihedral_coeff  57 264.264914 -99.566408  36.606221   6.897443
+dihedral_coeff  58  -0.939789   7.590827   1.380859   0.285656
